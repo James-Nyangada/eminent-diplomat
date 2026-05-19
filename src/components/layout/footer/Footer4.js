@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer4 = () => {
 	return (
 		<footer className="tj-footer-section footer-4 section-gap-x">
-			<div className="footer-main-area" style={{ paddingTop: "80px" }}>
+			<div className="footer-main-area" style={{ paddingTop: "var(--section-padding-y)" }}>
 				<div className="container">
 					<div className="row justify-content-between">
 						{/* COMPANY DESCRIPTION */}
@@ -70,7 +70,7 @@ const Footer4 = () => {
 									</div>
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginBottom: "4px" }}>Liaison Network</span>
-										<span>Singapore, Dubai, London</span>
+										<span>Singapore, Brussels, China, Kenya</span>
 									</div>
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "#5b92e5", display: "block", marginBottom: "4px" }}>Secure Communications</span>

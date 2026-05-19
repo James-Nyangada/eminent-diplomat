@@ -50,7 +50,7 @@ const PillarsContent = () => {
 	return (
 		<div className="pillars-content-wrapper">
 			{/* SECTION 1: OVERVIEW */}
-			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 text-center">
@@ -74,9 +74,9 @@ const PillarsContent = () => {
 			</section>
 
 			{/* SECTION 2: THE SECTORS */}
-			<section className="tj-service-section-5 section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-service-section-5 section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -92,7 +92,10 @@ const PillarsContent = () => {
 					<div className="row row-gap-4">
 						{/* Sector Vector 01 */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".2s">
-							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
+							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
+								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
+									<img src="/images/pillars/infrastructure.png" alt="Strategic Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
 										Strategic Infrastructure & Logistical Corridors
@@ -106,7 +109,10 @@ const PillarsContent = () => {
 
 						{/* Sector Vector 02 */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".3s">
-							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
+							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
+								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
+									<img src="/images/pillars/agribusiness.png" alt="Agribusiness Value-Addition" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
 										Agribusiness Value-Addition & Industrial Ecosystems
@@ -120,7 +126,10 @@ const PillarsContent = () => {
 
 						{/* Sector Vector 03 */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
+							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
+								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
+									<img src="/images/pillars/healthcare.png" alt="Healthcare Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
 										Modernized Healthcare Infrastructure & Supply Chains
@@ -134,7 +143,10 @@ const PillarsContent = () => {
 
 						{/* Sector Vector 04 */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".5s">
-							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
+							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
+								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
+									<img src="/images/pillars/education.png" alt="Educational Transformation" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
 										Educational Transformation & Human Capital Accelerators
@@ -148,7 +160,10 @@ const PillarsContent = () => {
 
 						{/* Sector Vector 05 */}
 						<div className="col-12 wow fadeInUp" data-wow-delay=".6s">
-							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", transition: "all 0.3s ease-in-out" }}>
+							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", transition: "all 0.3s ease-in-out" }}>
+								<div style={{ width: "100%", height: "250px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
+									<img src="/images/pillars/climate_action.png" alt="Climate Action" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
 										Climate Action, Renewable Energy & Green Transitions
@@ -164,9 +179,9 @@ const PillarsContent = () => {
 			</section>
 
 			{/* SECTION 3: THE SOVEREIGN MATCH ENGINE INTERACTIVE FEATURE */}
-			<section className="tj-testimonial-section section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-testimonial-section section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -182,9 +197,9 @@ const PillarsContent = () => {
 						</div>
 					</div>
 
-					<div className="row" style={{ background: "rgba(91, 146, 229, 0.02)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "24px", padding: "40px", boxShadow: "0 10px 40px rgba(91, 146, 229, 0.04)" }}>
+					<div className="row" style={{ background: "rgba(91, 146, 229, 0.02)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "24px", padding: "var(--card-padding)", boxShadow: "0 10px 40px rgba(91, 146, 229, 0.04)" }}>
 						{/* Tab Selector on Left */}
-						<div className="col-lg-4 col-12" style={{ borderRight: "1px solid rgba(91, 146, 229, 0.15)", paddingRight: "30px", marginBottom: "30px" }}>
+						<div className="col-lg-4 col-12" style={{ borderRight: "1px solid rgba(91, 146, 229, 0.15)", paddingRight: "var(--card-padding)", marginBottom: "var(--block-margin-y)" }}>
 							<h5 style={{ fontSize: "1.1rem", fontWeight: "700", textTransform: "uppercase", color: "#5b92e5", marginBottom: "25px", letterSpacing: "1px" }}>
 								Select Regional Sector
 							</h5>
@@ -213,7 +228,7 @@ const PillarsContent = () => {
 						</div>
 
 						{/* Match Display on Right */}
-						<div className="col-lg-8 col-12" style={{ paddingLeft: "40px" }}>
+						<div className="col-lg-8 col-12" style={{ paddingLeft: "var(--card-padding)" }}>
 							<div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "30px", flexWrap: "wrap", gap: "15px" }}>
 								<div>
 									<span style={{ fontSize: "0.85rem", fontWeight: "700", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", padding: "5px 12px", borderRadius: "30px", textTransform: "uppercase", letterSpacing: "0.5px" }}>

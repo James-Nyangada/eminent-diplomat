@@ -4,11 +4,11 @@ const AboutContent = () => {
 	return (
 		<div className="about-content-wrapper">
 			{/* SECTION 1: INTRODUCTION & MISSION */}
-			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 text-center">
-							<div className="sec-heading style-4 text-center" style={{ marginBottom: "40px" }}>
+							<div className="sec-heading style-4 text-center" style={{ marginBottom: "calc(var(--heading-margin-bottom) - 10px)" }}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ justifyContent: "center", display: "inline-flex" }}>
 									Geopolitical Envoy
 								</span>
@@ -20,7 +20,11 @@ const AboutContent = () => {
 								</p>
 							</div>
 
-							<div className="sec-heading style-4 text-center" style={{ marginTop: "60px", background: "rgba(91, 146, 229, 0.04)", padding: "45px 35px", borderRadius: "16px" }}>
+							<div style={{ width: "100%", height: "380px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "40px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
+								<img src="/images/operations/executive_portrait.png" alt="Eminent Diplomats Leadership" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+							</div>
+
+							<div className="sec-heading style-4 text-center" style={{ marginTop: "var(--block-margin-top)", background: "rgba(91, 146, 229, 0.04)", padding: "var(--container-padding)", borderRadius: "16px" }}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".4s" style={{ justifyContent: "center", display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5" }}>
 									Our Mission
 								</span>
@@ -43,9 +47,9 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 2: THE ASYMMETRIC DIVIDE WE BRIDGE */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -64,7 +68,7 @@ const AboutContent = () => {
 					<div className="row row-gap-4">
 						{/* Governor's Challenge */}
 						<div className="col-lg-6 col-12 wow fadeInLeft" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "40px", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
+							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>G</span>
@@ -79,7 +83,7 @@ const AboutContent = () => {
 
 						{/* Investor's Challenge */}
 						<div className="col-lg-6 col-12 wow fadeInRight" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "40px", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
+							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>I</span>
@@ -93,8 +97,8 @@ const AboutContent = () => {
 						</div>
 
 						{/* Resolution Banner */}
-						<div className="col-12 wow fadeInUp" data-wow-delay=".6s" style={{ marginTop: "30px" }}>
-							<div style={{ background: "#5b92e5", color: "var(--tj-color-common-white)", borderRadius: "16px", padding: "40px", textAlign: "center", boxShadow: "0 15px 35px rgba(91, 146, 229, 0.2)" }}>
+						<div className="col-12 wow fadeInUp" data-wow-delay=".6s" style={{ marginTop: "var(--block-margin-y)" }}>
+							<div style={{ background: "#5b92e5", color: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", textAlign: "center", boxShadow: "0 15px 35px rgba(91, 146, 229, 0.2)" }}>
 								<h4 style={{ color: "var(--tj-color-common-white)", fontSize: "1.6rem", fontWeight: "700", marginBottom: "15px" }}>
 									Eminent Diplomats Bridges This Divide
 								</h4>
@@ -108,9 +112,9 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 3: THE STRUCTURAL ECOSYSTEM */}
-			<section className="tj-service-section-5 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-service-section-5 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -165,9 +169,9 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 4: OUR THREE IRONCLAD DOCTRINES */}
-			<section className="tj-testimonial-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-testimonial-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -187,22 +191,25 @@ const AboutContent = () => {
 						{[
 							{
 								title: "Sovereign Asset De-Risking",
-								desc: "Regional projects undergo intense forensic, legal, and operational vetting. The portfolio must withstand the absolute scrutiny of global sovereign wealth funds and state-owned enterprises."
+								desc: "Regional projects undergo intense forensic, legal, and operational vetting. The portfolio must withstand the absolute scrutiny of global sovereign wealth funds and state-owned enterprises.",
+								img: "/images/doctrines/de_risking.png"
 							},
 							{
 								title: "Arbitrage Elimination",
-								desc: "Traditional bureaucratic bottlenecks are bypassed. International capital connects directly to localized executive decision-makers, guaranteeing execution speed."
+								desc: "Traditional bureaucratic bottlenecks are bypassed. International capital connects directly to localized executive decision-makers, guaranteeing execution speed.",
+								img: "/images/doctrines/local_capture.png"
 							},
 							{
 								title: "Sovereign Legacy Preservation",
-								desc: "Deal architectures mathematically protect the host region. Incoming capital must build permanent local value, safeguard public assets, and fund institutional technical-talent pipelines and youth employment loops."
+								desc: "Deal architectures mathematically protect the host region. Incoming capital must build permanent local value, safeguard public assets, and fund institutional technical-talent pipelines and youth employment loops.",
+								img: "/images/doctrines/intergenerational.png"
 							}
 						].map((doc, idx) => (
 							<div key={idx} className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.2 * idx}s`}>
 								<div style={{
 									background: "var(--tj-color-common-white)",
 									borderRadius: "16px",
-									padding: "40px 30px",
+									padding: "var(--card-padding)",
 									height: "100%",
 									boxShadow: "0 10px 30px rgba(0,0,0,0.02)",
 									border: "1px solid var(--tj-color-grey-1)",
@@ -211,6 +218,9 @@ const AboutContent = () => {
 									justifyContent: "space-between"
 								}}>
 									<div>
+										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
+											<img src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										</div>
 										<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "20px" }}>
 											{doc.title}
 										</h4>
@@ -231,6 +241,118 @@ const AboutContent = () => {
 											Sovereignty is non-negotiable.
 										</div>
 									)}
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</section>
+
+			{/* SECTION 5: GEOPOLITICAL FOOTPRINT & LIASON NETWORK */}
+			<section className="tj-choose-section section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
+				<div className="container">
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
+						<div className="col-lg-10 col-12">
+							<div className="sec-heading style-4 text-center">
+								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
+									Geopolitical Footprint
+								</span>
+								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
+									Diplomatic Liaison Network
+								</h2>
+								<p className="desc" style={{ fontSize: "1.2rem", color: "#67787a", marginTop: "15px" }}>
+									Operating at the critical nodes of global capital, regional governance, and international consensus.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="row row-gap-4">
+						{[
+							{
+								city: "Singapore Hub",
+								role: "Corporate Secretariat & Capital Origin",
+								desc: "Marina Bay Financial Centre. Strategically orchestrating capital channeling, sovereign de-risking architectures, and sub-national asset origin vectors across Asian and Global wealth corridors.",
+								img: "/images/footprint/singapore_skyline.png",
+								conferenceImg: "/images/hero/h4-hero-img.png",
+								conferenceLabel: "Executive Roundtable Active"
+							},
+							{
+								city: "Brussels Liaison",
+								role: "Geopolitical & European Union HQ",
+								desc: "Rue de la Loi. Interfacing directly with European regulatory bodies, national ministries, and developmental agencies to coordinate state-level project consensus.",
+								img: "/images/footprint/brussels_eu.png",
+								conferenceImg: "/images/operations/headquarters.png",
+								conferenceLabel: "EU Commission Advisory Active"
+							},
+							{
+								city: "China Liaison",
+								role: "Geopolitical & Capital Alignment",
+								desc: "Shanghai Lujiazui Financial Hub. Vetting sovereign capital channels, high-stakes investment matching protocols, and strategic liaison lines with major Asian state enterprises.",
+								img: "/images/footprint/china_liaison.png",
+								conferenceImg: "/images/operations/executive_portrait.png",
+								conferenceLabel: "Sovereign Matching Active"
+							},
+							{
+								city: "New York Liaison",
+								role: "Strategic Capital & UN HQ Liaison",
+								desc: "One UN Plaza. Connecting international sovereign capital flows directly to high-yield developmental sectors and the strategic priorities of the United Nations.",
+								img: "/images/footprint/newyork_un.png",
+								conferenceImg: "/images/hero/h4-hero-img.png",
+								conferenceLabel: "UN Plaza Advisory Chamber"
+							}
+						].map((item, idx) => (
+							<div key={idx} className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.15 * idx}s`}>
+								<div style={{
+									background: "var(--tj-color-theme-bg)",
+									borderRadius: "16px",
+									padding: "var(--card-padding)",
+									height: "100%",
+									boxShadow: "0 10px 30px rgba(91, 146, 229, 0.04)",
+									border: "1px solid rgba(91, 146, 229, 0.15)",
+									display: "flex",
+									flexDirection: "column",
+									justifyContent: "space-between"
+								}}>
+									<div>
+										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
+											<img src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										</div>
+										<span style={{
+											display: "inline-block",
+											background: "rgba(91, 146, 229, 0.1)",
+											color: "#5b92e5",
+											padding: "4px 10px",
+											borderRadius: "30px",
+											fontSize: "0.75rem",
+											fontWeight: "700",
+											textTransform: "uppercase",
+											letterSpacing: "0.5px",
+											marginBottom: "12px"
+										}}>
+											{item.role}
+										</span>
+										<h4 style={{ fontSize: "1.4rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "15px" }}>
+											{item.city}
+										</h4>
+										<p style={{ fontSize: "1.05rem", lineHeight: "1.7", color: "var(--tj-color-text-body)", margin: "0" }}>
+											{item.desc}
+										</p>
+									</div>
+
+									<div style={{ display: "flex", gap: "12px", marginTop: "20px", borderTop: "1px dashed rgba(91, 146, 229, 0.2)", paddingTop: "15px", alignItems: "center" }}>
+										<div style={{ width: "65px", height: "45px", borderRadius: "6px", overflow: "hidden", flexShrink: 0, border: "1px solid rgba(91, 146, 229, 0.15)" }}>
+											<img src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										</div>
+										<div>
+											<span style={{ fontSize: "0.72rem", fontWeight: "800", color: "#5b92e5", textTransform: "uppercase", display: "block", letterSpacing: "0.3px" }}>
+												Active Summit Room
+											</span>
+											<span style={{ fontSize: "0.85rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginTop: "2px" }}>
+												{item.conferenceLabel}
+											</span>
+										</div>
+									</div>
 								</div>
 							</div>
 						))}

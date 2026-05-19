@@ -4,7 +4,7 @@ const ManifestoContent = () => {
 	return (
 		<div className="manifesto-content-wrapper">
 			{/* SECTION 1: OVERVIEW CONTENT */}
-			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 text-center">
@@ -15,7 +15,7 @@ const ManifestoContent = () => {
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
 									COMMERCIAL DIPLOMACY ASSETIZED.
 								</h2>
-								<div className="wow fadeInUp" data-wow-delay=".4s" style={{ background: "rgba(91, 146, 229, 0.03)", borderLeft: "4px solid #5b92e5", padding: "30px 40px", borderRadius: "8px", margin: "40px 0", textAlign: "left" }}>
+								<div className="wow fadeInUp" data-wow-delay=".4s" style={{ background: "rgba(91, 146, 229, 0.03)", borderLeft: "4px solid #5b92e5", padding: "var(--card-padding)", borderRadius: "8px", margin: "var(--block-margin-y) 0", textAlign: "left" }}>
 									<p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "var(--tj-color-heading-primary)", fontWeight: "600", marginBottom: "15px" }}>
 										Eminent Diplomats Co. Ltd. operates at the critical intersection of high-stakes statecraft and international finance.
 									</p>
@@ -33,9 +33,9 @@ const ManifestoContent = () => {
 			</section>
 
 			{/* SECTION 2: THE STRUCTURAL ECOSYSTEM FLOW */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -79,7 +79,7 @@ const ManifestoContent = () => {
 								<div className="ecosystem-card" style={{
 									background: "var(--tj-color-common-white)",
 									borderRadius: "16px",
-									padding: "35px 25px",
+									padding: "var(--card-padding)",
 									height: "100%",
 									boxShadow: "0 10px 30px rgba(0,0,0,0.02)",
 									border: "1px solid rgba(91, 146, 229, 0.15)",
@@ -104,9 +104,9 @@ const ManifestoContent = () => {
 			</section>
 
 			{/* SECTION 3: THE THREE IRONCLAD DOCTRINES */}
-			<section className="tj-testimonial-section section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-testimonial-section section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -123,22 +123,25 @@ const ManifestoContent = () => {
 						{[
 							{
 								title: "Sovereign Asset De-Risking",
-								desc: "Regional projects undergo intense forensic, legal, and operational vetting to ensure strict bankability."
+								desc: "Regional projects undergo intense forensic, legal, and operational vetting to ensure strict bankability.",
+								img: "/images/doctrines/de_risking.png"
 							},
 							{
 								title: "Arbitrage Elimination",
-								desc: "Traditional bureaucratic bottlenecks are bypassed, connecting international capital directly to localized executive decision-makers to guarantee execution speed."
+								desc: "Traditional bureaucratic bottlenecks are bypassed, connecting international capital directly to localized executive decision-makers to guarantee execution speed.",
+								img: "/images/doctrines/local_capture.png"
 							},
 							{
 								title: "Sovereign Legacy Preservation",
-								desc: "Deal architectures protect the host region, ensuring incoming capital builds permanent local value, safeguards public assets, and funds institutional technical-talent pipelines."
+								desc: "Deal architectures protect the host region, ensuring incoming capital builds permanent local value, safeguards public assets, and funds institutional technical-talent pipelines.",
+								img: "/images/doctrines/intergenerational.png"
 							}
 						].map((doc, idx) => (
 							<div key={idx} className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.2 * idx}s`}>
 								<div style={{
 									background: "rgba(91, 146, 229, 0.02)",
 									borderRadius: "16px",
-									padding: "45px 35px",
+									padding: "var(--card-padding)",
 									height: "100%",
 									boxShadow: "0 10px 30px rgba(91, 146, 229, 0.02)",
 									border: "1px solid rgba(91, 146, 229, 0.15)",
@@ -147,6 +150,9 @@ const ManifestoContent = () => {
 									justifyContent: "space-between"
 								}}>
 									<div>
+										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
+											<img src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										</div>
 										<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "20px" }}>
 											{doc.title}
 										</h4>

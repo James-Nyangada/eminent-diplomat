@@ -4,7 +4,7 @@ const CompendiumContent = () => {
 	return (
 		<div className="compendium-content-wrapper">
 			{/* SECTION 1: OVERVIEW */}
-			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 text-center">
@@ -36,9 +36,9 @@ const CompendiumContent = () => {
 			</section>
 
 			{/* SECTION 2: COMPARISON TABLE */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -53,7 +53,7 @@ const CompendiumContent = () => {
 
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "20px", padding: "40px", boxShadow: "0 15px 45px rgba(0,0,0,0.03)", border: "1px solid rgba(91, 146, 229, 0.15)", overflowX: "auto" }}>
+							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "20px", padding: "var(--card-padding)", boxShadow: "0 15px 45px rgba(0,0,0,0.03)", border: "1px solid rgba(91, 146, 229, 0.15)", overflowX: "auto" }}>
 								<table className="table" style={{ width: "100%", borderCollapse: "separate", borderSpacing: "0 15px", margin: "0" }}>
 									<thead>
 										<tr>

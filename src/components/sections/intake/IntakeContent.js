@@ -26,7 +26,7 @@ const IntakeContent = () => {
 	return (
 		<div className="intake-content-wrapper">
 			{/* SECTION 1: OVERVIEW */}
-			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-about-section-2 section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-10 col-12 text-center">
@@ -47,9 +47,9 @@ const IntakeContent = () => {
 			</section>
 
 			{/* SECTION 2: PIPELINE SECTORS */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "80px 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
-					<div className="row justify-content-center text-center" style={{ marginBottom: "50px" }}>
+					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
@@ -65,7 +65,7 @@ const IntakeContent = () => {
 					<div className="row row-gap-4">
 						{/* Briefings */}
 						<div className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px 30px", height: "100%", textAlign: "center" }}>
+							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-folder-closed"></i>
 								</div>
@@ -80,7 +80,7 @@ const IntakeContent = () => {
 
 						{/* Portfolios */}
 						<div className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px 30px", height: "100%", textAlign: "center" }}>
+							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-handshake"></i>
 								</div>
@@ -95,7 +95,7 @@ const IntakeContent = () => {
 
 						{/* Audits */}
 						<div className="col-lg-4 col-md-12 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px 30px", height: "100%", textAlign: "center" }}>
+							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-file-lines"></i>
 								</div>
@@ -112,12 +112,16 @@ const IntakeContent = () => {
 			</section>
 
 			{/* SECTION 3: PROTOCOL INTAKE PORTAL & CONTACT */}
-			<section className="tj-contact-section section-gap section-gap-x" style={{ padding: "80px 0", background: "var(--tj-color-common-white)" }}>
+			<section className="tj-contact-section section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row row-gap-5">
 						{/* Operational Info on Left */}
 						<div className="col-lg-5 col-12 wow fadeInLeft" data-wow-delay=".3s">
 							<div style={{ paddingRight: "20px" }}>
+								<div style={{ width: "100%", height: "240px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "35px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
+									<img src="/images/operations/headquarters.png" alt="Eminent Diplomats Headquarters" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								</div>
+
 								<div className="sec-heading style-4">
 									<span className="sub-title" style={{ display: "inline-flex" }}>
 										Direct Lines
@@ -127,7 +131,7 @@ const IntakeContent = () => {
 									</h2>
 								</div>
 
-								<div style={{ display: "flex", flexDirection: "column", gap: "25px", marginTop: "40px" }}>
+								<div style={{ display: "flex", flexDirection: "column", gap: "25px", marginTop: "var(--block-margin-y)" }}>
 									<div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
 										<div style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "45px", height: "45px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem", flexShrink: 0 }}>
 											<i className="fa-solid fa-map-location-dot"></i>
@@ -151,7 +155,7 @@ const IntakeContent = () => {
 												Liaison Network
 											</h5>
 											<p style={{ margin: "0", fontSize: "1rem", color: "var(--tj-color-text-body)" }}>
-												Singapore, Dubai, London
+												Singapore, Brussels, China, Kenya
 											</p>
 										</div>
 									</div>
@@ -171,7 +175,7 @@ const IntakeContent = () => {
 									</div>
 								</div>
 
-								<div style={{ marginTop: "50px", borderTop: "1px dashed rgba(0,0,0,0.1)", paddingTop: "25px" }}>
+								<div style={{ marginTop: "var(--block-margin-top)", borderTop: "1px dashed rgba(0,0,0,0.1)", paddingTop: "25px" }}>
 									<p style={{ fontSize: "0.9rem", color: "#8a9a9c", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: "0" }}>
 										Legal Identity: EMINENT DIPLOMATS CO. LTD. ALL RIGHTS RESERVED. 2026.
 									</p>
@@ -181,7 +185,7 @@ const IntakeContent = () => {
 
 						{/* Form on Right */}
 						<div className="col-lg-7 col-12 wow fadeInRight" data-wow-delay=".3s">
-							<div style={{ background: "var(--tj-color-theme-bg)", borderRadius: "24px", padding: "45px", boxShadow: "0 10px 40px rgba(91, 146, 229, 0.04)", border: "1px solid rgba(91, 146, 229, 0.15)" }}>
+							<div style={{ background: "var(--tj-color-theme-bg)", borderRadius: "24px", padding: "var(--card-padding)", boxShadow: "0 10px 40px rgba(91, 146, 229, 0.04)", border: "1px solid rgba(91, 146, 229, 0.15)" }}>
 								<h3 style={{ fontSize: "1.6rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "30px", borderBottom: "1px solid rgba(91, 146, 229, 0.15)", paddingBottom: "15px" }}>
 									Sovereign Credentialing Intake
 								</h3>

@@ -56,6 +56,32 @@ START: Theme Default CSS
 	box-sizing: border-box;
 }
 
+:root {
+	--section-padding-y: 80px;
+	--heading-margin-bottom: 50px;
+	--card-padding: 40px;
+	--container-padding: 45px 35px;
+	--block-margin-top: 60px;
+	--block-margin-y: 40px;
+
+	@media #{$lg} {
+		--section-padding-y: 60px;
+		--heading-margin-bottom: 40px;
+		--card-padding: 30px;
+		--container-padding: 35px 25px;
+		--block-margin-top: 45px;
+		--block-margin-y: 30px;
+	}
+	@media #{$md, $sm, $xs} {
+		--section-padding-y: 40px;
+		--heading-margin-bottom: 25px;
+		--card-padding: 20px;
+		--container-padding: 25px 20px;
+		--block-margin-top: 30px;
+		--block-margin-y: 20px;
+	}
+}
+
 .site-main {
 	position: relative;
 }
@@ -335,12 +361,12 @@ img {
 	padding-bottom: 120px;
 
 	@media #{$lg} {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 	@media #{$md, $sm, $xs} {
-		padding-top: 70px;
-		padding-bottom: 70px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
 .section-gap-2 {
@@ -348,12 +374,12 @@ img {
 	padding-bottom: 100px;
 
 	@media #{$lg} {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 	@media #{$md, $sm, $xs} {
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-top: 35px;
+		padding-bottom: 35px;
 	}
 }
 .gap-top,
@@ -361,10 +387,10 @@ img {
 	padding-top: 120px;
 
 	@media #{$lg} {
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 	@media #{$md, $sm, $xs} {
-		padding-top: 70px;
+		padding-top: 40px;
 	}
 }
 .gap-bottom,
@@ -372,10 +398,10 @@ img {
 	padding-bottom: 120px;
 
 	@media #{$lg} {
-		padding-bottom: 100px;
+		padding-bottom: 80px;
 	}
 	@media #{$md, $sm, $xs} {
-		padding-bottom: 70px;
+		padding-bottom: 40px;
 	}
 }
 .section-gap-x {

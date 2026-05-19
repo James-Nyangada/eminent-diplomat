@@ -6,6 +6,7 @@ const MobileNavbar = () => {
 		{ name: "About", path: "/about" },
 		{ name: "Pillars of Growth", path: "/pillars" },
 		{ name: "Sovereign Compendium", path: "/compendium" },
+		{ name: "Blog", path: "/blogs" },
 		{ name: "Protocol Intake", path: "/intake" }
 	];
 

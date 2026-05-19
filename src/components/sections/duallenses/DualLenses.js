@@ -2,11 +2,11 @@
 
 const DualLenses = () => {
 	return (
-		<section id="dual-lenses" className="tj-service-section-5 section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", borderRadius: "12px", margin: "30px 15px", padding: "80px 0" }}>
+		<section id="dual-lenses" className="tj-service-section-5 section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", borderRadius: "12px", margin: "30px 15px", padding: "var(--section-padding-y) 0" }}>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
-						<div className="sec-heading style-4 text-center" style={{ marginBottom: "50px" }}>
+						<div className="sec-heading style-4 text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
 								Split Section
 							</span>
@@ -23,7 +23,7 @@ const DualLenses = () => {
 							background: "var(--tj-color-common-white)",
 							border: "2px solid #5b92e5",
 							borderRadius: "16px",
-							padding: "45px 35px",
+							padding: "var(--card-padding)",
 							height: "100%",
 							boxShadow: "0 10px 30px rgba(91, 146, 229, 0.08)",
 							transition: "all 0.4s ease-in-out"
@@ -80,7 +80,7 @@ const DualLenses = () => {
 							background: "var(--tj-color-common-white)",
 							border: "2px solid #5b92e5",
 							borderRadius: "16px",
-							padding: "45px 35px",
+							padding: "var(--card-padding)",
 							height: "100%",
 							boxShadow: "0 10px 30px rgba(91, 146, 229, 0.08)",
 							transition: "all 0.4s ease-in-out"
