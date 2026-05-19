@@ -8,7 +8,7 @@ const DualLenses = () => {
 					<div className="col-lg-12">
 						<div className="sec-heading style-4 text-center" style={{ marginBottom: "50px" }}>
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-								<i className="tji-box"></i> Split Section
+								Split Section
 							</span>
 							<h2 className="sec-title title-anim" style={{ fontSize: "3rem", fontWeight: "700" }}>
 								Dual Lenses

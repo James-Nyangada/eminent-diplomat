@@ -136,7 +136,6 @@ const Header = ({
 											</button>
 										</div>
 									)}
-									""
 									{headerType === 3 ||
 									headerType === 8 ||
 									headerType === 9 ||

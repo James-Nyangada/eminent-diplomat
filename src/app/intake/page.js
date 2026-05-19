@@ -15,7 +15,7 @@ export default function Intake() {
 				<div id="smooth-content">
 					<main>
 						<div className="space-for-header"></div>
-						<HeroInner title={"V. EXECUTIVE CLEARANCE & PROTOCOL INTAKE"} text={"Commercial Diplomacy Assetized."} />
+						<HeroInner title={"EXECUTIVE CLEARANCE & PROTOCOL INTAKE"} text={"Commercial Diplomacy Assetized."} />
 						<IntakeContent />
 					</main>
 					<Footer4 />

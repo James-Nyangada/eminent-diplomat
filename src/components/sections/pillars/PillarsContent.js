@@ -56,10 +56,10 @@ const PillarsContent = () => {
 						<div className="col-lg-10 col-12 text-center">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Sovereign Mandates
+									Sovereign Mandates
 								</span>
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
-									III. THE FIVE PILLARS OF STRUCTURAL GROWTH
+									THE FIVE PILLARS OF STRUCTURAL GROWTH
 								</h2>
 								<p className="desc wow fadeInUp" data-wow-delay=".3s" style={{ fontSize: "1.25rem", lineHeight: "1.8", color: "#364e52", fontWeight: "500", marginBottom: "20px" }}>
 									Advisory and transaction pipelines are restricted exclusively to five interconnected, high-yield asset vectors.
@@ -80,7 +80,7 @@ const PillarsContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Asset Vectors
+									Asset Vectors
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									The Five Interconnected Sectors
@@ -95,11 +95,8 @@ const PillarsContent = () => {
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-										Sector Vector 01: Strategic Infrastructure & Logistical Corridors
+										Strategic Infrastructure & Logistical Corridors
 									</h4>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", fontSize: "0.85rem", fontWeight: "700", padding: "5px 12px", borderRadius: "30px", minWidth: "90px", textAlign: "center" }}>
-										Vector 01
-									</span>
 								</div>
 								<p style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 									Eminent Diplomats structures financing, joint ventures, and concessions for deep-water ports, dry-port hubs, special economic zones (SEZs), and cross-border transport linkages.
@@ -112,11 +109,8 @@ const PillarsContent = () => {
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-										Sector Vector 02: Agribusiness Value-Addition & Industrial Ecosystems
+										Agribusiness Value-Addition & Industrial Ecosystems
 									</h4>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", fontSize: "0.85rem", fontWeight: "700", padding: "5px 12px", borderRadius: "30px", minWidth: "90px", textAlign: "center" }}>
-										Vector 02
-									</span>
 								</div>
 								<p style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 									Institutional capital finances localized processing plants, automated agricultural aggregation hubs, and smart industrial parks to transition raw yields into high-margin, export-ready finished goods.
@@ -129,11 +123,8 @@ const PillarsContent = () => {
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-										Sector Vector 03: Modernized Healthcare Infrastructure & Supply Chains
+										Modernized Healthcare Infrastructure & Supply Chains
 									</h4>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", fontSize: "0.85rem", fontWeight: "700", padding: "5px 12px", borderRadius: "30px", minWidth: "90px", textAlign: "center" }}>
-										Vector 03
-									</span>
 								</div>
 								<p style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 									Capital allocation modernizes regional referral hospitals, high-tier diagnostic centers, and bio-secure pharmaceutical distribution networks.
@@ -146,11 +137,8 @@ const PillarsContent = () => {
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-										Sector Vector 04: Educational Transformation & Human Capital Accelerators
+										Educational Transformation & Human Capital Accelerators
 									</h4>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", fontSize: "0.85rem", fontWeight: "700", padding: "5px 12px", borderRadius: "30px", minWidth: "90px", textAlign: "center" }}>
-										Vector 04
-									</span>
 								</div>
 								<p style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 									Global investment targets Technical and Vocational Education and Training (TVET) mega-institutes, digital-economy incubators, and localized research centers.
@@ -163,11 +151,8 @@ const PillarsContent = () => {
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "40px", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-										Sector Vector 05: Climate Action, Renewable Energy & Green Transitions
+										Climate Action, Renewable Energy & Green Transitions
 									</h4>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", fontSize: "0.85rem", fontWeight: "700", padding: "5px 12px", borderRadius: "30px", minWidth: "90px", textAlign: "center" }}>
-										Vector 05
-									</span>
 								</div>
 								<p style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 									Sub-national assets undergo grid modernization, utility-scale solar and hydro allocations, and carbon asset optimization to attract premium global green bonds.
@@ -185,7 +170,7 @@ const PillarsContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Proprietary Correspondence
+									Proprietary Correspondence
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									The Sovereign Match Engine
@@ -221,9 +206,6 @@ const PillarsContent = () => {
 											cursor: "pointer"
 										}}
 									>
-										<span style={{ fontSize: "0.85rem", opacity: "0.6", display: "block", marginBottom: "4px" }}>
-											{item.vector}
-										</span>
 										{item.title}
 									</button>
 								))}

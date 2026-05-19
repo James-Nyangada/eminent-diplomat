@@ -15,7 +15,7 @@ export default function Pillars() {
 				<div id="smooth-content">
 					<main>
 						<div className="space-for-header"></div>
-						<HeroInner title={"III. THE FIVE PILLARS OF STRUCTURAL GROWTH"} text={"Commercial Diplomacy Assetized."} />
+						<HeroInner title={"THE FIVE PILLARS OF STRUCTURAL GROWTH"} text={"Commercial Diplomacy Assetized."} />
 						<PillarsContent />
 					</main>
 					<Footer4 />

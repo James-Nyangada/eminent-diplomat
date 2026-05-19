@@ -202,16 +202,16 @@ START: Hero CSS
 			letter-spacing: 1.4px;
 			text-transform: uppercase;
 			font-weight: var(--tj-fw-bold);
-			border: 1px dashed var(--tj-color-border-2);
+			border: none;
 			display: inline-flex;
 			align-items: center;
+			justify-content: center;
 			gap: 8px;
 			padding: 6px 10px;
 			margin-bottom: 13px;
 			border-radius: 4px;
 			i {
-				color: var(--tj-color-theme-primary);
-				font-size: 22px;
+				display: none;
 			}
 		}
 		.banner-title {

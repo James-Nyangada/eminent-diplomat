@@ -7,10 +7,10 @@ const Hero4 = () => {
 			<div className="h4-banner-area">
 				<div className="h4-banner-content">
 					<span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-						<i className="tji-box"></i> EMINENT DIPLOMATS CO. LTD.
+						EMINENT DIPLOMATS CO. LTD.
 					</span>
 					<h1 className="banner-title text-anim" style={{ textTransform: "uppercase" }}>
-						I. THE CRUCIBLE OF GLOBAL CAPITAL
+						THE CRUCIBLE OF GLOBAL CAPITAL
 					</h1>
 					<div className="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
 						<ButtonPrimary text={"Institutional Execution"} url={"/contact"} />
@@ -23,15 +23,11 @@ const Hero4 = () => {
 					<div className="banner-img">
 						<Image
 							data-speed="0.8"
-							src="/images/hero/h4-hero-img.webp"
+							src="/images/hero/h4-hero-img.png"
 							alt=""
 							width={1479}
 							height={648}
 						/>
-					</div>
-					<div className="h4-rating-box wow fadeInUp" data-wow-delay="1s">
-						<h2 className="title">4.8</h2>
-						<p className="desc">Global rating based on 20k+ reviews</p>
 					</div>
 				</div>
 			</div>

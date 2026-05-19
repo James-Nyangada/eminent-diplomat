@@ -15,7 +15,7 @@ export default function Compendium() {
 				<div id="smooth-content">
 					<main>
 						<div className="space-for-header"></div>
-						<HeroInner title={"IV. THE SOVEREIGN ASSET COMPENDIUM"} text={"Commercial Diplomacy Assetized."} />
+						<HeroInner title={"THE SOVEREIGN ASSET COMPENDIUM"} text={"Commercial Diplomacy Assetized."} />
 						<CompendiumContent />
 					</main>
 					<Footer4 />

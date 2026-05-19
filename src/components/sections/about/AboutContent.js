@@ -10,7 +10,7 @@ const AboutContent = () => {
 						<div className="col-lg-10 col-12 text-center">
 							<div className="sec-heading style-4 text-center" style={{ marginBottom: "40px" }}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Geopolitical Envoy
+									Geopolitical Envoy
 								</span>
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
 									COMMERCIAL DIPLOMACY ASSETIZED.
@@ -20,9 +20,9 @@ const AboutContent = () => {
 								</p>
 							</div>
 
-							<div className="sec-heading style-4 text-center" style={{ marginTop: "60px", background: "rgba(91, 146, 229, 0.04)", padding: "45px 35px", borderRadius: "16px", border: "1px dashed rgba(91, 146, 229, 0.3)" }}>
+							<div className="sec-heading style-4 text-center" style={{ marginTop: "60px", background: "rgba(91, 146, 229, 0.04)", padding: "45px 35px", borderRadius: "16px" }}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".4s" style={{ justifyContent: "center", display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5" }}>
-									<i className="tji-box"></i> Our Mission
+									Our Mission
 								</span>
 								<h3 className="wow fadeInUp" data-wow-delay=".5s" style={{ fontSize: "2rem", fontWeight: "700", margin: "20px 0", color: "var(--tj-color-heading-primary)" }}>
 									The Macroeconomic Imperative
@@ -49,7 +49,7 @@ const AboutContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> The Asymmetric Divide We Bridge
+									The Asymmetric Divide We Bridge
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									Sovereign Capital Resolution
@@ -114,7 +114,7 @@ const AboutContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Process Flow
+									Process Flow
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									The Structural Ecosystem
@@ -171,7 +171,7 @@ const AboutContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Sovereign Pillars
+									Sovereign Pillars
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									Our Three Ironclad Doctrines

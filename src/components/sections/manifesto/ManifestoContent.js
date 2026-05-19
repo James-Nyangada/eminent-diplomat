@@ -10,7 +10,7 @@ const ManifestoContent = () => {
 						<div className="col-lg-10 col-12 text-center">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Sovereign Protocol
+									Sovereign Protocol
 								</span>
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
 									COMMERCIAL DIPLOMACY ASSETIZED.
@@ -39,7 +39,7 @@ const ManifestoContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Process Architecture
+									Process Architecture
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									The Structural Ecosystem
@@ -86,21 +86,7 @@ const ManifestoContent = () => {
 									textAlign: "center",
 									position: "relative"
 								}}>
-									<div style={{
-										width: "50px",
-										height: "50px",
-										background: "rgba(91, 146, 229, 0.1)",
-										color: "#5b92e5",
-										borderRadius: "50%",
-										display: "inline-flex",
-										alignItems: "center",
-										justifyContent: "center",
-										fontSize: "1.2rem",
-										fontWeight: "800",
-										marginBottom: "20px"
-									}}>
-										{item.step}
-									</div>
+
 									<h4 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "5px" }}>
 										{item.title}
 									</h4>
@@ -124,7 +110,7 @@ const ManifestoContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Immutable Doctrines
+									Immutable Doctrines
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									The Three Ironclad Doctrines

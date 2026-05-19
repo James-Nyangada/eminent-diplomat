@@ -7,14 +7,14 @@ const About4 = () => {
 				<div className="row justify-content-center">
 					<div className="col-lg-10 col-12">
 						<div
-							className="about-content-area style-3 wow fadeInLeft"
+							className="about-content-area wow fadeInLeft"
 							data-wow-delay=".3s"
 							style={{ textAlign: "center", margin: "0 auto" }}
 						>
 							<div className="sec-heading style-4 text-center">
 								<div className="subtitle-text" style={{ display: "flex", justifyContent: "center" }}>
 									<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-										<i className="tji-box"></i> The Macroeconomic Imperative
+										The Macroeconomic Imperative
 									</span>
 								</div>
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "2rem" }}>

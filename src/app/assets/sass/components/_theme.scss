@@ -379,11 +379,11 @@ img {
 	}
 }
 .section-gap-x {
-	margin-inline-start: 15px;
-	margin-inline-end: 15px;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 	@media #{$sm, $xs} {
-		margin-inline-start: 12px;
-		margin-inline-end: 12px;
+		margin-inline-start: 0;
+		margin-inline-end: 0;
 	}
 }
 .section-separator {

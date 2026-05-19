@@ -14,11 +14,11 @@ START: Theme Header CSS
 			top: 0;
 			position: absolute;
 			inset-inline-start: 0;
-			width: calc(100% - 30px);
+			width: 100%;
 			@media #{
 			$sm,$xs
 			} {
-				width: calc(100% - 24px);
+				width: 100%;
 			}
 		}
 		.header-wrapper {
@@ -77,10 +77,10 @@ START: Theme Header CSS
 			position: absolute;
 			top: 0;
 			inset-inline-start: 0;
-			width: calc(100% - 30px);
+			width: 100%;
 			z-index: 999;
 			@media #{$sm, $xs} {
-				width: calc(100% - 24px);
+				width: 100%;
 			}
 		}
 		.header-wrapper {
@@ -96,7 +96,7 @@ START: Theme Header CSS
 	}
 	&.sticky {
 		position: fixed;
-		width: calc(100% - 30px);
+		width: 100%;
 		top: 0;
 		inset-inline-start: 0;
 		-webkit-animation: sticky 0.9s;

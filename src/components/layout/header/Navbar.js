@@ -4,14 +4,13 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 	const links = [
 		{ name: "Home", path: "/" },
 		{ name: "About", path: "/about" },
-		{ name: "The Manifesto", path: "/manifesto" },
 		{ name: "Pillars of Growth", path: "/pillars" },
 		{ name: "Sovereign Compendium", path: "/compendium" },
 		{ name: "Protocol Intake", path: "/intake" }
 	];
 
 	return (
-		<div className="menu-area d-none d-lg-inline-flex align-items-center">
+		<div className="menu-area d-none d-lg-inline-flex align-items-center ms-auto" style={{ marginRight: "40px" }}>
 			<nav id="mobile-menu" className="mainmenu">
 				<ul>
 					{links.map((link, idx) => (

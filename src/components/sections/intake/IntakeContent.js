@@ -32,7 +32,7 @@ const IntakeContent = () => {
 						<div className="col-lg-10 col-12 text-center">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Executive Admittance
+									Executive Admittance
 								</span>
 								<h2 className="sec-title title-highlight" style={{ fontSize: "2.8rem", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
 									THE GLOBAL ECONOMIC CORRIDOR IS ACTIVE.
@@ -53,7 +53,7 @@ const IntakeContent = () => {
 						<div className="col-lg-10 col-12">
 							<div className="sec-heading style-4 text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s" style={{ justifyContent: "center", display: "inline-flex" }}>
-									<i className="tji-box"></i> Admission Vectors
+									Admission Vectors
 								</span>
 								<h2 className="sec-title title-anim" style={{ fontSize: "2.8rem", fontWeight: "700" }}>
 									Transactional Pipeline Channels
@@ -120,7 +120,7 @@ const IntakeContent = () => {
 							<div style={{ paddingRight: "20px" }}>
 								<div className="sec-heading style-4">
 									<span className="sub-title" style={{ display: "inline-flex" }}>
-										<i className="tji-box"></i> Direct Lines
+										Direct Lines
 									</span>
 									<h2 className="sec-title" style={{ fontSize: "2.5rem", fontWeight: "700", marginBottom: "30px" }}>
 										Corporate Operations

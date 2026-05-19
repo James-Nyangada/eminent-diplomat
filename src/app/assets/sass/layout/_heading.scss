@@ -21,6 +21,7 @@ START: Heading CSS
 	.sub-title {
 		display: inline-flex;
 		align-items: center;
+		justify-content: center;
 		gap: 4px;
 		color: var(--tj-color-heading-primary);
 		font-size: 14px;
@@ -28,7 +29,6 @@ START: Heading CSS
 		letter-spacing: 1.4px;
 		text-transform: uppercase;
 		font-weight: var(--tj-fw-bold);
-		border: 1px dashed var(--tj-color-border-1);
 		padding: 2px 10px;
 		margin-bottom: 20px;
 		border-radius: 4px;
@@ -36,7 +36,7 @@ START: Heading CSS
 			color: var(--tj-color-theme-primary);
 			font-size: 22px;
 			line-height: 1;
-			display: inline-flex;
+			display: none;
 		}
 		@media #{$md, $sm, $xs} {
 			margin-bottom: 15px;
@@ -139,6 +139,7 @@ START: Heading CSS
 	.sub-title {
 		display: inline-flex;
 		align-items: center;
+		justify-content: center;
 		gap: 4px;
 		color: var(--tj-color-heading-primary);
 		font-size: 14px;
@@ -146,7 +147,6 @@ START: Heading CSS
 		letter-spacing: 1.4px;
 		text-transform: uppercase;
 		font-weight: var(--tj-fw-bold);
-		border: 1px dashed var(--tj-color-border-1);
 		padding: 2px 10px;
 		margin-bottom: 20px;
 		border-radius: 4px;
@@ -154,7 +154,7 @@ START: Heading CSS
 			color: var(--tj-color-theme-primary);
 			font-size: 22px;
 			line-height: 1;
-			display: inline-flex;
+			display: none;
 		}
 		@media #{$md, $sm, $xs} {
 			margin-bottom: 15px;

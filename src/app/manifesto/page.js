@@ -15,7 +15,7 @@ export default function Manifesto() {
 				<div id="smooth-content">
 					<main>
 						<div className="space-for-header"></div>
-						<HeroInner title={"II. THE INSTITUTIONAL MANIFESTO"} text={"Commercial Diplomacy Assetized."} />
+						<HeroInner title={"THE INSTITUTIONAL MANIFESTO"} text={"Commercial Diplomacy Assetized."} />
 						<ManifestoContent />
 					</main>
 					<Footer4 />
