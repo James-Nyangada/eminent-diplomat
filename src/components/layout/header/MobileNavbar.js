@@ -4,7 +4,6 @@ const MobileNavbar = () => {
 	const links = [
 		{ name: "Home", path: "/" },
 		{ name: "About", path: "/about" },
-		{ name: "The Manifesto", path: "/manifesto" },
 		{ name: "Pillars of Growth", path: "/pillars" },
 		{ name: "Sovereign Compendium", path: "/compendium" },
 		{ name: "Protocol Intake", path: "/intake" }

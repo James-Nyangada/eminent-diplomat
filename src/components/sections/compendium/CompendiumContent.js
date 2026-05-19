@@ -58,10 +58,10 @@ const CompendiumContent = () => {
 									<thead>
 										<tr>
 											<th style={{ background: "rgba(91, 146, 229, 0.05)", color: "var(--tj-color-heading-primary)", border: "none", padding: "20px 25px", fontSize: "1.15rem", fontWeight: "800", borderRadius: "10px 0 0 10px", width: "50%" }}>
-												Traditional Pitch Decks (PDF)
+												Traditional Pitch Decks
 											</th>
 											<th style={{ background: "#5b92e5", color: "var(--tj-color-common-white)", border: "none", padding: "20px 25px", fontSize: "1.15rem", fontWeight: "800", borderRadius: "0 10px 10px 0", width: "50%" }}>
-												The Sovereign Compendium (PDF)
+												The Sovereign Compendium
 											</th>
 										</tr>
 									</thead>
