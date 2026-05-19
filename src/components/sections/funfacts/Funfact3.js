@@ -19,7 +19,7 @@ const Funfact3 = () => {
 				<div className="row justify-content-between">
 					<div className="col-12 col-lg-6">
 						<div
-							className="h8-funfact-banner wow fadeInLeft"
+							className="h8-funfact-banner wow fadeInUp"
 							data-wow-delay=".3s"
 						>
 							<div className="h8-funfact-banner-img">

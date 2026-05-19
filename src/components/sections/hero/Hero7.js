@@ -45,7 +45,7 @@ const Hero7 = () => {
 								<div className="h7-hero-box">
 									<div className="customers">
 										<ul>
-											<li className="wow fadeInLeft" data-wow-delay=".5s">
+											<li className="wow fadeInUp" data-wow-delay=".5s">
 												<Image
 													width={89}
 													height={89}
@@ -53,7 +53,7 @@ const Hero7 = () => {
 													alt=""
 												/>
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".6s">
+											<li className="wow fadeInUp" data-wow-delay=".6s">
 												<Image
 													width={89}
 													height={89}
@@ -61,7 +61,7 @@ const Hero7 = () => {
 													alt=""
 												/>
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".7s">
+											<li className="wow fadeInUp" data-wow-delay=".7s">
 												<Image
 													width={89}
 													height={89}
@@ -69,7 +69,7 @@ const Hero7 = () => {
 													alt=""
 												/>
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".8s">
+											<li className="wow fadeInUp" data-wow-delay=".8s">
 												<Image
 													width={89}
 													height={89}
@@ -81,7 +81,7 @@ const Hero7 = () => {
 									</div>
 
 									<div
-										className="h7-hero-box-content wow fadeInLeft"
+										className="h7-hero-box-content wow fadeInUp"
 										data-wow-delay=".9s"
 									>
 										<div className="star-ratings">

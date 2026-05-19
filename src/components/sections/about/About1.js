@@ -10,7 +10,7 @@ const About1 = () => {
 				<div className="row">
 					<div className="col-xl-6 col-lg-6 order-lg-1 order-2">
 						<div
-							className={`about-img-area wow fadeInLeft`}
+							className={`about-img-area wow fadeInUp`}
 							data-wow-delay=".2s"
 						>
 							<div className="about-img overflow-hidden">
@@ -38,7 +38,7 @@ const About1 = () => {
 					</div>
 					<div className="col-xl-6 col-lg-6 order-lg-2 order-1">
 						<div
-							className={`about-content-area style-1 wow fadeInLeft`}
+							className={`about-content-area style-1 wow fadeInUp`}
 							data-wow-delay=".2s"
 						>
 							<div className="sec-heading">

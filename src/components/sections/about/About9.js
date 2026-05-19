@@ -52,25 +52,25 @@ const About9 = () => {
 										>
 											<div className="customers">
 												<ul>
-													<li className="wow fadeInLeft" data-wow-delay=".2s">
+													<li className="wow fadeInUp" data-wow-delay=".2s">
 														<img
 															src="/images/testimonial/client-1.webp"
 															alt=""
 														/>
 													</li>
-													<li className="wow fadeInLeft" data-wow-delay=".3s">
+													<li className="wow fadeInUp" data-wow-delay=".3s">
 														<img
 															src="/images/testimonial/client-2.webp"
 															alt=""
 														/>
 													</li>
-													<li className="wow fadeInLeft" data-wow-delay=".4s">
+													<li className="wow fadeInUp" data-wow-delay=".4s">
 														<img
 															src="/images/testimonial/client-3.webp"
 															alt=""
 														/>
 													</li>
-													<li className="wow fadeInLeft" data-wow-delay=".5s">
+													<li className="wow fadeInUp" data-wow-delay=".5s">
 														<span>
 															<i className="tji-plus"></i>
 														</span>

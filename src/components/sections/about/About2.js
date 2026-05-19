@@ -44,7 +44,7 @@ const About2 = () => {
 									/>
 								</div>
 							</div>
-							<div className="video-img wow fadeInRight" data-wow-delay=".7s">
+							<div className="video-img wow fadeInUp" data-wow-delay=".7s">
 								<Image
 									src="/images/about/about-3.webp"
 									alt="Image"
@@ -75,16 +75,16 @@ const About2 = () => {
 							></div>
 							<div className="customers">
 								<ul>
-									<li className="wow fadeInLeft" data-wow-delay=".3s">
+									<li className="wow fadeInUp" data-wow-delay=".3s">
 										<img src="/images/testimonial/client-1.webp" alt="" />
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".4s">
+									<li className="wow fadeInUp" data-wow-delay=".4s">
 										<img src="/images/testimonial/client-2.webp" alt="" />
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".5s">
+									<li className="wow fadeInUp" data-wow-delay=".5s">
 										<img src="/images/testimonial/client-3.webp" alt="" />
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".6s">
+									<li className="wow fadeInUp" data-wow-delay=".6s">
 										<span>
 											<i className="tji-plus"></i>
 										</span>
@@ -92,7 +92,7 @@ const About2 = () => {
 								</ul>
 							</div>
 							<h6
-								className="customers-text wow fadeInLeft"
+								className="customers-text wow fadeInUp"
 								data-wow-delay=".6s"
 							>
 								We have 100+ happy customer.

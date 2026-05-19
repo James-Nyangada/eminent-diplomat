@@ -7,7 +7,7 @@ const Choose = () => {
 						<div className="h8-choose-banner">
 							<img
 								data-speed=".8"
-								className="wow fadeInLeftBig"
+								className="wow fadeInUpBig"
 								data-wow-delay=".3s"
 								src="/images/choose/h8-choose-bnner.webp"
 								alt=""

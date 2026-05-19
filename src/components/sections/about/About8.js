@@ -24,7 +24,7 @@ const About8 = () => {
 						</div>
 						<div className="h9-about-area">
 							<div
-								className="about-img-area h9-about-img wow fadeInLeft"
+								className="about-img-area h9-about-img wow fadeInUp"
 								data-wow-delay=".3s"
 							>
 								<div className="about-img overflow-hidden">

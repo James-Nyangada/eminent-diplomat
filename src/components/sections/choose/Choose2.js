@@ -25,16 +25,16 @@ const Choose2 = () => {
 							<div className="customers-inner">
 								<div className="customers">
 									<ul>
-										<li className="wow fadeInLeft" data-wow-delay=".5s">
+										<li className="wow fadeInUp" data-wow-delay=".5s">
 											<img src="/images/testimonial/client-1.webp" alt="" />
 										</li>
-										<li className="wow fadeInLeft" data-wow-delay=".6s">
+										<li className="wow fadeInUp" data-wow-delay=".6s">
 											<img src="/images/testimonial/client-2.webp" alt="" />
 										</li>
-										<li className="wow fadeInLeft" data-wow-delay=".7s">
+										<li className="wow fadeInUp" data-wow-delay=".7s">
 											<img src="/images/testimonial/client-3.webp" alt="" />
 										</li>
-										<li className="wow fadeInLeft" data-wow-delay=".8s">
+										<li className="wow fadeInUp" data-wow-delay=".8s">
 											<img src="/images/testimonial/client-4.webp" alt="" />
 										</li>
 									</ul>

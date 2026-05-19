@@ -7,7 +7,7 @@ const About4 = () => {
 				<div className="row justify-content-center">
 					<div className="col-lg-10 col-12">
 						<div
-							className="about-content-area wow fadeInLeft"
+							className="about-content-area wow fadeInUp"
 							data-wow-delay=".3s"
 							style={{ textAlign: "center", margin: "0 auto" }}
 						>

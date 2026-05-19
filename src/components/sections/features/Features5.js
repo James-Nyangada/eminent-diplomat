@@ -38,7 +38,7 @@ const Features5 = ({ type }) => {
 					</div>
 				</div>
 				<div
-					className="row h7-choose-item-wrapper  wow fadeInLeftBig"
+					className="row h7-choose-item-wrapper  wow fadeInUpBig"
 					data-wow-delay=".4s"
 				>
 					{features.map((feature, idx) => (

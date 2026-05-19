@@ -7,7 +7,7 @@ const About5 = () => {
 				<div className="row">
 					<div className="col-xl-6 col-lg-6">
 						<div
-							className="about-content-area  h6-about-content  style-1 wow fadeInLeft"
+							className="about-content-area  h6-about-content  style-1 wow fadeInUp"
 							data-wow-delay=".2s"
 						>
 							<div className="sec-heading style-2 style-6">
@@ -55,11 +55,11 @@ const About5 = () => {
 					</div>
 					<div className="col-xl-6 col-lg-6">
 						<div
-							className="about-img-area h6-about-img wow fadeInLeft"
+							className="about-img-area h6-about-img wow fadeInUp"
 							data-wow-delay=".2s"
 						>
 							<div
-								className="about-img overflow-hidden  wow fadeInRight"
+								className="about-img overflow-hidden  wow fadeInUp"
 								data-wow-delay=".8s"
 							>
 								<img
@@ -72,16 +72,16 @@ const About5 = () => {
 								<div className="customers-box wow fadeInUp" data-wow-delay="1s">
 									<div className="customers">
 										<ul>
-											<li className="wow fadeInLeft" data-wow-delay=".5s">
+											<li className="wow fadeInUp" data-wow-delay=".5s">
 												<img src="/images/testimonial/client-1.webp" alt="" />
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".6s">
+											<li className="wow fadeInUp" data-wow-delay=".6s">
 												<img src="/images/testimonial/client-2.webp" alt="" />
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".7s">
+											<li className="wow fadeInUp" data-wow-delay=".7s">
 												<img src="/images/testimonial/client-3.webp" alt="" />
 											</li>
-											<li className="wow fadeInLeft" data-wow-delay=".8s">
+											<li className="wow fadeInUp" data-wow-delay=".8s">
 												<span>
 													<i className="tji-plus"></i>
 												</span>

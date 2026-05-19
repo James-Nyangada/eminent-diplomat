@@ -39,7 +39,7 @@ const Hero10 = () => {
 							<h1 className="banner-title text-anim">
 								Driving Innovation to Transform Business Futures{" "}
 								<i
-									className="tji-curve-arrow wow fadeInRight"
+									className="tji-curve-arrow wow fadeInUp"
 									data-wow-delay=".7s"
 								></i>
 							</h1>

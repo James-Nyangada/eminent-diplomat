@@ -11,7 +11,7 @@ const TeamCard3 = ({ teamMember, idx }) => {
 	return (
 		<div className="col-lg-3 col-sm-6  h8-team-item-wrapper">
 			<div
-				className="team-item wow fadeInRightBig"
+				className="team-item wow fadeInUpBig"
 				data-wow-delay={makeWowDelay(idx, 0.2, 2)}
 			>
 				<div className="team-img">

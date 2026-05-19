@@ -14,7 +14,7 @@ const Hero6 = () => {
 						<div className="btn-area wow fadeInUp" data-wow-delay=".8s">
 							<ButtonPrimary text={"Get Started"} url={"/contact"} />
 						</div>
-						<div className="h6-hero-bottom wow fadeInLeft" data-wow-delay=".9s">
+						<div className="h6-hero-bottom wow fadeInUp" data-wow-delay=".9s">
 							<div className="h6-hero-history">
 								<h4 className="h6-hero-history-title">Since 2008</h4>
 								<p className="h6-hero-history-desc">
@@ -23,7 +23,7 @@ const Hero6 = () => {
 								</p>
 							</div>
 							<div
-								className="h6-hero-card-wrapper wow fadeInRight"
+								className="h6-hero-card-wrapper wow fadeInUp"
 								data-wow-delay="1s"
 							>
 								<HeroCardSlider />

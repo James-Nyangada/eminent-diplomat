@@ -7,7 +7,7 @@ const About3 = ({ type }) => {
 				<div className="row">
 					<div className="col-xl-6 col-lg-6 order-lg-1 order-2">
 						<div
-							className="about-img-area style-2 wow fadeInLeft"
+							className="about-img-area style-2 wow fadeInUp"
 							data-wow-delay=".3s"
 						>
 							<div className="about-img overflow-hidden">
@@ -68,7 +68,7 @@ const About3 = ({ type }) => {
 						</div>
 						<div className="about-bottom-area">
 							<div
-								className="mission-vision-box wow fadeInLeft"
+								className="mission-vision-box wow fadeInUp"
 								data-wow-delay=".5s"
 							>
 								<h4 className="title">Our Mission</h4>
@@ -89,7 +89,7 @@ const About3 = ({ type }) => {
 								</ul>
 							</div>
 							<div
-								className="mission-vision-box wow fadeInRight"
+								className="mission-vision-box wow fadeInUp"
 								data-wow-delay=".5s"
 							>
 								<h4 className="title">Our Vision</h4>

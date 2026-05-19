@@ -13,7 +13,7 @@ const Hero9 = () => {
 					<div className="h9-hero-content">
 						<h1 className="h9-hero-title text-anim">
 							Empower{" "}
-							<span className="wow fadeInLeft" data-wow-delay="0.3s"></span>{" "}
+							<span className="wow fadeInUp" data-wow-delay="0.3s"></span>{" "}
 							Your Business.
 						</h1>
 						<div className="h9-hero-desc-area">

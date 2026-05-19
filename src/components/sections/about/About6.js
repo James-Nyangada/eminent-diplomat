@@ -122,13 +122,13 @@ const About6 = () => {
 									></div>
 
 									<h6
-										className="customers-text wow fadeInLeft"
+										className="customers-text wow fadeInUp"
 										data-wow-delay=".6s"
 									>
 										Enabling startups to raise $25M+ in venture funding.
 									</h6>
 									<Link
-										className="text-btn wow fadeInLeft"
+										className="text-btn wow fadeInUp"
 										data-wow-delay=".5s"
 										href="/contact"
 									>

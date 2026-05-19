@@ -26,7 +26,7 @@ const Testimonials7 = () => {
 				<div className="row">
 					<div className="col-12">
 						<div
-							className="testimonial-wrapper  h7-testimonial-wrapper  wow fadeInRightBig"
+							className="testimonial-wrapper  h7-testimonial-wrapper  wow fadeInUpBig"
 							data-wow-delay=".3s"
 						>
 							<Swiper

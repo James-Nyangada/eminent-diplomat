@@ -18,7 +18,7 @@ const DualLenses = () => {
 				</div>
 				<div className="row row-gap-4">
 					{/* THE GOVERNOR'S LENS */}
-					<div className="col-lg-6 col-12 wow fadeInLeft" data-wow-delay=".4s">
+					<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 						<div className="lens-card" style={{
 							background: "var(--tj-color-common-white)",
 							border: "2px solid #5b92e5",
@@ -75,7 +75,7 @@ const DualLenses = () => {
 					</div>
 
 					{/* THE INVESTOR'S LENS */}
-					<div className="col-lg-6 col-12 wow fadeInRight" data-wow-delay=".4s">
+					<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 						<div className="lens-card" style={{
 							background: "var(--tj-color-common-white)",
 							border: "2px solid #5b92e5",

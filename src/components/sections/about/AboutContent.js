@@ -67,7 +67,7 @@ const AboutContent = () => {
 
 					<div className="row row-gap-4">
 						{/* Governor's Challenge */}
-						<div className="col-lg-6 col-12 wow fadeInLeft" data-wow-delay=".4s">
+						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
@@ -82,7 +82,7 @@ const AboutContent = () => {
 						</div>
 
 						{/* Investor's Challenge */}
-						<div className="col-lg-6 col-12 wow fadeInRight" data-wow-delay=".4s">
+						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
@@ -289,7 +289,7 @@ const AboutContent = () => {
 								city: "China Liaison",
 								role: "Geopolitical & Capital Alignment",
 								desc: "Shanghai Lujiazui Financial Hub. Vetting sovereign capital channels, high-stakes investment matching protocols, and strategic liaison lines with major Asian state enterprises.",
-								img: "/images/footprint/china_liaison.png",
+								img: "/images/footprint/china_skyline.jpg",
 								conferenceImg: "/images/operations/executive_portrait.png",
 								conferenceLabel: "Sovereign Matching Active"
 							},

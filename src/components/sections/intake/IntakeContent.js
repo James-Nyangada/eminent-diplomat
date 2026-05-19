@@ -116,7 +116,7 @@ const IntakeContent = () => {
 				<div className="container">
 					<div className="row row-gap-5">
 						{/* Operational Info on Left */}
-						<div className="col-lg-5 col-12 wow fadeInLeft" data-wow-delay=".3s">
+						<div className="col-lg-5 col-12 wow fadeInUp" data-wow-delay=".3s">
 							<div style={{ paddingRight: "20px" }}>
 								<div style={{ width: "100%", height: "240px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "35px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
 									<img src="/images/operations/headquarters.png" alt="Eminent Diplomats Headquarters" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
@@ -184,7 +184,7 @@ const IntakeContent = () => {
 						</div>
 
 						{/* Form on Right */}
-						<div className="col-lg-7 col-12 wow fadeInRight" data-wow-delay=".3s">
+						<div className="col-lg-7 col-12 wow fadeInUp" data-wow-delay=".3s">
 							<div style={{ background: "var(--tj-color-theme-bg)", borderRadius: "24px", padding: "var(--card-padding)", boxShadow: "0 10px 40px rgba(91, 146, 229, 0.04)", border: "1px solid rgba(91, 146, 229, 0.15)" }}>
 								<h3 style={{ fontSize: "1.6rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "30px", borderBottom: "1px solid rgba(91, 146, 229, 0.15)", paddingBottom: "15px" }}>
 									Sovereign Credentialing Intake

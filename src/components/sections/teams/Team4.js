@@ -26,7 +26,7 @@ const Team4 = () => {
 
 					<div className="col-lg-3 col-sm-6 ">
 						<div
-							className="h8-team-action wow fadeInRightBig"
+							className="h8-team-action wow fadeInUpBig"
 							data-wow-delay=".8s"
 						>
 							<div className="circle-text-wrap">

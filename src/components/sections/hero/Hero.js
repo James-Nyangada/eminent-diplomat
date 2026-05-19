@@ -43,7 +43,7 @@ const Hero = () => {
 						<div className="customers-box">
 							<div className="customers">
 								<ul>
-									<li className="wow fadeInLeft" data-wow-delay=".5s">
+									<li className="wow fadeInUp" data-wow-delay=".5s">
 										<Image
 											src="/images/testimonial/client-1.webp"
 											alt=""
@@ -51,7 +51,7 @@ const Hero = () => {
 											height={89}
 										/>
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".6s">
+									<li className="wow fadeInUp" data-wow-delay=".6s">
 										<Image
 											src="/images/testimonial/client-2.webp"
 											alt=""
@@ -59,7 +59,7 @@ const Hero = () => {
 											height={89}
 										/>
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".7s">
+									<li className="wow fadeInUp" data-wow-delay=".7s">
 										<Image
 											src="/images/testimonial/client-3.webp"
 											alt=""
@@ -67,7 +67,7 @@ const Hero = () => {
 											height={89}
 										/>
 									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".8s">
+									<li className="wow fadeInUp" data-wow-delay=".8s">
 										<span>
 											<i className="tji-plus"></i>
 										</span>

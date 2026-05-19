@@ -11,14 +11,14 @@ const Footer8 = () => {
 								<div className="h6-footer-logo h8-footer-logo">
 									<Link
 										href="/"
-										className="wow fadeInLeftBig"
+										className="wow fadeInUpBig"
 										data-wow-delay=".3s"
 									>
 										<img src="/images/logos/logo-large.webp" alt="" />
 									</Link>
 								</div>
 								<div
-									className="h8-footer-logo-content wow fadeInRightBig"
+									className="h8-footer-logo-content wow fadeInUpBig"
 									data-wow-delay=".4s"
 								>
 									<div className="footer-text">
