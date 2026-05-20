@@ -1,7 +1,24 @@
+"use client";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Image from "next/image";
+import { useState, useEffect } from "react";
+
+const heroImages = [
+	"/images/hero/gen_home_1.png",
+	"/images/hero/gen_home_2.png",
+	"/images/hero/gen_home_3.png"
+];
 
 const Hero4 = () => {
+	const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+		}, 3000);
+		return () => clearInterval(interval);
+	}, []);
+
 	return (
 		<section className="h4-banner-section section-gap-x">
 			<div className="h4-banner-area">
@@ -20,14 +37,24 @@ const Hero4 = () => {
 					</div>
 				</div>
 				<div className="banner-img-area">
-					<div className="banner-img">
-						<Image
-							data-speed="0.8"
-							src="/images/hero/h4-hero-img.png"
-							alt=""
-							width={1479}
-							height={648}
-						/>
+					<div className="banner-img" style={{ position: "relative" }}>
+						{heroImages.map((src, index) => (
+							<Image
+								key={src}
+								data-speed="0.8"
+								src={src}
+								alt=""
+								width={1479}
+								height={648}
+								style={{
+									opacity: index === currentImageIndex ? 1 : 0,
+									transition: "opacity 1s ease-in-out",
+									position: index === 0 ? "relative" : "absolute",
+									top: 0,
+									left: 0
+								}}
+							/>
+						))}
 					</div>
 				</div>
 			</div>
