@@ -54,25 +54,29 @@ const ManifestoContent = () => {
 								step: "01",
 								title: "Sub-National Assets",
 								subtitle: "Raw Potential & Mandates",
-								desc: "Capturing primary regional potential and government mandates directly from local custodians."
+								desc: "Capturing primary regional potential and government mandates directly from local custodians.",
+								img: "/images/ecosystem/sub_national_assets.png"
 							},
 							{
 								step: "02",
 								title: "Eminent Diplomats Co. Ltd.",
 								subtitle: "De-Risking & Legal Insulation",
-								desc: "Applying intense forensic screening, structural insulation, and mitigation of regulatory bottlenecks."
+								desc: "Applying intense forensic screening, structural insulation, and mitigation of regulatory bottlenecks.",
+								img: "/images/ecosystem/eminent_diplomats.png"
 							},
 							{
 								step: "03",
 								title: "Bankable Inventories",
 								subtitle: "The Sovereign Compendium",
-								desc: "Utilizing our proprietary financial intelligence products to bound and fully package asset instruments."
+								desc: "Utilizing our proprietary financial intelligence products to bound and fully package asset instruments.",
+								img: "/images/ecosystem/bankable_inventories.png"
 							},
 							{
 								step: "04",
 								title: "Global Mega-Capital",
 								subtitle: "SWFs, SOEs, Conglomerates",
-								desc: "Deploying secure cross-border capital directly from sovereign wealth funds and state enterprises."
+								desc: "Deploying secure cross-border capital directly from sovereign wealth funds and state enterprises.",
+								img: "/images/ecosystem/global_capital.png"
 							}
 						].map((item, idx) => (
 							<div key={idx} className="col-xl-3 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.2 * idx}s`}>
@@ -84,8 +88,27 @@ const ManifestoContent = () => {
 									boxShadow: "0 10px 30px rgba(0,0,0,0.02)",
 									border: "1px solid rgba(91, 146, 229, 0.15)",
 									textAlign: "center",
-									position: "relative"
+									position: "relative",
+									transition: "all 0.3s ease-in-out"
 								}}>
+									<div className="ecosystem-img-wrap" style={{
+										width: "100%",
+										height: "160px",
+										position: "relative",
+										overflow: "hidden",
+										borderRadius: "12px",
+										marginBottom: "20px"
+									}}>
+										<img 
+											src={item.img} 
+											alt={item.title} 
+											style={{ 
+												width: "100%", 
+												height: "100%", 
+												objectFit: "cover"
+											}} 
+										/>
+									</div>
 
 									<h4 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "5px" }}>
 										{item.title}
