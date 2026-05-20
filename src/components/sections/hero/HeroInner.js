@@ -15,7 +15,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrentImageIndex((prevIndex) => (prevIndex + 1) % innerImages.length);
-		}, 3000);
+		}, 7000);
 		return () => clearInterval(interval);
 	}, []);
 
@@ -37,7 +37,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 						backgroundSize: 'cover',
 						backgroundPosition: 'center',
 						opacity: index === currentImageIndex ? 1 : 0,
-						transition: 'opacity 1s ease-in-out',
+						transition: 'opacity 3s ease-in-out',
 						zIndex: -2
 					}}
 				/>

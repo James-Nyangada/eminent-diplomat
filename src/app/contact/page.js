@@ -1,7 +1,9 @@
 import Footer from "@/components/layout/footer/Footer";
+import Footer4 from "@/components/layout/footer/Footer4";
 import Header from "@/components/layout/header/Header";
 import Contact3 from "@/components/sections/contacts/Contact3";
 import ContactTop from "@/components/sections/contacts/ContactTop";
+import ProtocolIntake2 from "@/components/sections/contacts/ProtocolIntake2";
 import Cta from "@/components/sections/cta/Cta";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -19,10 +21,11 @@ export default function Contact() {
 						<HeaderSpace />
 						<HeroInner title={"Contact Us"} text={"Contact Us"} />
 						<ContactTop />
-						<Contact3 />
-						<Cta />
+						{/* <Contact3 /> */}
+						<ProtocolIntake2 />
+						{/* <Cta /> */}
 					</main>
-					<Footer />
+					<Footer4 />
 				</div>
 			</div>
 			<ClientWrapper />

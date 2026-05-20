@@ -59,7 +59,7 @@ const ManifestoContent = () => {
 							},
 							{
 								step: "02",
-								title: "Eminent Diplomats Co. Ltd.",
+								title: "",
 								subtitle: "De-Risking & Legal Insulation",
 								desc: "Applying intense forensic screening, structural insulation, and mitigation of regulatory bottlenecks.",
 								img: "/images/ecosystem/eminent_diplomats.png"

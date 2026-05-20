@@ -4,6 +4,7 @@ import About4 from "@/components/sections/about/About4";
 import DualLenses from "@/components/sections/duallenses/DualLenses";
 import ManifestoContent from "@/components/sections/manifesto/ManifestoContent";
 import Hero4 from "@/components/sections/hero/Hero4";
+import GeopoliticalBridge from "@/components/sections/geopolitical/GeopoliticalBridge";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 
@@ -20,6 +21,7 @@ export default function Home() {
 						<Hero4 />
 						<About4 />
 						<DualLenses />
+						<GeopoliticalBridge />
 						<ManifestoContent />
 					</main>
 					<Footer4 />

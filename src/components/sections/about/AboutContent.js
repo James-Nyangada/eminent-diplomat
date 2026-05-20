@@ -98,11 +98,33 @@ const AboutContent = () => {
 
 						{/* Resolution Banner */}
 						<div className="col-12 wow fadeInUp" data-wow-delay=".6s" style={{ marginTop: "var(--block-margin-y)" }}>
-							<div style={{ background: "#5b92e5", color: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", textAlign: "center", boxShadow: "0 15px 35px rgba(91, 146, 229, 0.2)" }}>
-								<h4 style={{ color: "var(--tj-color-common-white)", fontSize: "1.6rem", fontWeight: "700", marginBottom: "15px" }}>
+							<div className="lens-card" style={{
+								background: "var(--tj-color-common-white)",
+								border: "2px solid #5b92e5",
+								borderRadius: "16px",
+								padding: "var(--card-padding)",
+								textAlign: "center",
+								boxShadow: "0 10px 30px rgba(91, 146, 229, 0.08)",
+								transition: "all 0.4s ease-in-out"
+							}}>
+								<span style={{
+									display: "inline-block",
+									background: "rgba(91, 146, 229, 0.1)",
+									color: "#5b92e5",
+									padding: "6px 16px",
+									borderRadius: "30px",
+									fontSize: "0.85rem",
+									fontWeight: "700",
+									textTransform: "uppercase",
+									letterSpacing: "1px",
+									marginBottom: "20px"
+								}}>
+									The Bridge
+								</span>
+								<h3 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "20px", color: "var(--tj-color-heading-primary)" }}>
 									Eminent Diplomats Bridges This Divide
-								</h4>
-								<p style={{ fontSize: "1.15rem", lineHeight: "1.7", maxWidth: "900px", margin: "0 auto" }}>
+								</h3>
+								<p style={{ fontSize: "1.15rem", lineHeight: "1.7", maxWidth: "900px", margin: "0 auto", color: "var(--tj-color-text-body)" }}>
 									We de-risk raw potential and eliminate central bureaucratic inertia, allowing institutional funds to secure direct, unhindered access to executive regional leadership. We present pre-vetted, legally insulated land, asset allocations, and localized fiscal incentives optimized for immediate execution.
 								</p>
 							</div>

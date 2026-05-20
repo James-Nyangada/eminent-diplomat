@@ -64,10 +64,7 @@ const Footer4 = () => {
 							>
 								<h5 className="title">Our Office</h5>
 								<div className="footer-contact-info">
-									<div className="contact-item">
-										<span style={{ fontSize: "1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginBottom: "4px" }}>Primary Corporate Location</span>
-										<span>Nairobi, Kenya</span>
-									</div>
+						
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginBottom: "4px" }}>Liaison Network</span>
 										<span>Singapore, Brussels, China, Kenya</span>
