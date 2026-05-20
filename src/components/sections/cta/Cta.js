@@ -20,7 +20,7 @@ const Cta = () => {
 								</div>
 							</div>
 							<div className="cta-img">
-								<img src="/images/cta/cta-bg.webp" alt="" />
+								<img loading="lazy" src="/images/cta/cta-bg.webp" alt="" />
 							</div>
 						</div>
 					</div>

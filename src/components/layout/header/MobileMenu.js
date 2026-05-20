@@ -23,7 +23,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo-white.png" alt="Logo" style={{ maxWidth: "80px" }} />
+									<img loading="lazy" src="/images/logos/logo-white.png" alt="Logo" style={{ maxWidth: "80px" }} />
 								</Link>
 							</div>
 							<div className="hamburger_close">

@@ -16,7 +16,7 @@ const TeamCard4 = ({ teamMember, idx }) => {
 				<span className="designation">{desig}</span>
 			</div>
 			<div className="team-img">
-				<img src={img} alt="Images" />
+				<img loading="lazy" src={img} alt="Images" />
 			</div>
 			<Link className="text-btn" href={`/team/${id}`}>
 				<span className="btn-text">

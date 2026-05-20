@@ -14,7 +14,7 @@ const PortfolioCard5 = ({ portfolio }) => {
 		<div className="h5-project-item-wrapper tj-scroll-slider-item">
 			<div className="project-item h4-project-item  h5-project-item">
 				<div className="project-img">
-					<img src={img5} alt="Image" />
+					<img loading="lazy" src={img5} alt="Image" />
 				</div>
 				<div className="project-content">
 					<span className="categories">

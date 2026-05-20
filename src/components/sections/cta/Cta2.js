@@ -33,7 +33,7 @@ const Cta2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/shape-blur.svg" alt="" />
+				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

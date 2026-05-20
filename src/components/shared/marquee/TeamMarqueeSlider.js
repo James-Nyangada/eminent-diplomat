@@ -46,7 +46,7 @@ const TeamMarqueeSlider = ({ isRtl }) => {
 										<span className="designation">{desig}</span>
 									</div>
 									<div className="team-img">
-										<img src={img2} alt="team-single" />
+										<img loading="lazy" src={img2} alt="team-single" />
 									</div>
 								</div>
 							</SwiperSlide>

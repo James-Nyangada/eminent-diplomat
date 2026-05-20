@@ -17,7 +17,7 @@ const BlogCard8 = ({ blog, idx }) => {
 		<div className="blog-item style-2 wow fadeInUp" data-wow-delay=".3s">
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img} alt="" />
+					<img loading="lazy" src={img} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

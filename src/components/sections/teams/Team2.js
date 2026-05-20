@@ -67,7 +67,7 @@ const Team2 = () => {
 										opacity: fade ? 1 : 0.3,
 									}}
 								>
-									<img
+									<img loading="lazy"
 										key={activeMember.imgLarge} // forces fade on change
 										src={activeMember.imgLarge}
 										alt={activeMember.name}

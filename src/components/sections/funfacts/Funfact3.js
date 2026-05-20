@@ -23,7 +23,7 @@ const Funfact3 = () => {
 							data-wow-delay=".3s"
 						>
 							<div className="h8-funfact-banner-img">
-								<img src="/images/funfact/h8-funfact-banner.webp" alt="" />
+								<img loading="lazy" src="/images/funfact/h8-funfact-banner.webp" alt="" />
 							</div>
 							<div className="box-area">
 								<div className="call-box wow fadeInUp" data-wow-delay=".5s">

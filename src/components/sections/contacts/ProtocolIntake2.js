@@ -173,10 +173,10 @@ const ProtocolIntake2 = () => {
 						>
 							NAIROBI, KENYA | SINGAPORE | BRUSSELS | CHINA | Secure communications:{" "}
 							<a
-								href="mailto:OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM"
+								href="mailto:info@eminentdiplomats.org"
 								style={{ color: "#fff", textDecoration: "none" }}
 							>
-								OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM
+								info@eminentdiplomats.org
 							</a>
 						</p>
 						<p style={{ margin: "0", fontSize: "0.8rem", opacity: "0.9" }}>

@@ -333,7 +333,7 @@ const ProductDetailsPrimary = ({ setCurrentTitle, currentItemId }) => {
 																<ol className="commentlist">
 																	<li className="review">
 																		<div className="comment_container">
-																			<img
+																			<img loading="lazy"
 																				className="avatar"
 																				src="/images/blog/avatar-1.webp"
 																				alt=""

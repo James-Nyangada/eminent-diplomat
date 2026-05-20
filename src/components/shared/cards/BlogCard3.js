@@ -12,7 +12,7 @@ const BlogCard3 = ({ blog, idx }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img2 ? img2 : "/images/blog/blog-6.webp"} alt="" />
+					<img loading="lazy" src={img2 ? img2 : "/images/blog/blog-6.webp"} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

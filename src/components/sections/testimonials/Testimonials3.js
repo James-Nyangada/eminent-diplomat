@@ -47,7 +47,7 @@ const Testimonials3 = () => {
 								{testimonials.map(({ authorName, authorDesig, img }, idx) => (
 									<SwiperSlide key={idx} className="thumb-item">
 										<div className="thumb-img">
-											<img
+											<img loading="lazy"
 												src={img || "/images/testimonial/client-1.webp"}
 												alt={authorName}
 											/>
@@ -108,10 +108,10 @@ const Testimonials3 = () => {
 								<i className="tji-quote"></i>
 							</span>
 							<div className="bg-shape-1">
-								<img src="/images/shape/pattern-2.svg" alt="" />
+								<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 							</div>
 							<div className="bg-shape-2">
-								<img src="/images/shape/pattern-3.svg" alt="" />
+								<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 							</div>
 						</div>
 					</div>

@@ -28,7 +28,7 @@ const About8 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="about-img overflow-hidden">
-									<img
+									<img loading="lazy"
 										data-speed=".8"
 										src="/images/about/h9-about.webp"
 										alt=""

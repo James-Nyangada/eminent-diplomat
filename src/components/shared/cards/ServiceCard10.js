@@ -33,7 +33,7 @@ const ServiceCard10 = ({ service, idx, lastItemIdx }) => {
 				</Link>
 			</div>
 			<div className="service-img">
-				<img src={img5} alt="" />
+				<img loading="lazy" src={img5} alt="" />
 			</div>
 		</div>
 	);

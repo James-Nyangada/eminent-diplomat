@@ -11,7 +11,7 @@ const TeamCard = ({ teamMember }) => {
 		<div className="team-item left-swipe">
 			<div className="team-img">
 				<div className="team-img-inner">
-					<img src={img} alt="" />
+					<img loading="lazy" src={img} alt="" />
 				</div>
 				<div className="social-links">
 					<ul>

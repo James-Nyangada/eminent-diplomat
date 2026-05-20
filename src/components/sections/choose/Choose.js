@@ -5,7 +5,7 @@ const Choose = () => {
 				<div className="row align-items-center flex-column-reverse flex-lg-row">
 					<div className="col-12 col-lg-6 align-self-stretch">
 						<div className="h8-choose-banner">
-							<img
+							<img loading="lazy"
 								data-speed=".8"
 								className="wow fadeInUpBig"
 								data-wow-delay=".3s"
@@ -85,7 +85,7 @@ const Choose = () => {
 				</div>
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

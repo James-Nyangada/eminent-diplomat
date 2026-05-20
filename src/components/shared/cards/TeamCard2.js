@@ -53,7 +53,7 @@ const TeamCard2 = ({ teamMember, activeMember, handleMouseEnter }) => {
 			</div>
 			<div className="team-img-wrap">
 				<div className="team-img">
-					<img src={imgLarge} alt="Images" />
+					<img loading="lazy" src={imgLarge} alt="Images" />
 				</div>
 			</div>
 		</div>

@@ -12,7 +12,7 @@ const PortfolioCard8 = ({ portfolio }) => {
 	return (
 		<div className="project-item h4-project-item">
 			<div className="project-img">
-				<img src={img4} alt="Image" />
+				<img loading="lazy" src={img4} alt="Image" />
 			</div>
 			<div className="project-content">
 				<div className="project-text">

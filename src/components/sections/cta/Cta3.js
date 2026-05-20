@@ -14,7 +14,7 @@ const Cta3 = () => {
 							<h2 className="title text-anim">
 								<span>Let’s Talk to</span>{" "}
 								<span className="cta-img wow fadeInUp" data-wow-delay=".3s">
-									<img src="/images/team/team-1.webp" alt="" />
+									<img loading="lazy" src="/images/team/team-1.webp" alt="" />
 									<Link className="tji-icon-btn" href="/contact">
 										<i className="tji-arrow-right-long"></i>
 									</Link>

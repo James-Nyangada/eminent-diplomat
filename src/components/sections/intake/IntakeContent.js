@@ -119,7 +119,7 @@ const IntakeContent = () => {
 						<div className="col-lg-5 col-12 wow fadeInUp" data-wow-delay=".3s">
 							<div style={{ paddingRight: "20px" }}>
 								<div style={{ width: "100%", height: "240px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "35px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
-									<img src="/images/operations/headquarters.png" alt="Eminent Diplomats Headquarters" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/operations/headquarters.png" alt="Eminent Diplomats Headquarters" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 
 								<div className="sec-heading style-4">
@@ -169,7 +169,7 @@ const IntakeContent = () => {
 												Secure Executive Communications
 											</h5>
 											<p style={{ margin: "0", fontSize: "1.1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-												OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM
+												info@eminentdiplomats.org
 											</p>
 										</div>
 									</div>

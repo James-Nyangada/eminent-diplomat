@@ -11,7 +11,7 @@ const Contact2 = () => {
 					<div className="col-lg-6">
 						<div className="global-map wow fadeInUp" data-wow-delay=".3s">
 							<div className="global-map-img">
-								<img src="/images/bg/map.svg" alt="Image" />
+								<img loading="lazy" src="/images/bg/map.svg" alt="Image" />
 								<div className="location-indicator loc-1">
 									<div className="location-tooltip">
 										<span>Head office:</span>
@@ -138,10 +138,10 @@ const Contact2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

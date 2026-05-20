@@ -26,16 +26,16 @@ const Choose2 = () => {
 								<div className="customers">
 									<ul>
 										<li className="wow fadeInUp" data-wow-delay=".5s">
-											<img src="/images/testimonial/client-1.webp" alt="" />
+											<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".6s">
-											<img src="/images/testimonial/client-2.webp" alt="" />
+											<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".7s">
-											<img src="/images/testimonial/client-3.webp" alt="" />
+											<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".8s">
-											<img src="/images/testimonial/client-4.webp" alt="" />
+											<img loading="lazy" src="/images/testimonial/client-4.webp" alt="" />
 										</li>
 									</ul>
 								</div>

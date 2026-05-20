@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -10,7 +10,7 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo.webp" alt="Logos" />
+										<img loading="lazy" src="/images/logos/logo.webp" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -21,10 +21,10 @@ const Footer = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-1.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-2.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -168,7 +168,7 @@ const Footer = () => {
 								</div>
 								<div className="copyright-text">
 									<p>
-										&copy; 2025 
+										&copy; 2025Â 
 										<Link
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
@@ -184,13 +184,14 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);
 };
 
 export default Footer;
+

@@ -17,10 +17,10 @@ const Footer4 = () => {
 								</div>
 								<div className="award-logo-area" style={{ display: "none" }}>
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-1.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-2.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -71,8 +71,8 @@ const Footer4 = () => {
 									</div>
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "#5b92e5", display: "block", marginBottom: "4px" }}>Secure Communications</span>
-										<Link href="mailto:OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM" style={{ wordBreak: "break-all", fontWeight: "700" }}>
-											OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM
+										<Link href="mailto:info@eminentdiplomats.org" style={{ wordBreak: "break-all", fontWeight: "700" }}>
+											info@eminentdiplomats.org
 										</Link>
 									</div>
 								</div>

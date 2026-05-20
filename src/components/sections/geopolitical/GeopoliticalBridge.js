@@ -60,7 +60,7 @@ const GeopoliticalBridge = () => {
 			<div style={{ position: "relative", width: "100%", minHeight: "480px" }}>
 
 				{/* Full-bleed map image */}
-				<img
+				<img loading="lazy"
 					src="/images/bg/geopolitical_map.png"
 					alt="Geopolitical Connection Map"
 					style={{
@@ -294,12 +294,7 @@ const GeopoliticalBridge = () => {
 			<div style={{ background: "#09121c", borderTop: "1px solid rgba(91,146,229,0.2)", padding: "13px 0" }}>
 				<p style={{ margin: 0, textAlign: "center", color: "rgba(255,255,255,0.45)", fontSize: "0.72rem", fontWeight: "600", letterSpacing: "1.2px", textTransform: "uppercase" }}>
 					Nairobi, Kenya&nbsp;&nbsp;|&nbsp;&nbsp;Singapore&nbsp;&nbsp;|&nbsp;&nbsp;Brussels&nbsp;&nbsp;|&nbsp;&nbsp;Beijing, China&nbsp;&nbsp;|&nbsp;&nbsp;
-					<span style={{ color: "rgba(91,146,229,0.8)" }}>
-						Secure Communications:&nbsp;
-						<a href="mailto:OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM" style={{ color: "#5b92e5", textDecoration: "none" }}>
-							OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM
-						</a>
-					</span>
+					
 				</p>
 			</div>
 		</section>

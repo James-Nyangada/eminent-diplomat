@@ -62,7 +62,7 @@ const Footer5 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-2.webp" alt="Logos" />
+										<img loading="lazy" src="/images/logos/logo-2.webp" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -73,10 +73,10 @@ const Footer5 = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-white-1.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-white-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-white-2.webp" alt="" />
+										<img loading="lazy" src="/images/footer/award-logo-white-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -225,10 +225,10 @@ const Footer5 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);

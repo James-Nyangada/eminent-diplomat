@@ -76,13 +76,13 @@ const About2 = () => {
 							<div className="customers">
 								<ul>
 									<li className="wow fadeInUp" data-wow-delay=".3s">
-										<img src="/images/testimonial/client-1.webp" alt="" />
+										<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".4s">
-										<img src="/images/testimonial/client-2.webp" alt="" />
+										<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".5s">
-										<img src="/images/testimonial/client-3.webp" alt="" />
+										<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".6s">
 										<span>
@@ -98,7 +98,7 @@ const About2 = () => {
 								We have 100+ happy customer.
 							</h6>
 							<div className="star-icon zoomInOut">
-								<img src="/images/shape/star.svg" alt="" />
+								<img loading="lazy" src="/images/shape/star.svg" alt="" />
 							</div>
 						</div>
 					</div>

@@ -56,13 +56,13 @@ const Process4 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+				<img loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

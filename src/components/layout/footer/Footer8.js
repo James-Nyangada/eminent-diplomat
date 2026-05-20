@@ -14,7 +14,7 @@ const Footer8 = () => {
 										className="wow fadeInUpBig"
 										data-wow-delay=".3s"
 									>
-										<img src="/images/logos/logo-large.webp" alt="" />
+										<img loading="lazy" src="/images/logos/logo-large.webp" alt="" />
 									</Link>
 								</div>
 								<div
@@ -198,16 +198,16 @@ const Footer8 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3 wow fadeInUpBig" data-wow-delay="1s">
-				<img src="/images/shape/h8-footer-shape-blur-1.svg" alt="" />
+				<img loading="lazy" src="/images/shape/h8-footer-shape-blur-1.svg" alt="" />
 			</div>
 			<div className="bg-shape-4 wow fadeInDownBig" data-wow-delay=".8s">
-				<img src="/images/shape/h8-footer-shape-blur-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/h8-footer-shape-blur-2.svg" alt="" />
 			</div>
 		</footer>
 	);

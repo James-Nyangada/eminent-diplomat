@@ -42,7 +42,7 @@ const About5 = () => {
 									</div>
 								</div>
 								<div className="h6-about-funfact-shape">
-									<img
+									<img loading="lazy"
 										src="/images/shape/about-counter-shape-blur.svg"
 										alt=""
 									/>
@@ -62,7 +62,7 @@ const About5 = () => {
 								className="about-img overflow-hidden  wow fadeInUp"
 								data-wow-delay=".8s"
 							>
-								<img
+								<img loading="lazy"
 									data-speed=".8"
 									src="/images/about/h6-about-banner.webp"
 									alt=""
@@ -73,13 +73,13 @@ const About5 = () => {
 									<div className="customers">
 										<ul>
 											<li className="wow fadeInUp" data-wow-delay=".5s">
-												<img src="/images/testimonial/client-1.webp" alt="" />
+												<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".6s">
-												<img src="/images/testimonial/client-2.webp" alt="" />
+												<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".7s">
-												<img src="/images/testimonial/client-3.webp" alt="" />
+												<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".8s">
 												<span>
@@ -101,13 +101,13 @@ const About5 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/shape-blur.svg" alt="" />
+				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

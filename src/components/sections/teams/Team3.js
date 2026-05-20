@@ -26,7 +26,7 @@ const Team3 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+				<img loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -94,7 +94,7 @@ const PillarsContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".2s">
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-									<img src="/images/pillars/infrastructure.png" alt="Strategic Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/pillars/infrastructure.png" alt="Strategic Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
@@ -111,7 +111,7 @@ const PillarsContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".3s">
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-									<img src="/images/pillars/agribusiness.png" alt="Agribusiness Value-Addition" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/pillars/agribusiness.png" alt="Agribusiness Value-Addition" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
@@ -128,7 +128,7 @@ const PillarsContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-									<img src="/images/pillars/healthcare.png" alt="Healthcare Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/pillars/healthcare.png" alt="Healthcare Infrastructure" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
@@ -145,7 +145,7 @@ const PillarsContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".5s">
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ width: "100%", height: "200px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-									<img src="/images/pillars/education.png" alt="Educational Transformation" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/pillars/education.png" alt="Educational Transformation" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
@@ -162,7 +162,7 @@ const PillarsContent = () => {
 						<div className="col-12 wow fadeInUp" data-wow-delay=".6s">
 							<div className="sector-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", transition: "all 0.3s ease-in-out" }}>
 								<div style={{ width: "100%", height: "250px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-									<img src="/images/pillars/climate_action.png" alt="Climate Action" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									<img loading="lazy" src="/images/pillars/climate_action.png" alt="Climate Action" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 								</div>
 								<div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
 									<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>

@@ -22,7 +22,7 @@ const Testimonials2 = ({ type }) => {
 							data-wow-delay=".3s"
 						>
 							<div className="testimonial-img">
-								<img
+								<img loading="lazy"
 									data-speed=".8"
 									src="/images/testimonial/testimonial-img.webp"
 									alt=""

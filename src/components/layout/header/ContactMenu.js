@@ -23,7 +23,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo-white.png" alt="Logo" style={{ maxHeight: "35px" }} />
+									<img loading="lazy" src="/images/logos/logo-white.png" alt="Logo" style={{ maxHeight: "35px" }} />
 								</Link>
 							</div>
 							<div className="hamburger_close">
@@ -58,8 +58,8 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM" style={{ wordBreak: "break-all" }}>
-										OFFICIAL.INTAKE@EMINENTDIPLOMATS.COM
+									<Link className="contact-link" href="mailto:info@eminentdiplomats.org" style={{ wordBreak: "break-all" }}>
+										info@eminentdiplomats.org
 									</Link>
 								</div>
 								<div className="contact-item">

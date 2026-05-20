@@ -11,7 +11,7 @@ const About9 = () => {
 							data-wow-delay=".3s"
 						>
 							<div className="about-img overflow-hidden">
-								<img
+								<img loading="lazy"
 									data-speed=".8"
 									src="/images/about/h10-about-banner.webp"
 									alt=""
@@ -40,7 +40,7 @@ const About9 = () => {
 										data-wow-delay=".3s"
 									>
 										<div className="about-img">
-											<img src="/images/about/h10-about-banner.webp" alt="" />
+											<img loading="lazy" src="/images/about/h10-about-banner.webp" alt="" />
 										</div>
 									</div>
 								</div>
@@ -53,19 +53,19 @@ const About9 = () => {
 											<div className="customers">
 												<ul>
 													<li className="wow fadeInUp" data-wow-delay=".2s">
-														<img
+														<img loading="lazy"
 															src="/images/testimonial/client-1.webp"
 															alt=""
 														/>
 													</li>
 													<li className="wow fadeInUp" data-wow-delay=".3s">
-														<img
+														<img loading="lazy"
 															src="/images/testimonial/client-2.webp"
 															alt=""
 														/>
 													</li>
 													<li className="wow fadeInUp" data-wow-delay=".4s">
-														<img
+														<img loading="lazy"
 															src="/images/testimonial/client-3.webp"
 															alt=""
 														/>

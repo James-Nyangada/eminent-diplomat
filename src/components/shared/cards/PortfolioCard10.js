@@ -15,7 +15,7 @@ const PortfolioCard10 = ({ portfolio }) => {
 		>
 			<div className="project-img" data-cursor-text="View Project">
 				<Link href={`/portfolios/${id}`}>
-					<img src={img8} alt="Image" />
+					<img loading="lazy" src={img8} alt="Image" />
 				</Link>
 			</div>
 			<div className="project-content">

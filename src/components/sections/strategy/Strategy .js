@@ -29,7 +29,7 @@ const Strategy = () => {
 								Rebranding Strategy for a Growing
 							</h4>
 							<div className="h5-strategy-avatar">
-								<img src="/images/strategy/strategy-avatar.webp" alt="" />
+								<img loading="lazy" src="/images/strategy/strategy-avatar.webp" alt="" />
 							</div>
 							<div className="h5-strategy-counter">
 								<div className="count-inner h5-strategy-counter-inner">
@@ -50,7 +50,7 @@ const Strategy = () => {
 								Rebranding Strategy for a Growing
 							</h4>
 							<div className="h5-strategy-chart">
-								<img src="/images/strategy/strategy-chart.webp" alt="" />
+								<img loading="lazy" src="/images/strategy/strategy-chart.webp" alt="" />
 							</div>
 						</div>
 					</div>

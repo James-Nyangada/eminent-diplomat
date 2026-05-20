@@ -20,7 +20,7 @@ const BlogCard10 = ({ blog, idx, hasNoDesc }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img} alt="" />
+					<img loading="lazy" src={img} alt="" />
 				</Link>
 			</div>
 			<div className="blog-content">

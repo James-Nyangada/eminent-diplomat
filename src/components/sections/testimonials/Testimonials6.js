@@ -11,7 +11,7 @@ const Testimonials6 = () => {
 					<div className="col-lg-6">
 						<div className="slidebar-stickiy">
 							<div className="h6-testimonial-banner">
-								<img
+								<img loading="lazy"
 									src="/images/testimonial/h6-testimonial-banner.webp"
 									alt=""
 								/>
@@ -59,10 +59,10 @@ const Testimonials6 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

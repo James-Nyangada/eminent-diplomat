@@ -77,7 +77,7 @@ const About6 = () => {
 				<div className="row">
 					<div className="col-12 col-xl-6">
 						<div className="h7-about-banner  wow fadeInUp" data-wow-delay=".2s">
-							<img
+							<img loading="lazy"
 								data-speed=".8"
 								src="/images/about/h7-about-banner.webp"
 								alt=""
@@ -161,10 +161,10 @@ const About6 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -26,7 +26,7 @@ const BrandSlider1 = ({ className }) => {
 				? brands?.map(({ img }, idx) => (
 						<SwiperSlide key={idx} className="client-item">
 							<div className="client-logo">
-								<img
+								<img loading="lazy"
 									src={img ? img : "/images/brands/brand-1.webp"}
 									alt="Brand"
 								/>

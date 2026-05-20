@@ -26,7 +26,7 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape">
-						<img src="/images/shape/pattern-bg.webp" alt="" />
+						<img loading="lazy" src="/images/shape/pattern-bg.webp" alt="" />
 					</div>
 				</div>
 				<div className="banner-right-box">

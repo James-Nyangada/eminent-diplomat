@@ -12,7 +12,7 @@ const PortfolioCard9 = ({ portfolio }) => {
 	return (
 		<div className="project-item">
 			<div className="project-img">
-				<img src={img3} alt="" />
+				<img loading="lazy" src={img3} alt="" />
 			</div>
 			<div className="project-content">
 				<span className="categories">

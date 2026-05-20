@@ -12,7 +12,7 @@ const HeroCard = ({ item, idx }) => {
 	return (
 		<div className="h6-hero-card">
 			<div className="h6-hero-card-banner">
-				<img src={img} alt="" />
+				<img loading="lazy" src={img} alt="" />
 				<PopupVideo>
 					<Link
 						className="h6-hero-card-video video-popup glightbox"

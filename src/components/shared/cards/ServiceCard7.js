@@ -16,7 +16,7 @@ const ServiceCard7 = ({ service, idx, lastItemIdx }) => {
 		<div className="h6-service-item">
 			<div className="h6-service-thumb">
 				<Link href={`/services/${id}`}>
-					<img src={img4} alt="" />
+					<img loading="lazy" src={img4} alt="" />
 				</Link>
 			</div>
 			<div className="h6-service-content">

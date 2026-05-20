@@ -22,7 +22,7 @@ const BlogCard4 = ({ blog, idx }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img} alt="" />
+					<img loading="lazy" src={img} alt="" />
 				</Link>
 				{idx === 0 ? (
 					<div className="blog-date">

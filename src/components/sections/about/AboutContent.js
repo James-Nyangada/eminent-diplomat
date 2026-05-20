@@ -21,7 +21,7 @@ const AboutContent = () => {
 							</div>
 
 							<div style={{ width: "100%", height: "380px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "40px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
-								<img src="/images/operations/executive_portrait.png" alt="Eminent Diplomats Leadership" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								<img loading="lazy" src="/images/operations/executive_portrait.png" alt="Eminent Diplomats Leadership" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 							</div>
 
 							<div className="sec-heading style-4 text-center" style={{ marginTop: "var(--block-margin-top)", background: "rgba(91, 146, 229, 0.04)", padding: "var(--container-padding)", borderRadius: "16px" }}>
@@ -241,7 +241,7 @@ const AboutContent = () => {
 								}}>
 									<div>
 										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
-											<img src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<img loading="lazy" src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "20px" }}>
 											{doc.title}
@@ -338,7 +338,7 @@ const AboutContent = () => {
 								}}>
 									<div>
 										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
-											<img src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<img loading="lazy" src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<span style={{
 											display: "inline-block",
@@ -364,7 +364,7 @@ const AboutContent = () => {
 
 									<div style={{ display: "flex", gap: "12px", marginTop: "20px", borderTop: "1px dashed rgba(91, 146, 229, 0.2)", paddingTop: "15px", alignItems: "center" }}>
 										<div style={{ width: "65px", height: "45px", borderRadius: "6px", overflow: "hidden", flexShrink: 0, border: "1px solid rgba(91, 146, 229, 0.15)" }}>
-											<img src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<img loading="lazy" src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<div>
 											<span style={{ fontSize: "0.72rem", fontWeight: "800", color: "#5b92e5", textTransform: "uppercase", display: "block", letterSpacing: "0.3px" }}>

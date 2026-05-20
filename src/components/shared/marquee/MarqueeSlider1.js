@@ -27,7 +27,7 @@ const MarqueeSlider1 = () => {
 							<SwiperSlide key={idx} className="marquee-item">
 								<h4 className="marquee-text">{title}</h4>
 								<div className="marquee-img">
-									<img src={img} alt="" />
+									<img loading="lazy" src={img} alt="" />
 								</div>
 							</SwiperSlide>
 						)

@@ -39,7 +39,7 @@ const About7 = () => {
 								<div className="row align-items-center">
 									<div className="col-12 col-lg-4">
 										<div className="h8-about-video">
-											<img src="/images/about/h8-about.webp" alt="" />
+											<img loading="lazy" src="/images/about/h8-about.webp" alt="" />
 											<PopupVideo>
 												<Link
 													className="h8-about-video-btn video-popup glightbox"

@@ -21,7 +21,7 @@ const BlogCard5 = ({ blog, idx, hasNoDesc }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img3} alt="" />
+					<img loading="lazy" src={img3} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

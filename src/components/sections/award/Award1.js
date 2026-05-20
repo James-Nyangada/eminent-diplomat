@@ -125,8 +125,8 @@ const Award1 = () => {
 													{modifyNumber(idx + 1)}.
 												</h6>
 												<div className="tj-award-img">
-													<img src={item.img} alt="" />
-													<img src={item.img2} alt="" />
+													<img loading="lazy" src={item.img} alt="" />
+													<img loading="lazy" src={item.img2} alt="" />
 												</div>
 											</div>
 

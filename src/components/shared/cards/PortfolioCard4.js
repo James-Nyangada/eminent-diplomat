@@ -25,7 +25,7 @@ const PortfolioCard4 = ({ portfolio }) => {
 				</div>
 			</div>
 			<div className="project-img">
-				<img src={img4} alt="Image" />
+				<img loading="lazy" src={img4} alt="Image" />
 			</div>
 		</div>
 	);
