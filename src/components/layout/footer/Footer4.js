@@ -41,7 +41,7 @@ const Footer4 = () => {
 										<Link href="/about">About</Link>
 									</li>
 									<li>
-										<Link href="/manifesto">The Manifesto</Link>
+										<Link href="/blogs">Blog</Link>
 									</li>
 									<li>
 										<Link href="/pillars">Pillars of Growth</Link>
