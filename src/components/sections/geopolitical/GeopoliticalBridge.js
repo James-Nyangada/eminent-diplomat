@@ -4,50 +4,31 @@ import Link from "next/link";
 
 const services = [
 	{
-		icon: (
-			<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-				<rect x="3" y="3" width="18" height="18" rx="2"/>
-				<path d="M3 9h18M9 21V9"/>
-			</svg>
-		),
+		image: "/images/service/sovereign_compendium.png",
 		title: "Sovereign Compendium:",
 		desc: "Gated intelligence for global mega-capital. Access pre-vetted, legally insulated sub-national assets.",
 		link: "/compendium",
 		cta: "Request Access Credentials",
 	},
 	{
-		icon: (
-			<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-				<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-			</svg>
-		),
+		image: "/images/service/deal_architecture.png",
 		title: "Deal Architecture:",
 		desc: "Converting regional mandates into bankable realities. We structure FDI pipelines and secure local value capture.",
 		link: "/contact",
 		cta: "Consult our Deal Architects",
 	},
 	{
-		icon: (
-			<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-				<circle cx="12" cy="12" r="10"/>
-				<path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-			</svg>
-		),
+		image: "/images/service/commercial_missions.png",
 		title: "Commercial Missions:",
 		desc: "Bespoke, closed-door matchmaking between Governors and institutional funds. Guaranteed execution speed.",
 		link: "/contact",
 		cta: "Register Interest for a Mission",
 	},
 	{
-		icon: (
-			<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-				<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-				<polyline points="9 22 9 12 15 12 15 22"/>
-			</svg>
-		),
+		image: "/images/service/project_execution.png",
 		title: "Project Execution:",
 		desc: "Mandated ground-level execution. Project management, land acquisition, and localized fiscal strategy for deployed capital.",
-		link: "/services",
+		link: "/about",
 		cta: "Explore Downstream Services",
 	},
 ];
@@ -113,24 +94,7 @@ const GeopoliticalBridge = () => {
 					<div className="row align-items-center w-100">
 						<div className="col-lg-6 col-12">
 
-							{/* ED badge */}
-							<div
-								className="wow fadeInUp"
-								data-wow-delay=".1s"
-								style={{
-									display: "inline-flex",
-									alignItems: "center",
-									justifyContent: "center",
-									width: "54px",
-									height: "54px",
-									borderRadius: "50%",
-									border: "1.5px solid rgba(91,146,229,0.8)",
-									background: "rgba(91,146,229,0.12)",
-									marginBottom: "24px",
-								}}
-							>
-								<span style={{ color: "#5b92e5", fontWeight: "800", fontSize: "1rem", letterSpacing: "1px" }}>ED</span>
-							</div>
+					
 
 							{/* Headline */}
 							<h2
@@ -245,8 +209,10 @@ const GeopoliticalBridge = () => {
 										e.currentTarget.style.background = "#fff";
 									}}
 								>
-									{/* Icon */}
-									<div style={{ color: "#5b92e5" }}>{svc.icon}</div>
+									{/* Image */}
+									<div style={{ width: "100%", height: "180px", borderRadius: "12px", overflow: "hidden", marginBottom: "8px" }}>
+										<img src={svc.image} alt={svc.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+									</div>
 
 									{/* Title */}
 									<h4 style={{ fontSize: "1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", margin: 0 }}>

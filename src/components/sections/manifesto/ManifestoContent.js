@@ -17,7 +17,7 @@ const ManifestoContent = () => {
 								</h2>
 								<div className="wow fadeInUp" data-wow-delay=".4s" style={{ background: "rgba(91, 146, 229, 0.03)", borderLeft: "4px solid #5b92e5", padding: "var(--card-padding)", borderRadius: "8px", margin: "var(--block-margin-y) 0", textAlign: "left" }}>
 									<p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "var(--tj-color-heading-primary)", fontWeight: "600", marginBottom: "15px" }}>
-										Eminent Diplomats Co. Ltd. operates at the critical intersection of high-stakes statecraft and international finance.
+										Eminent Diplomats operates at the critical intersection of high-stakes statecraft and international finance.
 									</p>
 									<p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "var(--tj-color-heading-primary)", fontWeight: "600", marginBottom: "15px" }}>
 										The firm architectures bilateral investment corridors.

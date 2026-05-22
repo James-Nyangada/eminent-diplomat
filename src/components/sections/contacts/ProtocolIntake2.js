@@ -180,7 +180,7 @@ const ProtocolIntake2 = () => {
 							</a>
 						</p>
 						<p style={{ margin: "0", fontSize: "0.8rem", opacity: "0.9" }}>
-							© 2025 Eminent Diplomats Co. Ltd. - Execution Is Non Negotiable.
+							© 2025 Eminent Diplomats - Execution Is Non Negotiable.
 						</p>
 					</div>
 				</div>

@@ -57,26 +57,26 @@ START: Theme Default CSS
 }
 
 :root {
-	--section-padding-y: 80px;
-	--heading-margin-bottom: 50px;
-	--card-padding: 40px;
-	--container-padding: 45px 35px;
-	--block-margin-top: 60px;
-	--block-margin-y: 40px;
+	--section-padding-y: 50px;
+	--heading-margin-bottom: 40px;
+	--card-padding: 30px;
+	--container-padding: 30px 20px;
+	--block-margin-top: 50px;
+	--block-margin-y: 30px;
 
 	@media #{$lg} {
-		--section-padding-y: 60px;
-		--heading-margin-bottom: 40px;
-		--card-padding: 30px;
-		--container-padding: 35px 25px;
-		--block-margin-top: 45px;
-		--block-margin-y: 30px;
+		--section-padding-y: 40px;
+		--heading-margin-bottom: 30px;
+		--card-padding: 25px;
+		--container-padding: 25px 15px;
+		--block-margin-top: 40px;
+		--block-margin-y: 25px;
 	}
 	@media #{$md, $sm, $xs} {
-		--section-padding-y: 40px;
+		--section-padding-y: 30px;
 		--heading-margin-bottom: 25px;
 		--card-padding: 20px;
-		--container-padding: 25px 20px;
+		--container-padding: 20px 15px;
 		--block-margin-top: 30px;
 		--block-margin-y: 20px;
 	}

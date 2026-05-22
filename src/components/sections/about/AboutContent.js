@@ -16,7 +16,7 @@ const AboutContent = () => {
 									COMMERCIAL DIPLOMACY ASSETIZED.
 								</h2>
 								<p className="desc wow fadeInUp" data-wow-delay=".3s" style={{ fontSize: "1.3rem", lineHeight: "1.8", color: "#364e52", fontWeight: "500", marginBottom: "50px" }}>
-									Eminent Diplomats Co. Ltd. is the geopolitical bridge for sovereign capital, operating at the critical intersection of high-stakes statecraft and international finance. We deliver absolute institutional execution.
+									Eminent Diplomats is the geopolitical bridge for sovereign capital, operating at the critical intersection of high-stakes statecraft and international finance. We deliver absolute institutional execution.
 								</p>
 							</div>
 
@@ -100,7 +100,7 @@ const AboutContent = () => {
 						<div className="col-12 wow fadeInUp" data-wow-delay=".6s" style={{ marginTop: "var(--block-margin-y)" }}>
 							<div className="lens-card" style={{
 								background: "var(--tj-color-common-white)",
-								border: "2px solid #5b92e5",
+								
 								borderRadius: "16px",
 								padding: "var(--card-padding)",
 								textAlign: "center",
@@ -157,7 +157,7 @@ const AboutContent = () => {
 							<div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
 								{[
 									{ step: "01", title: "Sub-National Assets", desc: "Capturing raw potential and mandates directly from source asset custodians." },
-									{ step: "02", title: "Eminent Diplomats Co. Ltd.", desc: "Applying forensic de-risking, bureaucratic mitigation, and strategic legal insulation." },
+									{ step: "02", title: "Eminent Diplomats", desc: "Applying forensic de-risking, bureaucratic mitigation, and strategic legal insulation." },
 									{ step: "03", title: "Bankable Inventories", desc: "Utilizing our proprietary financial intelligence product, The Sovereign Compendium, to bound and legally insulate instruments." },
 									{ step: "04", title: "Global Mega-Capital", desc: "Deploying capital securely from Sovereign Wealth Funds (SWFs), State-Owned Enterprises (SOEs), and elite global conglomerates." }
 								].map((item, idx) => (
@@ -271,7 +271,7 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 5: GEOPOLITICAL FOOTPRINT & LIASON NETWORK */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
+			<section className="section-gap section-gap-x" style={{ padding: "var(--section-padding-y) 0", background: "var(--tj-color-common-white)" }}>
 				<div className="container">
 					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
@@ -326,31 +326,33 @@ const AboutContent = () => {
 						].map((item, idx) => (
 							<div key={idx} className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.15 * idx}s`}>
 								<div style={{
-									background: "var(--tj-color-theme-bg)",
-									borderRadius: "16px",
+									background: "var(--tj-color-common-white)",
+									borderRadius: "20px",
 									padding: "var(--card-padding)",
-									height: "100%",
-									boxShadow: "0 10px 30px rgba(91, 146, 229, 0.04)",
-									border: "1px solid rgba(91, 146, 229, 0.15)",
+									minHeight: "100%",
+									boxShadow: "0 15px 45px rgba(0,0,0,0.04)",
+									border: "1px solid rgba(91, 146, 229, 0.1)",
 									display: "flex",
 									flexDirection: "column",
 									justifyContent: "space-between"
 								}}>
 									<div>
-										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
+										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
 											<img loading="lazy" src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<span style={{
-											display: "inline-block",
-											background: "rgba(91, 146, 229, 0.1)",
+											display: "inline-flex",
+											background: "rgba(91, 146, 229, 0.08)",
 											color: "#5b92e5",
-											padding: "4px 10px",
-											borderRadius: "30px",
+											padding: "8px 14px",
+											borderRadius: "8px",
 											fontSize: "0.75rem",
-											fontWeight: "700",
+											fontWeight: "800",
+											lineHeight: "1.4",
 											textTransform: "uppercase",
 											letterSpacing: "0.5px",
-											marginBottom: "12px"
+											marginBottom: "15px",
+											textAlign: "left"
 										}}>
 											{item.role}
 										</span>
@@ -362,15 +364,15 @@ const AboutContent = () => {
 										</p>
 									</div>
 
-									<div style={{ display: "flex", gap: "12px", marginTop: "20px", borderTop: "1px dashed rgba(91, 146, 229, 0.2)", paddingTop: "15px", alignItems: "center" }}>
-										<div style={{ width: "65px", height: "45px", borderRadius: "6px", overflow: "hidden", flexShrink: 0, border: "1px solid rgba(91, 146, 229, 0.15)" }}>
+									<div style={{ display: "flex", gap: "12px", marginTop: "25px", borderTop: "1px solid rgba(0, 0, 0, 0.05)", paddingTop: "20px", alignItems: "center" }}>
+										<div style={{ width: "50px", height: "50px", borderRadius: "10px", overflow: "hidden", flexShrink: 0, border: "1px solid rgba(91, 146, 229, 0.1)" }}>
 											<img loading="lazy" src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
-										<div>
-											<span style={{ fontSize: "0.72rem", fontWeight: "800", color: "#5b92e5", textTransform: "uppercase", display: "block", letterSpacing: "0.3px" }}>
+										<div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+											<span style={{ fontSize: "0.72rem", fontWeight: "800", color: "#5b92e5", textTransform: "uppercase", display: "block", letterSpacing: "0.5px", marginBottom: "2px" }}>
 												Active Summit Room
 											</span>
-											<span style={{ fontSize: "0.85rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginTop: "2px" }}>
+											<span style={{ fontSize: "0.9rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", lineHeight: "1.3" }}>
 												{item.conferenceLabel}
 											</span>
 										</div>

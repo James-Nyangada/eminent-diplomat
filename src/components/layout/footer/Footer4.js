@@ -12,7 +12,7 @@ const Footer4 = () => {
 								<h5 className="title">Our Company</h5>
 								<div className="footer-text">
 									<p style={{ lineHeight: "1.7", fontSize: "1rem" }}>
-										Eminent Diplomats Co. Ltd. is the geopolitical bridge for sovereign capital, operating at the critical intersection of high-stakes statecraft and international finance. We deliver absolute institutional execution.
+										Eminent Diplomats is the geopolitical bridge for sovereign capital, operating at the critical intersection of high-stakes statecraft and international finance. We deliver absolute institutional execution.
 									</p>
 								</div>
 								<div className="award-logo-area" style={{ display: "none" }}>
@@ -92,7 +92,7 @@ const Footer4 = () => {
 									<p>
 										&copy; 2026 
 										<span style={{ fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
-											EMINENT DIPLOMATS CO. LTD.
+											EMINENT DIPLOMATS
 										</span>{" "}
 										All rights reserved.
 									</p>

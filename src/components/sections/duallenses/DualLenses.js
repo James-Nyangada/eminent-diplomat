@@ -21,7 +21,7 @@ const DualLenses = () => {
 					<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 						<div className="lens-card" style={{
 							background: "var(--tj-color-common-white)",
-							border: "2px solid #5b92e5",
+							
 							borderRadius: "16px",
 							padding: "var(--card-padding)",
 							height: "100%",
@@ -78,7 +78,7 @@ const DualLenses = () => {
 					<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 						<div className="lens-card" style={{
 							background: "var(--tj-color-common-white)",
-							border: "2px solid #5b92e5",
+							
 							borderRadius: "16px",
 							padding: "var(--card-padding)",
 							height: "100%",

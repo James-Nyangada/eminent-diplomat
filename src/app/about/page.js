@@ -15,7 +15,7 @@ export default function About() {
 				<div id="smooth-content">
 					<main>
 						<div className="space-for-header"></div>
-						<HeroInner title={"About Eminent Diplomats Co. Ltd."} text={"Commercial Diplomacy Assetized."} />
+						<HeroInner title={"About Eminent Diplomats"} text={"Commercial Diplomacy Assetized."} />
 						<AboutContent />
 					</main>
 					<Footer4 />

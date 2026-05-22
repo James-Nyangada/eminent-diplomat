@@ -34,7 +34,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						</div>
 						<div className="offcanvas-text">
 							<p>
-								Eminent Diplomats Co. Ltd. serves as the absolute economic envoy to global industrial capitals for sub-national asset custodians. Sovereignty is non-negotiable.
+								Eminent Diplomats serves as the absolute economic envoy to global industrial capitals for sub-national asset custodians. Sovereignty is non-negotiable.
 							</p>
 						</div>
 						<div className="hamburger-search-area" style={{ display: "none" }}>

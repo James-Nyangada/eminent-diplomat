@@ -177,7 +177,7 @@ const IntakeContent = () => {
 
 								<div style={{ marginTop: "var(--block-margin-top)", borderTop: "1px dashed rgba(0,0,0,0.1)", paddingTop: "25px" }}>
 									<p style={{ fontSize: "0.9rem", color: "#8a9a9c", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: "0" }}>
-										Legal Identity: EMINENT DIPLOMATS CO. LTD. ALL RIGHTS RESERVED. 2026.
+										Legal Identity: EMINENT DIPLOMATS ALL RIGHTS RESERVED. 2026.
 									</p>
 								</div>
 							</div>

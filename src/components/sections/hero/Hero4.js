@@ -44,7 +44,7 @@ const Hero4 = () => {
 			<div className="h4-banner-area container" style={{ position: 'relative', zIndex: 2, padding: '150px 0', minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 				<div className="h4-banner-content text-center" style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 					<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ color: '#fff', background: 'rgba(255,255,255,0.1)', padding: '5px 18px', borderRadius: '30px', marginBottom: '28px', fontSize: '0.9rem', letterSpacing: '2px' }}>
-						EMINENT DIPLOMATS CO. LTD.
+						EMINENT DIPLOMATS
 					</span>
 					<h1 className="banner-title text-anim" style={{ textTransform: "uppercase", color: '#fff', fontSize: 'clamp(2.2rem, 5vw, 4rem)', fontWeight: '800', lineHeight: '1.2', marginBottom: '28px' }}>
 						THE CRUCIBLE OF GLOBAL CAPITAL

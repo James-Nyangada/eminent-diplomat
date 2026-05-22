@@ -69,6 +69,12 @@ const PillarsContent = () => {
 								</p>
 							</div>
 						</div>
+
+						<div className="col-lg-10 col-12 mt-5 wow fadeInUp" data-wow-delay=".5s">
+							<div className="image-box" style={{ borderRadius: "20px", overflow: "hidden", boxShadow: "0 15px 45px rgba(91, 146, 229, 0.15)", position: "relative", width: "100%", maxHeight: "600px" }}>
+								<img loading="lazy" src="/images/pillars/pillars_overview.png" alt="Structural Growth Pillars Overview" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

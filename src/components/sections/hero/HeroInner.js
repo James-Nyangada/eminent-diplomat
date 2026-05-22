@@ -47,32 +47,6 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 					<div className="col-lg-12">
 						<div className="tj-page-header-content text-center">
 							<h1 className={`tj-page-title`}>{title}</h1>
-							<div className="tj-page-link">
-								<span>
-									<i className="tji-home"></i>
-								</span>
-								<span>
-									<Link href="/">Home</Link>
-								</span>
-								<span>
-									<i className="tji-arrow-right"></i>
-								</span>
-								{breadcrums?.length
-									? breadcrums?.map(({ name, path }, idx) => (
-											<React.Fragment key={idx}>
-												<span>
-													<Link href={path ? path : "/"}>{name}</Link>
-												</span>
-												<span>
-													<i className="tji-arrow-right"></i>
-												</span>
-											</React.Fragment>
-									  ))
-									: ""}
-								<span>
-									<span>{sliceText(text, 28, true)}</span>
-								</span>
-							</div>
 						</div>
 					</div>
 				</div>

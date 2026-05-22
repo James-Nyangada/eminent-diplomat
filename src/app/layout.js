@@ -32,7 +32,7 @@ const headingFont = Mona_Sans({
 });
 
 export const metadata = {
-	title: "EMINENT DIPLOMATS CO. LTD. | Sovereign Capital Corridors",
+	title: "EMINENT DIPLOMATS | Sovereign Capital Corridors",
 	description: "The Geopolitical Bridge for Sovereign Capital | Absolute Institutional Execution. De-risking sub-national assets, eliminating bureaucratic friction, and engineering secure economic corridors.",
 };
 
