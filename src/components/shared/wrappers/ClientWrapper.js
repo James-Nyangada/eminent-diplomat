@@ -28,6 +28,12 @@ const ClientWrapper = () => {
 	useEffect(() => {
 		let cleanup;
 		const timer = setTimeout(() => {
+			import("@/app/assets/css/animate.min.css");
+			import("@/app/assets/css/glightbox.min.css");
+			import("@/app/assets/css/nice-select2.css");
+			import("@/app/assets/css/odometer-theme-default.css");
+			import("react-range-slider-input/dist/style.css");
+			
 			import("wow.js").then(({ default: WOW }) => {
 				new WOW().init();
 			});

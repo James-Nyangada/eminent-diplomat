@@ -4,6 +4,8 @@ import Ratings1 from "@/components/shared/ratings/Ratings1";
 import getTestimonials from "@/libs/getTestimonials";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const Testimonials2 = ({ type }) => {
 	const testimonials = getTestimonials()?.slice(0, 3);
@@ -22,11 +24,10 @@ const Testimonials2 = ({ type }) => {
 							data-wow-delay=".3s"
 						>
 							<div className="testimonial-img">
-								<img loading="lazy"
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 									data-speed=".8"
 									src="/images/testimonial/testimonial-img.webp"
-									alt=""
-								/>
+									alt="" />
 								<div className="sec-heading style-2">
 									<h2
 										className={`sec-title ${

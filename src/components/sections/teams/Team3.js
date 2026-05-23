@@ -1,4 +1,6 @@
 import TeamMarqueeSlider from "@/components/shared/marquee/TeamMarqueeSlider";
+import Image from "next/image";
+
 
 const Team3 = () => {
 	return (
@@ -26,7 +28,7 @@ const Team3 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -1,5 +1,7 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
+import Image from "next/image";
+
 const About5 = () => {
 	return (
 		<section className="tj-about-section h6-about section-gap section-gap-x">
@@ -42,10 +44,9 @@ const About5 = () => {
 									</div>
 								</div>
 								<div className="h6-about-funfact-shape">
-									<img loading="lazy"
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 										src="/images/shape/about-counter-shape-blur.svg"
-										alt=""
-									/>
+										alt="" />
 								</div>
 							</div>
 							<div className="btn-area wow fadeInUp" data-wow-delay=".8s">
@@ -62,24 +63,23 @@ const About5 = () => {
 								className="about-img overflow-hidden  wow fadeInUp"
 								data-wow-delay=".8s"
 							>
-								<img loading="lazy"
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 									data-speed=".8"
 									src="/images/about/h6-about-banner.webp"
-									alt=""
-								/>
+									alt="" />
 							</div>
 							<div className="box-area h6-about-box  ">
 								<div className="customers-box wow fadeInUp" data-wow-delay="1s">
 									<div className="customers">
 										<ul>
 											<li className="wow fadeInUp" data-wow-delay=".5s">
-												<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
+												<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".6s">
-												<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
+												<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".7s">
-												<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
+												<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".8s">
 												<span>
@@ -101,13 +101,13 @@ const About5 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

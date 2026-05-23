@@ -2,6 +2,8 @@ import makePath from "@/libs/makePath";
 import makeWowDelay from "@/libs/makeWowDelay";
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const BlogCard3 = ({ blog, idx }) => {
 	const { title, desc, id, img2, category, date, day, month } = blog || {};
@@ -12,7 +14,7 @@ const BlogCard3 = ({ blog, idx }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img loading="lazy" src={img2 ? img2 : "/images/blog/blog-6.webp"} alt="" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img2 ? img2 : "/images/blog/blog-6.webp"} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

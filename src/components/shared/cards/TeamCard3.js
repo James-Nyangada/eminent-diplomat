@@ -1,5 +1,7 @@
 import makeWowDelay from "@/libs/makeWowDelay";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const TeamCard3 = ({ teamMember, idx }) => {
 	const {
@@ -16,7 +18,7 @@ const TeamCard3 = ({ teamMember, idx }) => {
 			>
 				<div className="team-img">
 					<div className="team-img-inner">
-						<img loading="lazy" src={img} alt="" />
+						<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img} alt="" />
 					</div>
 					<div className="social-links">
 						<ul>

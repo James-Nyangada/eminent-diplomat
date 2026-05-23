@@ -2,6 +2,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Contact2 = () => {
 	return (
@@ -11,7 +13,7 @@ const Contact2 = () => {
 					<div className="col-lg-6">
 						<div className="global-map wow fadeInUp" data-wow-delay=".3s">
 							<div className="global-map-img">
-								<img loading="lazy" src="/images/bg/map.svg" alt="Image" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/bg/map.svg" alt="Image" />
 								<div className="location-indicator loc-1">
 									<div className="location-tooltip">
 										<span>Head office:</span>
@@ -138,10 +140,10 @@ const Contact2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

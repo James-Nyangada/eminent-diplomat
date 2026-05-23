@@ -3,6 +3,8 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import PortfolioCard6 from "@/components/shared/cards/PortfolioCard6";
 import getPortfolio from "@/libs/getPortfolio";
 import { useCallback, useState } from "react";
+import Image from "next/image";
+
 const Portfolios6 = () => {
 	const portfolio = getPortfolio()?.slice(0, 6);
 	const [currentIndex, setCurrentIndex] = useState(2);
@@ -54,13 +56,13 @@ const Portfolios6 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

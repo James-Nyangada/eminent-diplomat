@@ -1,5 +1,7 @@
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import Image from "next/image";
+
 
 const PortfolioCard5 = ({ portfolio }) => {
 	const {
@@ -14,7 +16,7 @@ const PortfolioCard5 = ({ portfolio }) => {
 		<div className="h5-project-item-wrapper tj-scroll-slider-item">
 			<div className="project-item h4-project-item  h5-project-item">
 				<div className="project-img">
-					<img loading="lazy" src={img5} alt="Image" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img5} alt="Image" />
 				</div>
 				<div className="project-content">
 					<span className="categories">

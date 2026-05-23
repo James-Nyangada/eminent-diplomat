@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
+
 
 const services = [
 	{
@@ -41,7 +43,7 @@ const GeopoliticalBridge = () => {
 			<div style={{ position: "relative", width: "100%", minHeight: "480px" }}>
 
 				{/* Full-bleed map image */}
-				<img fetchPriority="high"
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} fetchPriority="high"
 					src="/images/bg/geopolitical_map.webp"
 					alt="Geopolitical Connection Map"
 					style={{
@@ -53,8 +55,7 @@ const GeopoliticalBridge = () => {
 						objectFit: "cover",
 						objectPosition: "center center",
 						display: "block",
-					}}
-				/>
+					}} />
 
 				{/* Left-side gradient so text remains readable */}
 				<div
@@ -211,7 +212,7 @@ const GeopoliticalBridge = () => {
 								>
 									{/* Image */}
 									<div style={{ width: "100%", height: "180px", borderRadius: "12px", overflow: "hidden", marginBottom: "8px" }}>
-										<img src={svc.image} alt={svc.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src={svc.image} alt={svc.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 									</div>
 
 									{/* Title */}

@@ -2,6 +2,8 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import TesstimonialsVerticalSlider from "@/components/shared/testimonials/TesstimonialsVerticalSlider";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Testimonials6 = () => {
 	return (
@@ -11,10 +13,9 @@ const Testimonials6 = () => {
 					<div className="col-lg-6">
 						<div className="slidebar-stickiy">
 							<div className="h6-testimonial-banner">
-								<img loading="lazy"
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 									src="/images/testimonial/h6-testimonial-banner.webp"
-									alt=""
-								/>
+									alt="" />
 								<PopupVideo>
 									<Link
 										className="h6-testimonial-banner-video video-popup glightbox"
@@ -59,10 +60,10 @@ const Testimonials6 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

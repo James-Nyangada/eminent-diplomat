@@ -1,6 +1,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import TitleSlider from "@/components/shared/hero/TitleSlider";
+import Image from "next/image";
+
 
 const Hero5 = () => {
 	return (
@@ -38,10 +40,10 @@ const Hero5 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="banner-scroll wow fadeInDown" data-wow-delay="1.5s">
 				<button data-target="#choose" className="scroll-down tj-scroll-btn">

@@ -3,6 +3,8 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const About7 = () => {
 	return (
@@ -39,7 +41,7 @@ const About7 = () => {
 								<div className="row align-items-center">
 									<div className="col-12 col-lg-4">
 										<div className="h8-about-video">
-											<img loading="lazy" src="/images/about/h8-about.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/about/h8-about.webp" alt="" />
 											<PopupVideo>
 												<Link
 													className="h8-about-video-btn video-popup glightbox"

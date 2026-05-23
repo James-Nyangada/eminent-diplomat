@@ -76,13 +76,13 @@ const About2 = () => {
 							<div className="customers">
 								<ul>
 									<li className="wow fadeInUp" data-wow-delay=".3s">
-										<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".4s">
-										<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".5s">
-										<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".6s">
 										<span>
@@ -98,7 +98,7 @@ const About2 = () => {
 								We have 100+ happy customer.
 							</h6>
 							<div className="star-icon zoomInOut">
-								<img loading="lazy" src="/images/shape/star.svg" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/star.svg" alt="" />
 							</div>
 						</div>
 					</div>

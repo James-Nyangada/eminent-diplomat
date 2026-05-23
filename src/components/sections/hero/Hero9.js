@@ -1,5 +1,7 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Hero9 = () => {
 	return (
@@ -61,7 +63,7 @@ const Hero9 = () => {
 						className="h9-hero-img  img-parallax wow fadeInUp"
 						data-wow-delay="0.9s"
 					>
-						<img loading="lazy" src="/images/hero/h9-hero-img.webp" alt="" />
+						<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/hero/h9-hero-img.webp" alt="" />
 					</div>
 				</div>
 			</div>
@@ -69,21 +71,19 @@ const Hero9 = () => {
 				className="h7-hero-shape h9-hero-shape-1 wow fadeInUpBig"
 				data-wow-delay="1s"
 			>
-				<img loading="lazy"
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} 
 					className="tj-anim-move-var-big"
 					src="/images/shape/h7-hero-blur-1.png"
-					alt=""
-				/>
+					alt="" />
 			</div>
 			<div
 				className="h7-hero-shape h9-hero-shape-2 wow fadeInDownBig"
 				data-wow-delay="1.2s"
 			>
-				<img loading="lazy"
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} 
 					className="tj-anim-move-var-big-reverse"
 					src="/images/shape/h7-hero-blur-2.png"
-					alt=""
-				/>
+					alt="" />
 			</div>
 		</section>
 	);

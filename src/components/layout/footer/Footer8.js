@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer8 = () => {
 	return (
@@ -14,7 +16,7 @@ const Footer8 = () => {
 										className="wow fadeInUpBig"
 										data-wow-delay=".3s"
 									>
-										<img loading="lazy" src="/images/logos/logo-large.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-large.webp" alt="" />
 									</Link>
 								</div>
 								<div
@@ -198,16 +200,16 @@ const Footer8 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3 wow fadeInUpBig" data-wow-delay="1s">
-				<img loading="lazy" src="/images/shape/h8-footer-shape-blur-1.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/h8-footer-shape-blur-1.svg" alt="" />
 			</div>
 			<div className="bg-shape-4 wow fadeInDownBig" data-wow-delay=".8s">
-				<img loading="lazy" src="/images/shape/h8-footer-shape-blur-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/h8-footer-shape-blur-2.svg" alt="" />
 			</div>
 		</footer>
 	);

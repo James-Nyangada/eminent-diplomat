@@ -1,5 +1,7 @@
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const ServiceCard7 = ({ service, idx, lastItemIdx }) => {
 	const {
@@ -16,7 +18,7 @@ const ServiceCard7 = ({ service, idx, lastItemIdx }) => {
 		<div className="h6-service-item">
 			<div className="h6-service-thumb">
 				<Link href={`/services/${id}`}>
-					<img loading="lazy" src={img4} alt="" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img4} alt="" />
 				</Link>
 			</div>
 			<div className="h6-service-content">

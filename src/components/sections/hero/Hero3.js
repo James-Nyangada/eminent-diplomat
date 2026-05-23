@@ -22,7 +22,7 @@ const Hero3 = () => {
 										href="https://www.youtube.com/watch?v=MLpWrANjFbI&ab_channel=eidelchteinadvogados"
 									>
 										<i className="tji-play"></i>
-										<Image
+										<Image priority 
 											src="/images/hero/title-img.webp"
 											alt=""
 											width={148}
@@ -45,7 +45,7 @@ const Hero3 = () => {
 					<div className="col-lg-7">
 						<div className="banner-img-area wow fadeInUp" data-wow-delay=".3s">
 							<div className="banner-img">
-								<Image
+								<Image priority 
 									src="/images/hero/hero-img-2.webp"
 									alt=""
 									width={507}
@@ -75,7 +75,7 @@ const Hero3 = () => {
 									</div>
 								</div>
 								<div className="growth-box wow fadeInUp" data-wow-delay="1.7s">
-									<Image
+									<Image priority 
 										src="/images/hero/growth.webp"
 										alt=""
 										width={158}
@@ -94,10 +94,10 @@ const Hero3 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="banner-scroll wow fadeInDown" data-wow-delay="2.5s">
 				<button data-target="#choose" className="scroll-down tj-scroll-btn">

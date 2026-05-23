@@ -1,5 +1,7 @@
 "use client";
 import PricingPlanItems from "@/components/shared/pricing-plan/PricingPlanItems";
+import Image from "next/image";
+
 
 const PricingPlan = ({ type = 1 }) => {
 	return (
@@ -35,10 +37,10 @@ const PricingPlan = ({ type = 1 }) => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

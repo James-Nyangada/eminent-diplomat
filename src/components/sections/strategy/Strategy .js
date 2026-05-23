@@ -1,6 +1,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Strategy = () => {
 	return (
@@ -29,7 +31,7 @@ const Strategy = () => {
 								Rebranding Strategy for a Growing
 							</h4>
 							<div className="h5-strategy-avatar">
-								<img loading="lazy" src="/images/strategy/strategy-avatar.webp" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/strategy/strategy-avatar.webp" alt="" />
 							</div>
 							<div className="h5-strategy-counter">
 								<div className="count-inner h5-strategy-counter-inner">
@@ -50,7 +52,7 @@ const Strategy = () => {
 								Rebranding Strategy for a Growing
 							</h4>
 							<div className="h5-strategy-chart">
-								<img loading="lazy" src="/images/strategy/strategy-chart.webp" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/strategy/strategy-chart.webp" alt="" />
 							</div>
 						</div>
 					</div>

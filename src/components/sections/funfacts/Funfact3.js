@@ -1,5 +1,7 @@
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import Link from "next/link";
+import Image from "next/image";
+
 const Funfact3 = () => {
 	return (
 		<section className=" h8-funfact section-gap">
@@ -23,7 +25,7 @@ const Funfact3 = () => {
 							data-wow-delay=".3s"
 						>
 							<div className="h8-funfact-banner-img">
-								<img loading="lazy" src="/images/funfact/h8-funfact-banner.webp" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/funfact/h8-funfact-banner.webp" alt="" />
 							</div>
 							<div className="box-area">
 								<div className="call-box wow fadeInUp" data-wow-delay=".5s">

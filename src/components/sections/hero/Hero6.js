@@ -30,13 +30,13 @@ const Hero6 = () => {
 							</div>
 						</div>
 						<div className="bg-shape-2">
-							<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+							<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-3.svg" alt="" />
 						</div>
 					</div>
 				</div>
 				<div className="banner-right-box">
 					<div className="banner-img wow fadeInUp" data-wow-delay=".3s">
-						<Image
+						<Image priority 
 							width={938}
 							height={883}
 							data-speed=".8"

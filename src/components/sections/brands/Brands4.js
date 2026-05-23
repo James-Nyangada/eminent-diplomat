@@ -1,6 +1,8 @@
 import BrandSlider3 from "@/components/shared/brands/BrandSlider3";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
+import Image from "next/image";
+
 
 const Brands4 = () => {
 	return (
@@ -37,13 +39,13 @@ const Brands4 = () => {
 			</div>
 			<BrandSlider3 />
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

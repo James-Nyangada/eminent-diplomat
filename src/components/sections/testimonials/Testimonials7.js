@@ -3,6 +3,8 @@ import TestimonialsCard6 from "@/components/shared/cards/TestimonialsCard6";
 import getTestimonials from "@/libs/getTestimonials";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const Testimonials7 = () => {
 	const showbleTestimonials = getTestimonials()?.slice(0, 3);
@@ -89,17 +91,17 @@ const Testimonials7 = () => {
 								</span>
 							</div>
 							<div className="bg-shape-3">
-								<img loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import MobileNavbar from "./MobileNavbar";
+import Image from "next/image";
+
 
 const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 	const handleClick = () => {
@@ -23,7 +25,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img loading="lazy" src="/images/logos/logo-white.webp" alt="Logo" style={{ maxWidth: "80px" }} />
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-white.webp" alt="Logo" style={{ maxWidth: "80px" }} />
 								</Link>
 							</div>
 							<div className="hamburger_close">

@@ -2,6 +2,8 @@ import makePath from "@/libs/makePath";
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import Image from "next/image";
+
 
 const BlogCard2 = ({ blog, idx }) => {
 	const { title, desc, id, img1, category, date, day, month } = blog || {};
@@ -9,7 +11,7 @@ const BlogCard2 = ({ blog, idx }) => {
 		<div className="blog-item style-2">
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img loading="lazy" src={img1 ? img1 : "/images/blog/blog-4.webp"} alt="" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img1 ? img1 : "/images/blog/blog-4.webp"} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

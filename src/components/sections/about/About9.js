@@ -1,4 +1,6 @@
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
+import Image from "next/image";
+
 
 const About9 = () => {
 	return (
@@ -11,11 +13,10 @@ const About9 = () => {
 							data-wow-delay=".3s"
 						>
 							<div className="about-img overflow-hidden">
-								<img loading="lazy"
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 									data-speed=".8"
 									src="/images/about/h10-about-banner.webp"
-									alt=""
-								/>
+									alt="" />
 							</div>
 						</div>
 					</div>
@@ -40,7 +41,7 @@ const About9 = () => {
 										data-wow-delay=".3s"
 									>
 										<div className="about-img">
-											<img loading="lazy" src="/images/about/h10-about-banner.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/about/h10-about-banner.webp" alt="" />
 										</div>
 									</div>
 								</div>
@@ -53,22 +54,19 @@ const About9 = () => {
 											<div className="customers">
 												<ul>
 													<li className="wow fadeInUp" data-wow-delay=".2s">
-														<img loading="lazy"
+														<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 															src="/images/testimonial/client-1.webp"
-															alt=""
-														/>
+															alt="" />
 													</li>
 													<li className="wow fadeInUp" data-wow-delay=".3s">
-														<img loading="lazy"
+														<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 															src="/images/testimonial/client-2.webp"
-															alt=""
-														/>
+															alt="" />
 													</li>
 													<li className="wow fadeInUp" data-wow-delay=".4s">
-														<img loading="lazy"
+														<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 															src="/images/testimonial/client-3.webp"
-															alt=""
-														/>
+															alt="" />
 													</li>
 													<li className="wow fadeInUp" data-wow-delay=".5s">
 														<span>

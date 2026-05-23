@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer4 = () => {
 	return (
@@ -17,10 +19,10 @@ const Footer4 = () => {
 								</div>
 								<div className="award-logo-area" style={{ display: "none" }}>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
 								</div>
 							</div>

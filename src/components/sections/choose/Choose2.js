@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Choose2 = () => {
 	return (
@@ -26,16 +28,16 @@ const Choose2 = () => {
 								<div className="customers">
 									<ul>
 										<li className="wow fadeInUp" data-wow-delay=".5s">
-											<img loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-1.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".6s">
-											<img loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-2.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".7s">
-											<img loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-3.webp" alt="" />
 										</li>
 										<li className="wow fadeInUp" data-wow-delay=".8s">
-											<img loading="lazy" src="/images/testimonial/client-4.webp" alt="" />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/client-4.webp" alt="" />
 										</li>
 									</ul>
 								</div>

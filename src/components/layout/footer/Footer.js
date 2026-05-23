@@ -1,4 +1,6 @@
 ﻿import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer = () => {
 	return (
@@ -10,7 +12,7 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img loading="lazy" src="/images/logos/logo.webp" alt="Logos" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo.webp" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -21,10 +23,10 @@ const Footer = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -184,10 +186,10 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);

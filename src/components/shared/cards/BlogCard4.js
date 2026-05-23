@@ -3,6 +3,8 @@ import makeWowDelay from "@/libs/makeWowDelay";
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import Image from "next/image";
+
 
 const BlogCard4 = ({ blog, idx }) => {
 	const {
@@ -22,7 +24,7 @@ const BlogCard4 = ({ blog, idx }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img loading="lazy" src={img} alt="" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img} alt="" />
 				</Link>
 				{idx === 0 ? (
 					<div className="blog-date">

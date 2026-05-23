@@ -3,6 +3,8 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import TeamCard2 from "@/components/shared/cards/TeamCard2";
 import getTeamMembers from "@/libs/getTeamMembers";
 import { useCallback, useEffect, useRef, useState } from "react";
+import Image from "next/image";
+
 
 const Team2 = () => {
 	const items = getTeamMembers()?.slice(0, 4);
@@ -67,14 +69,13 @@ const Team2 = () => {
 										opacity: fade ? 1 : 0.3,
 									}}
 								>
-									<img loading="lazy"
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 										key={activeMember.imgLarge} // forces fade on change
 										src={activeMember.imgLarge}
 										alt={activeMember.name}
 										style={{
 											transform: `scale(${fade2 ? 1 : 1.1})`,
-										}}
-									/>
+										}} />
 								</div>
 							</div>
 							<div className="team-item-wrap">

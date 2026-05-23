@@ -2,6 +2,8 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const About8 = () => {
 	return (
@@ -28,11 +30,10 @@ const About8 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="about-img overflow-hidden">
-									<img loading="lazy"
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 										data-speed=".8"
 										src="/images/about/h9-about.webp"
-										alt=""
-									/>
+										alt="" />
 								</div>
 								<div className="box-area">
 									<div

@@ -1,6 +1,8 @@
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import Image from "next/image";
+
 
 const ServiceCard5 = ({ service, idx, lastItemIdx }) => {
 	const {
@@ -33,7 +35,7 @@ const ServiceCard5 = ({ service, idx, lastItemIdx }) => {
 				</div>
 			</div>
 			<div className="service-img">
-				<img loading="lazy" src={img3} alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img3} alt="" />
 			</div>
 		</div>
 	);

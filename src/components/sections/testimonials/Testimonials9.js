@@ -1,5 +1,7 @@
 import TestimonialsCard8 from "@/components/shared/cards/TestimonialsCard8";
 import getTestimonials from "@/libs/getTestimonials";
+import Image from "next/image";
+
 
 const Testimonials9 = () => {
 	const testimonials1 = getTestimonials()?.slice(0, 2);
@@ -36,10 +38,10 @@ const Testimonials9 = () => {
 								className="testimonial-img wow fadeInUpBig"
 								data-wow-delay=".3s"
 							>
-								<img loading="lazy" src="/images/testimonial/h9-testimonial-img.webp" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/testimonial/h9-testimonial-img.webp" alt="" />
 							</div>
 							<div className="shape-icon wow fadeIn" data-wow-delay=".5s">
-								<img loading="lazy" src="/images/shape/big-icon.png" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/big-icon.png" alt="" />
 							</div>
 						</div>
 					</div>

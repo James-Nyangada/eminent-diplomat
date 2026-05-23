@@ -24,7 +24,7 @@ const Hero8 = () => {
 									<div className="customers">
 										<ul>
 											<li className="wow fadeInUp" data-wow-delay=".5s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-1.webp"
@@ -32,7 +32,7 @@ const Hero8 = () => {
 												/>
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".6s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-2.webp"
@@ -40,7 +40,7 @@ const Hero8 = () => {
 												/>
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".7s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-3.webp"
@@ -68,7 +68,7 @@ const Hero8 = () => {
 									</div>
 								</div>
 								<div className="h8-hero-banner">
-									<Image
+									<Image priority 
 										width={669}
 										height={760}
 										style={{ height: "auto" }}

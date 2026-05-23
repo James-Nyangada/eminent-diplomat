@@ -11,6 +11,8 @@ import makePath from "@/libs/makePath";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import RelatedProducts from "./RelatedProducts";
+import Image from "next/image";
+
 
 const ProductDetailsPrimary = ({ setCurrentTitle, currentItemId }) => {
 	const [quantity, setQuantity] = useState(1);
@@ -333,11 +335,10 @@ const ProductDetailsPrimary = ({ setCurrentTitle, currentItemId }) => {
 																<ol className="commentlist">
 																	<li className="review">
 																		<div className="comment_container">
-																			<img loading="lazy"
+																			<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 																				className="avatar"
 																				src="/images/blog/avatar-1.webp"
-																				alt=""
-																			/>
+																				alt="" />
 																			<div className="comment-text">
 																				<div className="star-rating">
 																					<span

@@ -2,6 +2,8 @@
 
 import modifyNumber from "@/libs/modifyNumber";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+
 
 const Award1 = () => {
 	const items = [
@@ -125,8 +127,8 @@ const Award1 = () => {
 													{modifyNumber(idx + 1)}.
 												</h6>
 												<div className="tj-award-img">
-													<img loading="lazy" src={item.img} alt="" />
-													<img loading="lazy" src={item.img2} alt="" />
+													<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={item.img} alt="" />
+													<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={item.img2} alt="" />
 												</div>
 											</div>
 

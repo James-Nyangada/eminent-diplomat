@@ -1,5 +1,7 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer5 = () => {
 	return (
@@ -62,7 +64,7 @@ const Footer5 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img loading="lazy" src="/images/logos/logo-2.webp" alt="Logos" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-2.webp" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -73,10 +75,10 @@ const Footer5 = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-white-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-white-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-white-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-white-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -225,10 +227,10 @@ const Footer5 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);

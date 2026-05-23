@@ -2,6 +2,8 @@ import makePath from "@/libs/makePath";
 import makeWowDelay from "@/libs/makeWowDelay";
 import modifyNumber from "@/libs/modifyNumber";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const BlogCard5 = ({ blog, idx, hasNoDesc }) => {
 	const {
@@ -21,7 +23,7 @@ const BlogCard5 = ({ blog, idx, hasNoDesc }) => {
 		>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img loading="lazy" src={img3} alt="" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img3} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

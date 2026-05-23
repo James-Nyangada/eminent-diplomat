@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const TeamCard4 = ({ teamMember, idx }) => {
 	const {
@@ -16,7 +18,7 @@ const TeamCard4 = ({ teamMember, idx }) => {
 				<span className="designation">{desig}</span>
 			</div>
 			<div className="team-img">
-				<img loading="lazy" src={img} alt="Images" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img} alt="Images" />
 			</div>
 			<Link className="text-btn" href={`/team/${id}`}>
 				<span className="btn-text">

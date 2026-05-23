@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const CtaSidebar = () => {
 	return (
@@ -12,7 +14,7 @@ const CtaSidebar = () => {
 				</Link>
 			</div>
 			<div className="feature-images">
-				<img loading="lazy" src="/images/service/service-ad.webp" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/service/service-ad.webp" alt="" />
 			</div>
 		</div>
 	);

@@ -9,6 +9,8 @@ import {
 	Thumbs,
 } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const Testimonials3 = () => {
 	const testimonials = getTestimonials()?.slice(0, 6);
@@ -47,10 +49,9 @@ const Testimonials3 = () => {
 								{testimonials.map(({ authorName, authorDesig, img }, idx) => (
 									<SwiperSlide key={idx} className="thumb-item">
 										<div className="thumb-img">
-											<img loading="lazy"
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 												src={img || "/images/testimonial/client-1.webp"}
-												alt={authorName}
-											/>
+												alt={authorName} />
 										</div>
 										<div className="author-header">
 											<h5 className="title">{authorName}</h5>
@@ -108,10 +109,10 @@ const Testimonials3 = () => {
 								<i className="tji-quote"></i>
 							</span>
 							<div className="bg-shape-1">
-								<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 							</div>
 							<div className="bg-shape-2">
-								<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 							</div>
 						</div>
 					</div>

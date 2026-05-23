@@ -1,6 +1,8 @@
 ﻿import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import MarqueeSlider1 from "@/components/shared/marquee/MarqueeSlider1";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer2 = () => {
 	return (
@@ -14,7 +16,7 @@ const Footer2 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="subscribe-logo">
-									<img loading="lazy" src="/images/logos/logo-2.webp" alt="" />
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-2.webp" alt="" />
 								</div>
 								<div className="subscribe-form">
 									<form action="#">
@@ -41,7 +43,7 @@ const Footer2 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img loading="lazy" src="/images/logos/logo-2.webp" alt="Logos" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-2.webp" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -52,10 +54,10 @@ const Footer2 = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-white-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-white-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-white-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-white-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -207,10 +209,10 @@ const Footer2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);

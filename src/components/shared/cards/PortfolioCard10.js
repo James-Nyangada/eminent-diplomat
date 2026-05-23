@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const PortfolioCard10 = ({ portfolio }) => {
 	const {
@@ -15,7 +17,7 @@ const PortfolioCard10 = ({ portfolio }) => {
 		>
 			<div className="project-img" data-cursor-text="View Project">
 				<Link href={`/portfolios/${id}`}>
-					<img loading="lazy" src={img8} alt="Image" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img8} alt="Image" />
 				</Link>
 			</div>
 			<div className="project-content">

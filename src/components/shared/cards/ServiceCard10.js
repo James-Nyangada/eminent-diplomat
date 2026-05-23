@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const ServiceCard10 = ({ service, idx, lastItemIdx }) => {
 	const {
@@ -33,7 +35,7 @@ const ServiceCard10 = ({ service, idx, lastItemIdx }) => {
 				</Link>
 			</div>
 			<div className="service-img">
-				<img loading="lazy" src={img5} alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img5} alt="" />
 			</div>
 		</div>
 	);

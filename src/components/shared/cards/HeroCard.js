@@ -1,5 +1,7 @@
 import Link from "next/link";
 import PopupVideo from "../popup-video/PopupVideo";
+import Image from "next/image";
+
 
 const HeroCard = ({ item, idx }) => {
 	const {
@@ -12,7 +14,7 @@ const HeroCard = ({ item, idx }) => {
 	return (
 		<div className="h6-hero-card">
 			<div className="h6-hero-card-banner">
-				<img loading="lazy" src={img} alt="" />
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src={img} alt="" />
 				<PopupVideo>
 					<Link
 						className="h6-hero-card-video video-popup glightbox"

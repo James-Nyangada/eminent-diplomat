@@ -1,6 +1,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ServiceCard10 from "@/components/shared/cards/ServiceCard10";
 import getALlServices from "@/libs/getALlServices";
+import Image from "next/image";
+
 
 const Services9 = () => {
 	const services = getALlServices()?.slice(0, 4);
@@ -62,13 +64,13 @@ const Services9 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

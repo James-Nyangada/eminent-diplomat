@@ -3,6 +3,8 @@ import TestimonialsCard4 from "@/components/shared/cards/TestimonialsCard4";
 import getTestimonials from "@/libs/getTestimonials";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const Testimonials5 = () => {
 	const testimonialsShowable = getTestimonials()?.slice(0, 4);
@@ -68,10 +70,10 @@ const Testimonials5 = () => {
 			</div>
 
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

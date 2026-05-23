@@ -1,4 +1,6 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import Image from "next/image";
+
 
 const Cta2 = () => {
 	return (
@@ -33,7 +35,7 @@ const Cta2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-3">
-				<img loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

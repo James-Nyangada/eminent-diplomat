@@ -17,7 +17,7 @@ const Hero7 = () => {
 									<h1 className="h7-hero-title text-anim">
 										<span>Delivering</span>{" "}
 										<span>
-											<Image
+											<Image priority 
 												width={66}
 												height={66}
 												className="wow bounceIn"
@@ -31,7 +31,7 @@ const Hero7 = () => {
 									</h1>
 								</div>
 								<div className="h7-hero-banner">
-									<Image
+									<Image priority 
 										width={651}
 										height={839}
 										style={{ height: "auto" }}
@@ -46,7 +46,7 @@ const Hero7 = () => {
 									<div className="customers">
 										<ul>
 											<li className="wow fadeInUp" data-wow-delay=".5s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-1.webp"
@@ -54,7 +54,7 @@ const Hero7 = () => {
 												/>
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".6s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-2.webp"
@@ -62,7 +62,7 @@ const Hero7 = () => {
 												/>
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".7s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-3.webp"
@@ -70,7 +70,7 @@ const Hero7 = () => {
 												/>
 											</li>
 											<li className="wow fadeInUp" data-wow-delay=".8s">
-												<Image
+												<Image priority 
 													width={89}
 													height={89}
 													src="/images/testimonial/client-4.webp"
@@ -113,21 +113,19 @@ const Hero7 = () => {
 				className="h7-hero-shape h7-hero-shape-1 wow fadeInUpBig"
 				data-wow-delay="1s"
 			>
-				<img loading="lazy"
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} 
 					className="tj-anim-move-var-big"
 					src="/images/shape/h7-hero-blur-1.png"
-					alt=""
-				/>
+					alt="" />
 			</div>
 			<div
 				className="h7-hero-shape h7-hero-shape-2 wow fadeInDownBig"
 				data-wow-delay="1.2s"
 			>
-				<img loading="lazy"
+				<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} 
 					className="tj-anim-move-var-big-reverse"
 					src="/images/shape/h7-hero-blur-2.png"
-					alt=""
-				/>
+					alt="" />
 			</div>
 		</section>
 	);

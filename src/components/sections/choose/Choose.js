@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Choose = () => {
 	return (
 		<section id="choose" className="tj-choose-section h8-choose  section-gap-x">
@@ -5,13 +6,12 @@ const Choose = () => {
 				<div className="row align-items-center flex-column-reverse flex-lg-row">
 					<div className="col-12 col-lg-6 align-self-stretch">
 						<div className="h8-choose-banner">
-							<img loading="lazy"
+							<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 								data-speed=".8"
 								className="wow fadeInUpBig"
 								data-wow-delay=".3s"
 								src="/images/choose/h8-choose-bnner.webp"
-								alt=""
-							/>
+								alt="" />
 						</div>
 					</div>
 					<div className="col-12 col-lg-6">
@@ -85,7 +85,7 @@ const Choose = () => {
 				</div>
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -3,6 +3,8 @@
 import getBrands from "@/libs/getBrands";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const BrandSlider1 = ({ className }) => {
 	const brands = getBrands();
@@ -26,10 +28,9 @@ const BrandSlider1 = ({ className }) => {
 				? brands?.map(({ img }, idx) => (
 						<SwiperSlide key={idx} className="client-item">
 							<div className="client-logo">
-								<img loading="lazy"
+								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 									src={img ? img : "/images/brands/brand-1.webp"}
-									alt="Brand"
-								/>
+									alt="Brand" />
 							</div>
 						</SwiperSlide>
 				  ))

@@ -22,7 +22,7 @@ const TitleSlider = () => {
 	return (
 		<span className="tj-image-slider wow zoomIn" data-wow-delay=".5s">
 			{images.map((src, i) => (
-				<Image
+				<Image priority 
 					key={i}
 					src={src}
 					alt=""

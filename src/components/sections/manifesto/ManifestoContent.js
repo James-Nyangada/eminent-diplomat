@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+
 
 const ManifestoContent = () => {
 	return (
@@ -99,15 +101,14 @@ const ManifestoContent = () => {
 										borderRadius: "12px",
 										marginBottom: "20px"
 									}}>
-										<img loading="lazy" 
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" 
 											src={item.img} 
 											alt={item.title} 
 											style={{ 
 												width: "100%", 
 												height: "100%", 
 												objectFit: "cover"
-											}} 
-										/>
+											}} />
 									</div>
 
 									<h4 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "5px" }}>
@@ -174,7 +175,7 @@ const ManifestoContent = () => {
 								}}>
 									<div>
 										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
-											<img loading="lazy" src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "20px" }}>
 											{doc.title}

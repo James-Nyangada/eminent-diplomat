@@ -117,7 +117,7 @@ const Hero2 = () => {
 				{heroSlides.map(
 					({ thumbImg = "/images/hero/slider-thumb-1.webp" }, idx) => (
 						<SwiperSlide key={idx} className="thumb-item">
-							<Image
+							<Image priority 
 								src={thumbImg}
 								alt="images"
 								width={80}

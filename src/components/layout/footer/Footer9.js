@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Footer9 = () => {
 	return (
@@ -127,14 +129,14 @@ const Footer9 = () => {
 								data-wow-delay=".3s"
 							>
 								<Link href="/">
-									<img loading="lazy" src="/images/logos/logo.webp" alt="" />
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo.webp" alt="" />
 								</Link>
 								<div className="award-logo-area h9-footer-award">
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="award-logo">
-										<img loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
 								</div>
 							</div>
@@ -201,10 +203,10 @@ const Footer9 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</footer>
 	);

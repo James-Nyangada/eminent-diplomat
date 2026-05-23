@@ -4,6 +4,8 @@ import getTeamMembers from "@/libs/getTeamMembers";
 import Link from "next/link";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const TeamMarqueeSlider = ({ isRtl }) => {
 	const showableItems = getTeamMembers()?.slice(isRtl ? 4 : 0, isRtl ? 8 : 4);
@@ -46,7 +48,7 @@ const TeamMarqueeSlider = ({ isRtl }) => {
 										<span className="designation">{desig}</span>
 									</div>
 									<div className="team-img">
-										<img loading="lazy" src={img2} alt="team-single" />
+										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img2} alt="team-single" />
 									</div>
 								</div>
 							</SwiperSlide>

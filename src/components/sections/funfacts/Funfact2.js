@@ -1,5 +1,7 @@
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import ProgressBar from "@/components/shared/progress/ProgressBar";
+import Image from "next/image";
+
 const Funfact2 = () => {
 	return (
 		<section className="tj-funfact-section section-gap section-gap-x">
@@ -77,10 +79,10 @@ const Funfact2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

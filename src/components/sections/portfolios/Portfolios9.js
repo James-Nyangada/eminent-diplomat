@@ -3,6 +3,8 @@ import PortfolioCard9 from "@/components/shared/cards/PortfolioCard9";
 import getPortfolio from "@/libs/getPortfolio";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 const Portfolios9 = () => {
 	const showablePortfolio = getPortfolio()?.slice(0, 4);
 	const portfolio = [...showablePortfolio, ...showablePortfolio];
@@ -117,10 +119,10 @@ const Portfolios9 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

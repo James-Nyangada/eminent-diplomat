@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const PortfolioCard7 = ({ portfolio, idx }) => {
 	const {
@@ -12,7 +14,7 @@ const PortfolioCard7 = ({ portfolio, idx }) => {
 	return (
 		<div className="project-item h4-project-item tj-sticky-panel">
 			<div className="project-img">
-				<img loading="lazy" src={img7} alt="Image" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img7} alt="Image" />
 			</div>
 			<div className="project-content">
 				<div className="project-text">

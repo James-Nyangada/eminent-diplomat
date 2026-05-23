@@ -2,6 +2,8 @@
 import getFooterMarqueeItems from "@/libs/getFooterMarqueeItems";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 
 const MarqueeSlider1 = () => {
 	const items = getFooterMarqueeItems();
@@ -27,7 +29,7 @@ const MarqueeSlider1 = () => {
 							<SwiperSlide key={idx} className="marquee-item">
 								<h4 className="marquee-text">{title}</h4>
 								<div className="marquee-img">
-									<img loading="lazy" src={img} alt="" />
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={img} alt="" />
 								</div>
 							</SwiperSlide>
 						)

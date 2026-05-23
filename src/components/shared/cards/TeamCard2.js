@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const TeamCard2 = ({ teamMember, activeMember, handleMouseEnter }) => {
 	const {
@@ -53,7 +55,7 @@ const TeamCard2 = ({ teamMember, activeMember, handleMouseEnter }) => {
 			</div>
 			<div className="team-img-wrap">
 				<div className="team-img">
-					<img loading="lazy" src={imgLarge} alt="Images" />
+					<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={imgLarge} alt="Images" />
 				</div>
 			</div>
 		</div>

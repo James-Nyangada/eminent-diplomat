@@ -1,5 +1,7 @@
 import BrandSlider1 from "@/components/shared/brands/BrandSlider1";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import Image from "next/image";
+
 const About4 = () => {
 	return (
 		<section className="tj-about-section-2 section-gap section-gap-x">
@@ -32,10 +34,10 @@ const About4 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

@@ -1,6 +1,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import Link from "next/link";
+import Image from "next/image";
+
 const About6 = () => {
 	return (
 		<section className="tj-about-section h7-about section-gap section-gap-x mt-10">
@@ -77,11 +79,10 @@ const About6 = () => {
 				<div className="row">
 					<div className="col-12 col-xl-6">
 						<div className="h7-about-banner  wow fadeInUp" data-wow-delay=".2s">
-							<img loading="lazy"
+							<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy"
 								data-speed=".8"
 								src="/images/about/h7-about-banner.webp"
-								alt=""
-							/>
+								alt="" />
 						</div>
 					</div>
 					<div className="col-12 col-xl-6">
@@ -161,10 +162,10 @@ const About6 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-2.svg" alt="" />
 			</div>
 			<div className="bg-shape-2">
-				<img loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
+				<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 		</section>
 	);

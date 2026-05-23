@@ -26,12 +26,12 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape">
-						<img loading="lazy" src="/images/shape/pattern-bg.webp" alt="" />
+						<Image priority width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}  src="/images/shape/pattern-bg.webp" alt="" />
 					</div>
 				</div>
 				<div className="banner-right-box">
 					<div className="banner-img">
-						<Image
+						<Image priority 
 							data-speed="0.8"
 							src="/images/hero/hero-img.webp"
 							alt=""
@@ -44,7 +44,7 @@ const Hero = () => {
 							<div className="customers">
 								<ul>
 									<li className="wow fadeInUp" data-wow-delay=".5s">
-										<Image
+										<Image priority 
 											src="/images/testimonial/client-1.webp"
 											alt=""
 											width={89}
@@ -52,7 +52,7 @@ const Hero = () => {
 										/>
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".6s">
-										<Image
+										<Image priority 
 											src="/images/testimonial/client-2.webp"
 											alt=""
 											width={89}
@@ -60,7 +60,7 @@ const Hero = () => {
 										/>
 									</li>
 									<li className="wow fadeInUp" data-wow-delay=".7s">
-										<Image
+										<Image priority 
 											src="/images/testimonial/client-3.webp"
 											alt=""
 											width={89}
