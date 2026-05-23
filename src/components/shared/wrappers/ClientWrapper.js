@@ -26,37 +26,47 @@ import tjZoomInScroll from "@/libs/tjZoomInScroll";
 import { useEffect } from "react";
 const ClientWrapper = () => {
 	useEffect(() => {
-		import("wow.js").then(({ default: WOW }) => {
-			new WOW().init();
-		});
-		smoothScrollToTop();
-		const cleanup = tjMagicCursorAnimation();
+		let cleanup;
+		const timer = setTimeout(() => {
+			import("wow.js").then(({ default: WOW }) => {
+				new WOW().init();
+			});
+			smoothScrollToTop();
+			cleanup = tjMagicCursorAnimation();
+		}, 100);
 		return () => {
+			clearTimeout(timer);
 			if (cleanup) cleanup();
 		};
 	}, []);
+	
 	useGSAP((context, contextSafe) => {
-		initSmoothScroller();
-		tjRightSwipeAnimation();
-		tjLeftSwipeAnimation();
-		titleAnim();
-		titleAnim2();
-		titleAnim3();
-		textReavealAnim();
-		sidebarSticky();
-		arrangeAnim();
-		arrangeAnim2();
-		animateInvertText();
-		fadeInRightOnScrollAnim();
-		onePageNavAnim(contextSafe);
-		progressBar();
-		tjStackAnimation();
-		tjScrollSlider();
-		tjStackAnimation2();
-		tjImageParallex();
-		tjProgressAnimation();
-		tjZoomInScroll();
-		tjStackAnimation3();
+		const initAnims = contextSafe(() => {
+			initSmoothScroller();
+			tjRightSwipeAnimation();
+			tjLeftSwipeAnimation();
+			titleAnim();
+			titleAnim2();
+			titleAnim3();
+			textReavealAnim();
+			sidebarSticky();
+			arrangeAnim();
+			arrangeAnim2();
+			animateInvertText();
+			fadeInRightOnScrollAnim();
+			onePageNavAnim(contextSafe);
+			progressBar();
+			tjStackAnimation();
+			tjScrollSlider();
+			tjStackAnimation2();
+			tjImageParallex();
+			tjProgressAnimation();
+			tjZoomInScroll();
+			tjStackAnimation3();
+		});
+		
+		const timer = setTimeout(initAnims, 100);
+		return () => clearTimeout(timer);
 	});
 	return null;
 };
