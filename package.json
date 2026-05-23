@@ -35,6 +35,7 @@
 	"devDependencies": {
 		"baseline-browser-mapping": "^2.10.31",
 		"image-size": "^2.0.2",
+		"purgecss": "^8.0.0",
 		"sass": "^1.94.2",
 		"sharp": "^0.34.5"
 	}
