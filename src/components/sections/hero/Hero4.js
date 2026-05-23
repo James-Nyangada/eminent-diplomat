@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import ReactDOM from "react-dom";
 import { useState, useEffect } from "react";
 
 
@@ -11,6 +12,8 @@ const heroImages = [
 
 const Hero4 = () => {
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+	ReactDOM.preload("/images/hero/gen_home_1.webp", { as: "image", fetchPriority: "high" });
 
 	useEffect(() => {
 		const interval = setInterval(() => {

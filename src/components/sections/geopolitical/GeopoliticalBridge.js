@@ -41,7 +41,7 @@ const GeopoliticalBridge = () => {
 			<div style={{ position: "relative", width: "100%", minHeight: "480px" }}>
 
 				{/* Full-bleed map image */}
-				<img loading="lazy"
+				<img fetchPriority="high"
 					src="/images/bg/geopolitical_map.webp"
 					alt="Geopolitical Connection Map"
 					style={{

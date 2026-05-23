@@ -1,9 +1,8 @@
 "use client";
 
-import Swal from "sweetalert2";
-
 const useSweetAlert = () => {
-	const creteAlert = (type, message) => {
+	const creteAlert = async (type, message) => {
+		const Swal = (await import("sweetalert2")).default;
 		const Toast = Swal.mixin({
 			toast: true,
 			position: "bottom-start",
