@@ -15,6 +15,7 @@ import "./assets/css/meanmenu.css";
 import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";
 import "./globals.scss";
+import Loader from "../components/shared/others/Loader";
 
 const bodyFont = Mona_Sans({
 	variable: "--tj-ff-body",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
 			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
+				<Loader />
 				{children}
 			</body>
 		</html>
