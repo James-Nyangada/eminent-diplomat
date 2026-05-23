@@ -14,7 +14,7 @@ const Logo = ({ headerType, isStickyHeader }) => {
 							headerType === 9) &&
 						!isStickyHeader
 							? "/images/logos/logo-2.webp"
-							: "/images/logos/logo-white.png"
+							: "/images/logos/logo-white.webp"
 					}
 					alt=""
 					width={544}

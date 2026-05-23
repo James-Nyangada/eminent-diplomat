@@ -23,7 +23,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img loading="lazy" src="/images/logos/logo-white.png" alt="Logo" style={{ maxHeight: "35px" }} />
+									<img loading="lazy" src="/images/logos/logo-white.webp" alt="Logo" style={{ maxHeight: "35px" }} />
 								</Link>
 							</div>
 							<div className="hamburger_close">

@@ -296,7 +296,7 @@ const AboutContent = () => {
 								role: "Corporate Secretariat & Capital Origin",
 								desc: "Marina Bay Financial Centre. Strategically orchestrating capital channeling, sovereign de-risking architectures, and sub-national asset origin vectors across Asian and Global wealth corridors.",
 								img: "/images/footprint/singapore_skyline.png",
-								conferenceImg: "/images/hero/h4-hero-img.png",
+								conferenceImg: "/images/hero/h4-hero-img.webp",
 								conferenceLabel: "Executive Roundtable Active"
 							},
 							{
@@ -320,7 +320,7 @@ const AboutContent = () => {
 								role: "Strategic Capital & UN HQ Liaison",
 								desc: "One UN Plaza. Connecting international sovereign capital flows directly to high-yield developmental sectors and the strategic priorities of the United Nations.",
 								img: "/images/footprint/newyork_un.png",
-								conferenceImg: "/images/hero/h4-hero-img.png",
+								conferenceImg: "/images/hero/h4-hero-img.webp",
 								conferenceLabel: "UN Plaza Advisory Chamber"
 							}
 						].map((item, idx) => (

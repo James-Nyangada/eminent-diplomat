@@ -4,9 +4,9 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const innerImages = [
-	"/images/bg/gen_inner_1.png",
-	"/images/bg/gen_inner_2.png",
-	"/images/bg/gen_inner_3.png"
+	"/images/bg/gen_inner_1.webp",
+	"/images/bg/gen_inner_2.webp",
+	"/images/bg/gen_inner_3.webp"
 ];
 
 const HeroInner = ({ title, text, breadcrums = [] }) => {

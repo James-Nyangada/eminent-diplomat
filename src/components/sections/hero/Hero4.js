@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 
 
 const heroImages = [
-	"/images/hero/gen_home_1.png",
-	"/images/hero/gen_home_2.png",
-	"/images/hero/gen_home_3.png"
+	"/images/hero/gen_home_1.webp",
+	"/images/hero/gen_home_2.webp",
+	"/images/hero/gen_home_3.webp"
 ];
 
 const Hero4 = () => {
