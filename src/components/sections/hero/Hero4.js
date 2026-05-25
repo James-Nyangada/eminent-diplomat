@@ -7,7 +7,7 @@ import Image from "next/image";
 
 
 const heroImages = [
-	"/images/hero/gen_home_1.webp",
+	"/images/operations/headquarters.png",
 	"/images/hero/gen_home_2.webp",
 	"/images/hero/gen_home_3.webp"
 ];
@@ -15,7 +15,7 @@ const heroImages = [
 const Hero4 = () => {
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-	ReactDOM.preload("/images/hero/gen_home_1.webp", { as: "image", fetchPriority: "high" });
+	ReactDOM.preload("/images/operations/headquarters.png", { as: "image", fetchPriority: "high" });
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -25,7 +25,7 @@ const Hero4 = () => {
 	}, []);
 
 	return (
-		<section className="h4-banner-section section-gap-x" style={{ position: 'relative', overflow: 'hidden', zIndex: 1 }}>
+		<section className="h4-banner-section section-gap-x hero-section" style={{ position: 'relative', overflow: 'hidden', zIndex: 1 }}>
 			{heroImages.map((src, index) => (
 				<div 
 					key={src}

@@ -49,7 +49,7 @@ const IntakeContent = () => {
 			</section>
 
 			{/* SECTION 2: PIPELINE SECTORS */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x bg-gradient-primary" style={{ padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
 					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
@@ -67,7 +67,7 @@ const IntakeContent = () => {
 					<div className="row row-gap-4">
 						{/* Briefings */}
 						<div className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
+							<div className="challenge-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-folder-closed"></i>
 								</div>
@@ -82,7 +82,7 @@ const IntakeContent = () => {
 
 						{/* Portfolios */}
 						<div className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
+							<div className="challenge-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-handshake"></i>
 								</div>
@@ -97,7 +97,7 @@ const IntakeContent = () => {
 
 						{/* Audits */}
 						<div className="col-lg-4 col-md-12 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
+							<div className="challenge-card" style={{ background: "var(--tj-color-common-white)", border: "1px solid rgba(91, 146, 229, 0.15)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", textAlign: "center" }}>
 								<div style={{ display: "inline-flex", background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "50px", height: "50px", borderRadius: "50%", alignItems: "center", justifyContent: "center", fontSize: "1.3rem", marginBottom: "20px" }}>
 									<i className="fa-regular fa-file-lines"></i>
 								</div>

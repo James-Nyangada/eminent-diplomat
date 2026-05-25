@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer4 = () => {
 	return (
-		<footer className="tj-footer-section footer-4 section-gap-x">
+		<footer className="tj-footer-section footer-4 section-gap-x site-footer">
 			<div className="footer-main-area" style={{ paddingTop: "var(--section-padding-y)" }}>
 				<div className="container">
 					<div className="row justify-content-between">

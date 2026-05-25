@@ -49,7 +49,7 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 2: THE ASYMMETRIC DIVIDE WE BRIDGE */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x bg-gradient-primary" style={{ padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
 					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
@@ -70,7 +70,7 @@ const AboutContent = () => {
 					<div className="row row-gap-4">
 						{/* Governor's Challenge */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
+							<div className="challenge-card" style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyContent: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>G</span>
@@ -85,7 +85,7 @@ const AboutContent = () => {
 
 						{/* Investor's Challenge */}
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
+							<div className="challenge-card" style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
 									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyContent: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>I</span>
@@ -193,7 +193,7 @@ const AboutContent = () => {
 			</section>
 
 			{/* SECTION 4: OUR THREE IRONCLAD DOCTRINES */}
-			<section className="tj-testimonial-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
+			<section className="tj-testimonial-section section-gap section-gap-x bg-gradient-primary" style={{ padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
 					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
@@ -230,7 +230,7 @@ const AboutContent = () => {
 							}
 						].map((doc, idx) => (
 							<div key={idx} className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.2 * idx}s`}>
-								<div style={{
+								<div className="challenge-card" style={{
 									background: "var(--tj-color-common-white)",
 									borderRadius: "16px",
 									padding: "var(--card-padding)",
@@ -327,13 +327,10 @@ const AboutContent = () => {
 							}
 						].map((item, idx) => (
 							<div key={idx} className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay={`${0.15 * idx}s`}>
-								<div style={{
-									background: "var(--tj-color-common-white)",
+								<div className="liaison-card" style={{
 									borderRadius: "20px",
-									padding: "var(--card-padding)",
 									minHeight: "100%",
 									boxShadow: "0 15px 45px rgba(0,0,0,0.04)",
-									border: "1px solid rgba(91, 146, 229, 0.1)",
 									display: "flex",
 									flexDirection: "column",
 									justifyContent: "space-between"

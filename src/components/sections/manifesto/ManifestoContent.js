@@ -35,7 +35,7 @@ const ManifestoContent = () => {
 			</section>
 
 			{/* SECTION 2: THE STRUCTURAL ECOSYSTEM FLOW */}
-			<section className="tj-choose-section section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", padding: "var(--section-padding-y) 0" }}>
+			<section className="tj-choose-section section-gap section-gap-x bg-gradient-primary" style={{ padding: "var(--section-padding-y) 0" }}>
 				<div className="container">
 					<div className="row justify-content-center text-center" style={{ marginBottom: "var(--heading-margin-bottom)" }}>
 						<div className="col-lg-10 col-12">
