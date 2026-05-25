@@ -23,7 +23,7 @@ const AboutContent = () => {
 							</div>
 
 							<div style={{ width: "100%", height: "380px", position: "relative", overflow: "hidden", borderRadius: "16px", marginBottom: "40px", border: "1px solid rgba(91, 146, 229, 0.15)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
-								<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/operations/executive_portrait.png" alt="Eminent Diplomats Leadership" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+								<Image width={0} height={0} sizes="100vw" loading="lazy" src="/images/operations/executive_portrait.png" alt="Eminent Diplomats Leadership" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 							</div>
 
 							<div className="sec-heading style-4 text-center" style={{ marginTop: "var(--block-margin-top)", background: "rgba(91, 146, 229, 0.04)", padding: "var(--container-padding)", borderRadius: "16px" }}>
@@ -39,7 +39,7 @@ const AboutContent = () => {
 								<p className="desc wow fadeInUp" data-wow-delay=".7s" style={{ fontSize: "1.15rem", lineHeight: "1.8", color: "var(--tj-color-text-body)", marginBottom: "20px" }}>
 									Our mission is to architecture bilateral investment corridors by de-risking sub-national assets, eliminating bureaucratic friction, and engineering secure economic corridors between regional executives and institutional investors.
 								</p>
-								<p className="desc wow fadeInUp" data-wow-delay=".8s" style={{ fontSize: "1.15rem", lineHeight: "1.8", color: "var(--tj-color-text-body)", fontWeight: "600", color: "#5b92e5" }}>
+								<p className="desc wow fadeInUp" data-wow-delay=".8s" style={{ fontSize: "1.15rem", lineHeight: "1.8", fontWeight: "600", color: "#5b92e5" }}>
 									Eminent Diplomats serves as the absolute economic envoy to global industrial capitals, transitioning raw regional potential from cosmetic networking directly into structured capital deployment.
 								</p>
 							</div>
@@ -72,7 +72,7 @@ const AboutContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
+									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyContent: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>G</span>
 									</span>
 									<h4 style={{ fontSize: "1.4rem", fontWeight: "700", margin: "0", color: "var(--tj-color-heading-primary)" }}>The Governor’s Challenge</h4>
@@ -87,7 +87,7 @@ const AboutContent = () => {
 						<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 							<div style={{ background: "var(--tj-color-common-white)", borderRadius: "16px", padding: "var(--card-padding)", height: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.02)", border: "1px solid var(--tj-color-grey-1)" }}>
 								<div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "20px" }}>
-									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyCenter: "center", fontWeight: "700", fontSize: "1.1rem" }}>
+									<span style={{ background: "rgba(91, 146, 229, 0.1)", color: "#5b92e5", width: "40px", height: "40px", borderRadius: "50%", display: "inline-flex", alignItems: "center", justifyContent: "center", fontWeight: "700", fontSize: "1.1rem" }}>
 										<span style={{ margin: "auto" }}>I</span>
 									</span>
 									<h4 style={{ fontSize: "1.4rem", fontWeight: "700", margin: "0", color: "var(--tj-color-heading-primary)" }}>The Investor’s Challenge</h4>
@@ -243,7 +243,7 @@ const AboutContent = () => {
 								}}>
 									<div>
 										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "20px" }}>
-											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<Image width={0} height={0} sizes="100vw" loading="lazy" src={doc.img} alt={doc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<h4 style={{ fontSize: "1.35rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", marginBottom: "20px" }}>
 											{doc.title}
@@ -340,7 +340,7 @@ const AboutContent = () => {
 								}}>
 									<div>
 										<div style={{ width: "100%", height: "180px", position: "relative", overflow: "hidden", borderRadius: "12px", marginBottom: "25px" }}>
-											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<Image width={0} height={0} sizes="100vw" loading="lazy" src={item.img} alt={item.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<span style={{
 											display: "inline-flex",
@@ -368,7 +368,7 @@ const AboutContent = () => {
 
 									<div style={{ display: "flex", gap: "12px", marginTop: "25px", borderTop: "1px solid rgba(0, 0, 0, 0.05)", paddingTop: "20px", alignItems: "center" }}>
 										<div style={{ width: "50px", height: "50px", borderRadius: "10px", overflow: "hidden", flexShrink: 0, border: "1px solid rgba(91, 146, 229, 0.1)" }}>
-											<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+											<Image width={0} height={0} sizes="100vw" loading="lazy" src={item.conferenceImg} alt="Active Summit Venue" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 										</div>
 										<div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
 											<span style={{ fontSize: "0.72rem", fontWeight: "800", color: "#5b92e5", textTransform: "uppercase", display: "block", letterSpacing: "0.5px", marginBottom: "2px" }}>

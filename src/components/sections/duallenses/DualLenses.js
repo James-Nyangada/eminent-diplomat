@@ -17,7 +17,7 @@ const DualLenses = () => {
 					</div>
 				</div>
 				<div className="row row-gap-4">
-					{/* THE GOVERNOR'S LENS */}
+					{/* Reword to The Executive Mandate. */}
 					<div className="col-lg-6 col-12 wow fadeInUp" data-wow-delay=".4s">
 						<div className="lens-card" style={{
 							background: "var(--tj-color-common-white)",
@@ -43,7 +43,7 @@ const DualLenses = () => {
 								Sovereignty Vector
 							</span>
 							<h3 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
-								THE GOVERNOR'S LENS
+								Reword to The Executive Mandate.
 							</h3>
 							<div style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 								<p style={{ marginBottom: "15px" }}>
