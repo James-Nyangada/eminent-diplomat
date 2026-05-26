@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const DualLenses = () => {
 	return (
 		<section id="dual-lenses" className="tj-service-section-5 section-gap section-gap-x" style={{ background: "var(--tj-color-theme-bg)", borderRadius: "12px", margin: "30px 15px", padding: "var(--section-padding-y) 0" }}>
@@ -43,8 +45,11 @@ const DualLenses = () => {
 								Sovereignty Vector
 							</span>
 							<h3 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
-								Reword to The Executive Mandate.
+								Reward to The Executive Mandate.
 							</h3>
+							<div className="lens-image mb-4" style={{ borderRadius: "12px", overflow: "hidden" }}>
+								<Image src="/images/project/sovereignty_vector.png" alt="Sovereignty Vector" width={600} height={350} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
+							</div>
 							<div style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 								<p style={{ marginBottom: "15px" }}>
 									Eminent Diplomats serves as the absolute economic envoy to global industrial capitals for sub-national asset custodians.
@@ -102,6 +107,9 @@ const DualLenses = () => {
 							<h3 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "25px", color: "var(--tj-color-heading-primary)" }}>
 								THE INVESTOR'S LENS
 							</h3>
+							<div className="lens-image mb-4" style={{ borderRadius: "12px", overflow: "hidden" }}>
+								<Image src="/images/project/capital_vector.png" alt="Capital Vector" width={600} height={350} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
+							</div>
 							<div style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--tj-color-text-body)" }}>
 								<p style={{ marginBottom: "15px" }}>
 									The primary deterrent to sub-national investment is ground-level execution friction for institutional capital allocators.

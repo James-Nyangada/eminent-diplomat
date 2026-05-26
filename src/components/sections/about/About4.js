@@ -28,6 +28,9 @@ const About4 = () => {
 								<p className="desc" style={{ fontSize: "1.25rem", fontWeight: "600", color: "var(--tj-color-theme-primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
 									Execution operates strictly within these two vectors.
 								</p>
+								<div className="about-image mt-5" style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 20px 40px rgba(0,0,0,0.1)", display: "inline-block", width: "100%", maxWidth: "800px", margin: "0 auto" }}>
+									<Image src="/images/about/macroeconomic_imperative.png" alt="Macroeconomic Imperative" width={800} height={450} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
+								</div>
 							</div>
 						</div>
 					</div>

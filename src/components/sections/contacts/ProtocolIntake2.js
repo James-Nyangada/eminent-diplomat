@@ -171,7 +171,7 @@ const ProtocolIntake2 = () => {
 								letterSpacing: "0.5px",
 							}}
 						>
-							NAIROBI, KENYA | SINGAPORE | BRUSSELS | CHINA | Secure communications:{" "}
+							BEIJING | GENEVA | NAIROBI | SINGAPORE | Secure communications:{" "}
 							<a
 								href="mailto:info@eminentdiplomats.org"
 								style={{ color: "#fff", textDecoration: "none" }}
@@ -180,7 +180,7 @@ const ProtocolIntake2 = () => {
 							</a>
 						</p>
 						<p style={{ margin: "0", fontSize: "0.8rem", opacity: "0.9" }}>
-							© 2025 Eminent Diplomats - Execution Is Non Negotiable.
+							© 2026 Eminent Diplomats - Execution Is Non Negotiable.
 						</p>
 					</div>
 				</div>

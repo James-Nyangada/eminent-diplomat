@@ -48,14 +48,10 @@ const Hero4 = () => {
 
 			<div className="h4-banner-area container" style={{ position: 'relative', zIndex: 2, paddingTop: '150px', paddingBottom: '80px', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between' }}>
 				
-				<div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
-					<span className="sub-title wow fadeInUp" data-wow-delay=".2s" style={{ color: '#fff', background: 'rgba(255,255,255,0.1)', padding: '5px 18px', borderRadius: '30px', fontSize: '0.95rem', letterSpacing: '2px' }}>
-						SOVEREIGN PROTOCOL
-					</span>
-				</div>
+				
 
 				<div className="h4-banner-content text-center" style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-					<h1 className="banner-title text-anim" style={{ textTransform: "uppercase", color: '#fff', fontSize: 'clamp(3.5rem, 8vw, 7rem)', fontWeight: '900', lineHeight: '1.1', marginBottom: '20px', letterSpacing: '3px' }}>
+					<h1 className="banner-title text-anim" style={{ textTransform: "uppercase", color: '#fff', fontSize: 'clamp(3.1rem, 8vw, 6.5rem)', fontWeight: '900', lineHeight: '1.1', marginBottom: '20px', letterSpacing: '3px' }}>
 						EMINENT DIPLOMATS
 					</h1>
 					<h2 className="wow fadeInUp" data-wow-delay=".4s" style={{ textTransform: "uppercase", color: '#5b92e5', fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', fontWeight: '800', lineHeight: '1.2', marginBottom: '28px', letterSpacing: '1px' }}>

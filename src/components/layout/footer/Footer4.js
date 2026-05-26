@@ -69,12 +69,15 @@ const Footer4 = () => {
 						
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "var(--tj-color-heading-primary)", display: "block", marginBottom: "4px" }}>Liaison Network</span>
-										<span>Singapore, Brussels, China, Kenya</span>
+										<span>Beijing Geneva Nairobi Singapore</span>
 									</div>
 									<div className="contact-item">
 										<span style={{ fontSize: "1rem", fontWeight: "700", color: "#5b92e5", display: "block", marginBottom: "4px" }}>Secure Communications</span>
 										<Link href="mailto:info@eminentdiplomats.org" style={{ wordBreak: "break-all", fontWeight: "700" }}>
 											info@eminentdiplomats.org
+										</Link>
+										<Link href="tel:02002111133" style={{ wordBreak: "break-all", fontWeight: "700", marginTop: "10px" }}>
+											020 02111133.
 										</Link>
 									</div>
 								</div>

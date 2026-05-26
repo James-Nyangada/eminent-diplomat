@@ -157,7 +157,7 @@ const IntakeContent = () => {
 												Liaison Network
 											</h5>
 											<p style={{ margin: "0", fontSize: "1rem", color: "var(--tj-color-text-body)" }}>
-												Singapore, Brussels, China, Kenya
+												Beijing Geneva Nairobi Singapore
 											</p>
 										</div>
 									</div>
