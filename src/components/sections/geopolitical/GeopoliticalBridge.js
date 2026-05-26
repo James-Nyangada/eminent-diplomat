@@ -212,7 +212,7 @@ const GeopoliticalBridge = () => {
 								>
 									{/* Image */}
 									<div style={{ width: "100%", height: "180px", borderRadius: "12px", overflow: "hidden", marginBottom: "8px" }}>
-										<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src={svc.image} alt={svc.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+										<Image width={0} height={0} sizes="100vw" src={svc.image} alt={svc.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
 									</div>
 
 									{/* Title */}

@@ -93,7 +93,7 @@ const Footer4 = () => {
 								<div className="copyright-text">
 									<p>
 										&copy; 2026 
-										<span style={{ fontWeight: "700", color: "var(--tj-color-heading-primary)" }}>
+										<span style={{ fontWeight: "900", fontSize: "1.1rem", color: "var(--tj-color-heading-primary)", letterSpacing: "1px" }}>
 											EMINENT DIPLOMATS
 										</span>{" "}
 										All rights reserved.

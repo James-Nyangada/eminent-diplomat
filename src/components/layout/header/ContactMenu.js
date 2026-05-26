@@ -25,7 +25,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} loading="lazy" src="/images/logos/logo-white.webp" alt="Logo" style={{ maxHeight: "35px" }} />
+									<Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto', maxHeight: "35px" }} loading="lazy" src="/images/logos/logo-white.webp" alt="Logo" />
 								</Link>
 							</div>
 							<div className="hamburger_close">
