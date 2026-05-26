@@ -65,7 +65,7 @@ const Hero4 = () => {
 				</div>
 
 				<div className="wow fadeInUp" data-wow-delay=".7s" style={{ width: '100%', display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
-					<Link href="/contact" className="tj-primary-btn btn-no-icon">
+					<Link href="/intake" className="tj-primary-btn btn-no-icon">
 						<span className="btn-text"><span>Institutional Execution</span></span>
 					</Link>
 				</div>

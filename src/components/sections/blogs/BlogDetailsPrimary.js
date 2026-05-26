@@ -7,7 +7,14 @@ import Link from "next/link";
 
 const BlogDetailsPrimary = ({ option }) => {
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } = option || {};
-	const { title, id, img, tags } = currentItem || {};
+	const { 
+		title, id, img, tags, author, date, date2, comments,
+		desc, desc1, desc2, detailsImg, smallImg, img1, img2,
+		paragraph1, paragraph2, quote, quoteAuthor, keyLessonsTitle,
+		paragraph3, paragraph4, checkList, conclusionTitle,
+		conclusionParagraph1, conclusionParagraph2, videoLink
+	} = currentItem || {};
+
 	return (
 		<section className="tj-blog-section section-gap slidebar-stickiy-container">
 			<div className="container">
@@ -16,11 +23,11 @@ const BlogDetailsPrimary = ({ option }) => {
 						<div className="post-details-wrapper">
 							<div className="blog-images wow fadeInUp" data-wow-delay=".1s">
 								<Image
-									src="/images/blog/blog-1.webp"
-									alt="Images"
+									src={detailsImg || img || "/images/blog/blog-1.webp"}
+									alt={title || "Blog Image"}
 									width={870}
 									height={450}
-									style={{ height: "auto" }}
+									style={{ height: "auto", objectFit: "cover" }}
 								/>
 							</div>
 							<h2 className="title title-anim">{title}</h2>
@@ -32,7 +39,7 @@ const BlogDetailsPrimary = ({ option }) => {
 									<div className="cate-images">
 										<Image
 											src="/images/testimonial/client-2.webp"
-											alt="Images"
+											alt="Author"
 											width={89}
 											height={89}
 										/>
@@ -40,7 +47,7 @@ const BlogDetailsPrimary = ({ option }) => {
 									<div className="cate-text">
 										<span className="degination">Authored by</span>
 										<h6 className="title">
-											<Link href="/blogs/1">Burdee Nicolas</Link>
+											<Link href={`/blogs/${id}`}>{author || "Eminent Editorial"}</Link>
 										</h6>
 									</div>
 								</div>
@@ -50,7 +57,7 @@ const BlogDetailsPrimary = ({ option }) => {
 									</div>
 									<div className="cate-text">
 										<span className="degination">Date Released</span>
-										<h6 className="text">29 December, 2025</h6>
+										<h6 className="text">{date2 || date || "29 December, 2025"}</h6>
 									</div>
 								</div>
 								<div className="category-item">
@@ -59,50 +66,30 @@ const BlogDetailsPrimary = ({ option }) => {
 									</div>
 									<div className="cate-text">
 										<span className="degination">Comments</span>
-										<h6 className="text">03 Comments</h6>
+										<h6 className="text">{comments?.length ? `0${comments.length} Comments` : "0 Comments"}</h6>
 									</div>
 								</div>
 							</div>
 							<div className="blog-text">
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									In today’s competitive landscape, businesses must continuously
-									adapt and innovate to thrive. Unlocking Business Potential
-									means identifying untapped opportunities and leveraging
-									innovative solutions to drive growth, enhance efficiency, and
-									foster lasting success. At [Company Name], we believe that
-									success is not just about working harder—it's about working
-									smarter. By harnessing cutting-edge technologies, data-driven
-									insights, and creative problem-solving, we provide businesses
-									with the tools and strategies needed to stay ahead.
+									{paragraph1 || desc1 || desc || "In today’s competitive landscape, businesses must continuously adapt and innovate to thrive."}
 								</p>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									The curve. Whether you're looking to streamline operations,
-									enhance customer experiences, or explore new market
-									opportunities, our tailored solutions are designed to empower
-									your business to achieve unparalleled success. With a focus on
-									sustainability, scalability, and adaptability, we help your
-									business.
+									{paragraph2 || desc2 || "The curve. Whether you're looking to streamline operations, enhance customer experiences, or explore new market opportunities, our tailored solutions are designed to empower your business to achieve unparalleled success."}
 								</p>
-								<blockquote className="wow fadeInUp" data-wow-delay=".3s">
-									<p>
-										The true entrepreneur is a doer, not a dreamer. Innovation
-										is the catalyst that transforms ideas into reality. In
-										today’s fast-paced world, success depends not on just
-										surviving change.
-									</p>
-									<cite>Kevin Hooks</cite>
-								</blockquote>
+								
+								{quote && (
+									<blockquote className="wow fadeInUp" data-wow-delay=".3s">
+										<p>{quote}</p>
+										<cite>{quoteAuthor || "Eminent Insights"}</cite>
+									</blockquote>
+								)}
+
 								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Kye lessons of Business Potential
+									{keyLessonsTitle || "Key Insights & Strategy"}
 								</h3>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Unlocking your business potential requires more than just
-									vision and ambition—it involves strategic thinking,
-									adaptability, and an unwavering commitment to growth. Over
-									time, successful businesses have learned essential lessons
-									that allow them to not only survive but thrive in an
-									ever-changing marketplace. One of the most important lessons
-									is understanding the need for continuous innovation.
+									{paragraph3 || "Unlocking your business potential requires more than just vision and ambition—it involves strategic thinking, adaptability, and an unwavering commitment to growth."}
 								</p>
 								<div className="images-wrap">
 									<div className="row">
@@ -112,11 +99,11 @@ const BlogDetailsPrimary = ({ option }) => {
 												data-wow-delay=".3s"
 											>
 												<Image
-													src="/images/blog/blog-9.webp"
-													alt="Image"
+													src={img1 || smallImg || "/images/blog/blog-9.webp"}
+													alt="Insight 1"
 													width={420}
 													height={420}
-													style={{ height: "auto" }}
+													style={{ height: "auto", objectFit: "cover" }}
 												/>
 											</div>
 										</div>
@@ -126,103 +113,71 @@ const BlogDetailsPrimary = ({ option }) => {
 												data-wow-delay=".5s"
 											>
 												<Image
-													src="/images/blog/blog-10.webp"
-													alt="Image"
+													src={img2 || "/images/blog/blog-10.webp"}
+													alt="Insight 2"
 													width={420}
 													height={420}
-													style={{ height: "auto" }}
+													style={{ height: "auto", objectFit: "cover" }}
 												/>
 											</div>
 										</div>
 									</div>
 								</div>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Lastly, effective leadership that inspires and motivates
-									employees, customers, and stakeholders is essential in
-									steering the business toward achieving its full potential. By
-									applying these lessons, businesses can unlock new
-									opportunities, overcome obstacles, and reach new levels of
-									success.
+									{paragraph4 || "Lastly, effective leadership that inspires and motivates stakeholders is essential in steering the initiatives toward achieving their full potential. By applying these lessons, new opportunities are unlocked."}
 								</p>
+								
 								<ul className="wow fadeInUp" data-wow-delay=".3s">
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Embrace Innovation
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Customer-Centric Approach
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Effective Leadership
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Operational Efficiency
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Scalable Systems
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Resilience
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Continuous Learning
-									</li>
+									{checkList && checkList.length > 0 ? (
+										checkList.map((item, idx) => (
+											<li key={idx}>
+												<span>
+													<i className="tji-check"></i>
+												</span>
+												{item}
+											</li>
+										))
+									) : (
+										<>
+											<li><span><i className="tji-check"></i></span>Embrace Innovation</li>
+											<li><span><i className="tji-check"></i></span>Customer-Centric Approach</li>
+											<li><span><i className="tji-check"></i></span>Effective Leadership</li>
+											<li><span><i className="tji-check"></i></span>Operational Efficiency</li>
+											<li><span><i className="tji-check"></i></span>Scalable Systems</li>
+										</>
+									)}
 								</ul>
-								<div className="blog-video wow fadeInUp" data-wow-delay=".3s">
-									<Image
-										src="/images/blog/blog-video.webp"
-										alt="Video"
-										width={870}
-										height={498}
-										style={{ height: "auto" }}
-									/>
-									<PopupVideo>
-										<Link
-											className="video-btn video-popup glightbox"
-											href="https://www.youtube.com/watch?v=MLpWrANjFbI&ab_channel=eidelchteinadvogados"
-										>
-											<span>
-												<i className="tji-play"></i>
-											</span>
-										</Link>
-									</PopupVideo>
-								</div>
+								
+								{videoLink && (
+									<div className="blog-video wow fadeInUp" data-wow-delay=".3s">
+										<Image
+											src="/images/blog/blog-video.webp"
+											alt="Video"
+											width={870}
+											height={498}
+											style={{ height: "auto", objectFit: "cover" }}
+										/>
+										<PopupVideo>
+											<Link
+												className="video-btn video-popup glightbox"
+												href={videoLink}
+											>
+												<span>
+													<i className="tji-play"></i>
+												</span>
+											</Link>
+										</PopupVideo>
+									</div>
+								)}
+
 								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Conclusions
+									{conclusionTitle || "Conclusion"}
 								</h3>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Unlocking your business’s full potential is a journey that
-									requires vision, innovation, and strategic on our execution.
-									By embracing key lessons such as leveraging data, focusing on
-									customer are experience, fostering of adaptability, and
-									nurturing effective leadership, businesses can thrive in an
-									ever-evolving marketplace..
+									{conclusionParagraph1 || "Unlocking potential is a journey that requires vision, innovation, and strategic execution."}
 								</p>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									{" "}
-									The ability to continuously learn, collaborate, and optimize
-									operations will not only drive growth but ensure long-term
-									sustainability. Remember, the path to success is not linear.
+									{conclusionParagraph2 || "The ability to continuously learn, collaborate, and optimize operations will not only drive growth but ensure long-term sustainability."}
 								</p>
 							</div>
 							<div className="tj-tags-post wow fadeInUp" data-wow-delay=".3s">
@@ -247,11 +202,6 @@ const BlogDetailsPrimary = ({ option }) => {
 										<li>
 											<Link href="https://x.com/" target="_blank">
 												<i className="fa-brands fa-x-twitter"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://www.instagram.com/" target="_blank">
-												<i className="fa-brands fa-instagram"></i>
 											</Link>
 										</li>
 										<li>
@@ -302,7 +252,7 @@ const BlogDetailsPrimary = ({ option }) => {
 							<div className="tj-comments-container">
 								<div className="tj-comments-wrap">
 									<div className="comments-title">
-										<h3 className="title">Top Comments (02)</h3>
+										<h3 className="title">Top Comments</h3>
 									</div>
 									<div className="tj-latest-comments">
 										<ul>
@@ -320,108 +270,25 @@ const BlogDetailsPrimary = ({ option }) => {
 													<div className="comments-header">
 														<div className="avatar-name">
 															<h6 className="title">
-																<Link href="/blogs/1">Great insights!</Link>
+																<Link href={`/blogs/${id}`}>Great insights!</Link>
 															</h6>
 														</div>
 														<div className="comment-text">
 															<span className="date">
 																June 18, 2024 at 06:00 pm
 															</span>
-															<Link className="reply" href="/blogs/1">
+															<Link className="reply" href={`/blogs/${id}`}>
 																Reply
 															</Link>
 														</div>
 														<div className="desc">
 															<p>
 																"I completely agree that embracing innovation
-																and leveraging data are crucial for any business
+																and leveraging data are crucial for any organization
 																looking to stay competitive in today's market.
 																The focus on leadership and adaptability really
 																resonated with me. Looking forward to
-																implementing these strategies"
-															</p>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li className="tj-comment">
-												<ul className="children">
-													<li className="tj-comment">
-														<div className="comment-content">
-															<div className="comment-avatar">
-																<Image
-																	src="/images/blog/avatar-2.webp"
-																	alt="Image"
-																	width={64}
-																	height={64}
-																	style={{ height: "auto" }}
-																/>
-															</div>
-															<div className="comments-header">
-																<div className="avatar-name">
-																	<h6 className="title">
-																		<Link href="/blogs/1">
-																			This was a fantastic read
-																		</Link>
-																	</h6>
-																</div>
-																<div className="comment-text">
-																	<span className="date">
-																		June 18, 2024 at 06:00 pm
-																	</span>
-																	<Link className="reply" href="/blogs">
-																		Reply
-																	</Link>
-																</div>
-																<div className="desc">
-																	<p>
-																		"The lessons on customer-centric approaches
-																		and operational efficiency are especially
-																		relevant. It's inspiring to see how these
-																		core principles can truly unlock a
-																		business's potential. Thanks for sharing
-																		such valuable content!"
-																	</p>
-																</div>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</li>
-											<li className="tj-comment">
-												<div className="comment-content">
-													<div className="comment-avatar">
-														<Image
-															src="/images/blog/avatar-2.webp"
-															alt="Image"
-															width={64}
-															height={64}
-															style={{ height: "auto" }}
-														/>
-													</div>
-													<div className="comments-header">
-														<div className="avatar-name">
-															<h6 className="title">
-																<Link href="/blogs/1">
-																	This was a fantastic read
-																</Link>
-															</h6>
-														</div>
-														<div className="comment-text">
-															<span className="date">
-																June 18, 2024 at 06:00 pm
-															</span>
-															<Link className="reply" href="/blogs/1">
-																Reply
-															</Link>
-														</div>
-														<div className="desc">
-															<p>
-																"The lessons on customer-centric approaches and
-																operational efficiency are especially relevant.
-																It's inspiring to see how these core principles
-																can truly unlock a business's potential. Thanks
-																for sharing such valuable content!"
+																implementing these strategies."
 															</p>
 														</div>
 													</div>
