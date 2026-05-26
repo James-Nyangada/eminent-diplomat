@@ -78,7 +78,7 @@ const BlogDetailsPrimary = ({ option }) => {
 									{paragraph3 || "Unlocking your business potential requires more than just vision and ambition—it involves strategic thinking, adaptability, and an unwavering commitment to growth."}
 								</p>
 								<div className="images-wrap">
-									<div className="row">
+									<div className="">
 										<div className="col-sm-6">
 											<div
 												className="image-box wow fadeInUp"
@@ -93,20 +93,7 @@ const BlogDetailsPrimary = ({ option }) => {
 												/>
 											</div>
 										</div>
-										<div className="col-sm-6">
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".5s"
-											>
-												<Image
-													src={img2 || "/images/blog/blog-10.webp"}
-													alt="Insight 2"
-													width={420}
-													height={420}
-													style={{ height: "auto", objectFit: "cover" }}
-												/>
-											</div>
-										</div>
+										
 									</div>
 								</div>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
