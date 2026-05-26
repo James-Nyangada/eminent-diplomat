@@ -10,7 +10,7 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 export default function Home4() {
 	return (
 		<div>
-			<BackToTop />
+			
 			<Header headerType={4} />
 			<Header headerType={4} isStickyHeader={true} />
 			<div id="smooth-wrapper">

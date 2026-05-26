@@ -12,7 +12,7 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 export default function Contact() {
 	return (
 		<div>
-			<BackToTop />
+			
 			<Header />
 			<Header isStickyHeader={true} />
 			<div id="smooth-wrapper">
