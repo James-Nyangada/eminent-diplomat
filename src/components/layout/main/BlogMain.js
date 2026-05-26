@@ -48,7 +48,7 @@ const BlogMain = () => {
 						? author_role
 						: search
 						? makeText(search, true)
-						: "Read Blog"
+						: "Blogs"
 				}
 				text={
 					category

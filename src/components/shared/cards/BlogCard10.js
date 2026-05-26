@@ -29,7 +29,7 @@ const BlogCard10 = ({ blog, idx, hasNoDesc }) => {
 				<div className="blog-meta">
 					<div className="blog-date-wrapper">
 						<span className="blog-author">
-							By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+							By <Link href={`/blogs/${id}`}>Dr Joy Killong</Link>
 						</span>
 						<span className="blog-date">{date2}</span>
 					</div>

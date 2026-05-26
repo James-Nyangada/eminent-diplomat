@@ -35,7 +35,7 @@ const BlogCard8 = ({ blog, idx }) => {
 							</Link>
 						</span>
 						<span>
-							By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+							By <Link href={`/blogs/${id}`}>Dr Joy Killong</Link>
 						</span>
 					</div>
 					<h3 className="title">

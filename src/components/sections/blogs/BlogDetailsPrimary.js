@@ -1,6 +1,5 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
-import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
 import makePath from "@/libs/makePath";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,7 +18,7 @@ const BlogDetailsPrimary = ({ option }) => {
 		<section className="tj-blog-section section-gap slidebar-stickiy-container">
 			<div className="container">
 				<div className="row row-gap-5">
-					<div className="col-lg-8">
+					<div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
 						<div className="post-details-wrapper">
 							<div className="blog-images wow fadeInUp" data-wow-delay=".1s">
 								<Image
@@ -36,18 +35,13 @@ const BlogDetailsPrimary = ({ option }) => {
 								data-wow-delay=".3s"
 							>
 								<div className="category-item">
-									<div className="cate-images">
-										<Image
-											src="/images/testimonial/client-2.webp"
-											alt="Author"
-											width={89}
-											height={89}
-										/>
+									<div className="cate-icons">
+										<i className="tji-user"></i>
 									</div>
 									<div className="cate-text">
 										<span className="degination">Authored by</span>
 										<h6 className="title">
-											<Link href={`/blogs/${id}`}>{author || "Eminent Editorial"}</Link>
+											<Link href={`/blogs/${id}`}>{author || "Dr Joy Killong"}</Link>
 										</h6>
 									</div>
 								</div>
@@ -60,15 +54,7 @@ const BlogDetailsPrimary = ({ option }) => {
 										<h6 className="text">{date2 || date || "29 December, 2025"}</h6>
 									</div>
 								</div>
-								<div className="category-item">
-									<div className="cate-icons">
-										<i className="tji-comment"></i>
-									</div>
-									<div className="cate-text">
-										<span className="degination">Comments</span>
-										<h6 className="text">{comments?.length ? `0${comments.length} Comments` : "0 Comments"}</h6>
-									</div>
-								</div>
+								
 							</div>
 							<div className="blog-text">
 								<p className="wow fadeInUp" data-wow-delay=".3s">
@@ -180,180 +166,10 @@ const BlogDetailsPrimary = ({ option }) => {
 									{conclusionParagraph2 || "The ability to continuously learn, collaborate, and optimize operations will not only drive growth but ensure long-term sustainability."}
 								</p>
 							</div>
-							<div className="tj-tags-post wow fadeInUp" data-wow-delay=".3s">
-								<div className="tagcloud">
-									<span>Tags:</span>
-									{tags?.length
-										? tags?.map((tag, idx) => (
-												<Link key={idx} href={`/blogs?tag=${makePath(tag)}`}>
-													{tag}
-												</Link>
-										  ))
-										: ""}
-								</div>
-								<div className="post-share">
-									<ul>
-										<li> Share:</li>
-										<li>
-											<Link href="https://www.facebook.com/" target="_blank">
-												<i className="fa-brands fa-facebook-f"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://x.com/" target="_blank">
-												<i className="fa-brands fa-x-twitter"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://www.linkedin.com/" target="_blank">
-												<i className="fa-brands fa-linkedin-in"></i>
-											</Link>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div
-								className="tj-post__navigation  wow fadeInUp"
-								data-wow-delay="0.3s"
-							>
-								{/* <!-- previous post --> */}
-								<div
-									className="tj-nav__post previous"
-									style={{ visibility: isPrevItem ? "visible" : "hidden" }}
-								>
-									<div className="tj-nav-post__nav prev_post">
-										<Link href={isPrevItem ? `/blogs/${prevId}` : "#"}>
-											<span>
-												<i className="tji-arrow-left"></i>
-											</span>
-											Previous
-										</Link>
-									</div>
-								</div>
-								<Link href={"/blogs"} className="tj-nav-post__grid">
-									<i className="tji-window"></i>
-								</Link>
-								{/* <!-- next post --> */}
-								<div
-									className="tj-nav__post next"
-									style={{ visibility: isNextItem ? "visible" : "hidden" }}
-								>
-									<div className="tj-nav-post__nav next_post">
-										<Link href={isNextItem ? `/blogs/${nextId}` : "#"}>
-											Next
-											<span>
-												<i className="tji-arrow-right"></i>
-											</span>
-										</Link>
-									</div>
-								</div>
-							</div>
+							
+							
 
-							<div className="tj-comments-container">
-								<div className="tj-comments-wrap">
-									<div className="comments-title">
-										<h3 className="title">Top Comments</h3>
-									</div>
-									<div className="tj-latest-comments">
-										<ul>
-											<li className="tj-comment">
-												<div className="comment-content">
-													<div className="comment-avatar">
-														<Image
-															src="/images/blog/avatar-1.webp"
-															alt="Image"
-															width={64}
-															height={64}
-															style={{ height: "auto" }}
-														/>
-													</div>
-													<div className="comments-header">
-														<div className="avatar-name">
-															<h6 className="title">
-																<Link href={`/blogs/${id}`}>Great insights!</Link>
-															</h6>
-														</div>
-														<div className="comment-text">
-															<span className="date">
-																June 18, 2024 at 06:00 pm
-															</span>
-															<Link className="reply" href={`/blogs/${id}`}>
-																Reply
-															</Link>
-														</div>
-														<div className="desc">
-															<p>
-																"I completely agree that embracing innovation
-																and leveraging data are crucial for any organization
-																looking to stay competitive in today's market.
-																The focus on leadership and adaptability really
-																resonated with me. Looking forward to
-																implementing these strategies."
-															</p>
-														</div>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div className="tj-comments__container">
-									<div className="comment-respond">
-										<h3 className="comment-reply-title">Leave a Comment</h3>
-										<div className="row">
-											<div className="col-lg-12">
-												<div className="form-input">
-													<textarea
-														id="comment"
-														name="message"
-														placeholder="Write Your Comment *"
-													></textarea>
-												</div>
-											</div>
-											<div className="col-lg-4">
-												<div className="form-input">
-													<input
-														type="text"
-														id="name"
-														name="name"
-														placeholder="Full Name *"
-														required=""
-													/>
-												</div>
-											</div>
-											<div className="col-lg-4">
-												<div className="form-input">
-													<input
-														type="email"
-														id="emailOne"
-														name="name"
-														placeholder="Your Email *"
-														required=""
-													/>
-												</div>
-											</div>
-											<div className="col-lg-4">
-												<div className="form-input">
-													<input
-														type="text"
-														id="website"
-														name="name"
-														placeholder="Website"
-														required=""
-													/>
-												</div>
-											</div>
-											<div className="comments-btn">
-												<ButtonPrimary text={"Submit Now"} type={"submit"} />
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
-					</div>
-					<div className="col-lg-4">
-						<BlogSidebar />
 					</div>
 				</div>
 			</div>

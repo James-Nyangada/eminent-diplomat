@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/footer/Footer";
+import Footer4 from "@/components/layout/footer/Footer4";
 import Header from "@/components/layout/header/Header";
 import BlogDetailsMain from "@/components/layout/main/BlogDetailsMain";
 import Cta from "@/components/sections/cta/Cta";
@@ -11,23 +12,23 @@ const items = getBlogs();
 
 export default async function BlogDetails({ params }) {
 	const { id } = await params;
-	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
+	const isExistItem = items?.find(({ id: id1 }) => id1 === id);
 	if (!isExistItem) {
 		notFound();
 	}
 	return (
 		<div>
-			<BackToTop />
+			
 			<Header />
 			<Header isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<BlogDetailsMain currentItemId={parseInt(id)} />
-						<Cta />
+						<BlogDetailsMain currentItemId={id} />
+						
 					</main>
-					<Footer />
+					<Footer4 />
 				</div>
 			</div>
 			<ClientWrapper />

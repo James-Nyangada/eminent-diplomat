@@ -1,6 +1,5 @@
 import BlogSingle from "@/components/shared/blogs/BlogSingle";
 import Paginations from "@/components/shared/others/Paginations";
-import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
 import usePagination from "@/hooks/usePagination";
 import { useEffect } from "react";
 
@@ -28,7 +27,7 @@ const BlogsPrimary = ({ filteredItems }) => {
 		<section className="tj-blog-section section-gap">
 			<div className="container">
 				<div className="row row-gap-5">
-					<div className="col-lg-8">
+					<div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
 						<div className="blog-post-wrapper">
 							{currentItems?.length
 								? currentItems?.map((blog, idx) => (
@@ -56,9 +55,6 @@ const BlogsPrimary = ({ filteredItems }) => {
 								""
 							)}
 						</div>
-					</div>
-					<div className="col-lg-4">
-						<BlogSidebar />
 					</div>
 				</div>
 			</div>

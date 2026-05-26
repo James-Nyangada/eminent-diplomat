@@ -33,10 +33,7 @@ const BlogSingle = ({ blog, idx }) => {
 				<Link href={`/blogs/${id}`}>
 					<Image src={img} alt="" width={870} height={450} />
 				</Link>
-				<div className="blog-date">
-					<span className="date">{modifyNumber(day)}</span>
-					<span className="month">{month}</span>
-				</div>
+				
 			</div>
 			<div className="blog-content">
 				<div className="blog-meta">
@@ -46,18 +43,14 @@ const BlogSingle = ({ blog, idx }) => {
 						</Link>
 					</span>
 					<span>
-						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+						By <Link href={`/blogs/${id}`}>Dr Joy Killong</Link>
 					</span>
 				</div>
 				<h3 className="title">
 					<Link href={`/blogs/${id}`}>{title}</Link>
 				</h3>
 				<p className="desc">
-					In today’s fast-paced business environment, the key to staying ahead
-					of the competition lies in embracing innovation. At [Company Name], we
-					specialize in unlocking your business’s full potential by providing
-					tailored, forward-thinking solutions that drive growth, efficiency,
-					and lasting success.
+					{desc}
 				</p>
 				<ButtonPrimary
 					text={"Read More"}
