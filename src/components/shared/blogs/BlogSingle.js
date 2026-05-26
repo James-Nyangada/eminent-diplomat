@@ -42,9 +42,7 @@ const BlogSingle = ({ blog, idx }) => {
 							{category}
 						</Link>
 					</span>
-					<span>
-						By <Link href={`/blogs/${id}`}>Dr Joy Killong</Link>
-					</span>
+					
 				</div>
 				<h3 className="title">
 					<Link href={`/blogs/${id}`}>{title}</Link>

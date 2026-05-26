@@ -34,17 +34,7 @@ const BlogDetailsPrimary = ({ option }) => {
 								className="blog-category-two wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<div className="category-item">
-									<div className="cate-icons">
-										<i className="tji-user"></i>
-									</div>
-									<div className="cate-text">
-										<span className="degination">Authored by</span>
-										<h6 className="title">
-											<Link href={`/blogs/${id}`}>{author || "Dr Joy Killong"}</Link>
-										</h6>
-									</div>
-								</div>
+								
 								<div className="category-item">
 									<div className="cate-icons">
 										<i className="tji-calendar"></i>
